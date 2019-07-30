@@ -1,0 +1,7 @@
+.avatar-display {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-image: url("https://omniaregna.com/avatars.png");
+    background-repeat: no-repeat;
+}
