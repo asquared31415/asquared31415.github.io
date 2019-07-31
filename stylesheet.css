@@ -1,8 +1,5 @@
 body {
     background-color: #222;
-}
-
-#output {
     color: white;
 }
 
@@ -19,12 +16,30 @@ body {
 }
 
 .inventoryItem {
+    border: 2px solid white;
+    padding: 2px;
+}
+
+.inventoryItem .icon {
     width: 32px;
     height: 32px;
     display: inline-block;
     background-image: url("https://omniaregna.com/items.png");
     background-repeat: no-repeat;
     position: relative;
+}
+
+.inventoryItem .itemName {
+    position: relative;
+    bottom: -20px;
+    left: 0px;
+    display: none;
+    margin: 0;
+}
+    
+.inventoryItem:hover .itemName {
+    visibility: visible;
+    bottom: -40px;
 }
 
 .itemCount {
@@ -46,13 +61,24 @@ body {
     background-repeat: no-repeat;
 }
 
-.inventoryItem .itemName {
-    position: relative;
-    bottom: -20px;
-    left: 0px;
-    visibility:hidden;
+#itemInfo {
+    position: absolute;
+    left: -1000px;
+    display: none;
+    margin-top: -20px;
 }
-    
-.inventoryItem:hover .itemName {
-    visibility: visible;
+
+#itemInfo.activeList {
+    left: 0;
+    display: inline;
+}
+
+.itemInfoLine > p:nth-child(2) {
+    position: relative;
+    left: 15px;
+}
+
+.itemInfoLine > p {
+    margin: 0;
+    margin-top: 4px;
 }

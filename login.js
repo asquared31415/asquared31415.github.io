@@ -1,6 +1,16 @@
 var ws;
 var data = {profile:null, inventory:null};
 var out;
+var itemInfo;
+
+document.addEventListener('DOMContentLoaded', (e) => {
+    itemInfo = document.getElementById("itemInfo");
+    document.getElementsByTagName("body")[0].addEventListener('click', event=>{
+        if (!(event.path[2].id === "inventory")){
+            itemInfo.classList.remove("activeList");
+        }
+    });
+});
 
 function httpGet(theUrl)
 {
@@ -42,7 +52,7 @@ function wsRecieveMessage(event){
     switch (json.type){
         case "LoginStatus":
             var status = document.getElementById("status");
-            if (status != null){
+            if (status){
                 status.parentNode.innerHTML = "Output:<br>";
             }
             if (json.status == undefined || json.status != "LoggedIn"){
@@ -86,10 +96,29 @@ function displayData(){
     data.inventory.forEach(element => {
         if (element && element.tile){
             var count = element.q >= 2 ? "<div class=\"itemCount\">" + element.q + "</div>" : "";
-            inv.innerHTML += "<div class=\"inventoryItem\" style=\"background-position-x:" + -32 * (element.tile - 1) + "px\">" + count + 
-                                "<p class=\"itemName\">" + element.n + "</p></div>";
+            inv.innerHTML += "<div class=\"inventoryItem\"><div class=\"icon\" style=\"background-position-x:" + -32 * (element.tile - 1) + "px\">" + count + 
+                                "</div><p class=\"itemName\">" + element.n + "</p></div>";
         }else{
-            inv.innerHTML += "<div class=\"inventoryItem noItem\"><p class=\"itemName\">None</p></div>";
+            inv.innerHTML += "<div class=\"inventoryItem\"><div class=\"noItem\"></div><p class=\"itemName\">None</p></div>";
         }
     });
+    var invItems = document.getElementsByClassName("inventoryItem");
+    for (let element of invItems){
+        element.addEventListener('click', event =>{
+            var nodes = Array.prototype.slice.call(invItems);
+            var i = nodes.indexOf(element);
+            showItemOptions(data.inventory[i]);
+        });
+    }
+}
+
+function showItemOptions(item) {
+    var name = (item && item.n) ? item.n : "None";
+    var quantity = (item && item.q) ? item.q + "/" + (item.mq ? item.mq : "-") : "-";
+    var lastEdited = (item && item.dt) ? new Date(item.dt * 1000).toLocaleString() : "-";
+    itemInfo.classList.add("activeList");
+    itemInfo.children[0].children[1].innerHTML = name;
+    itemInfo.children[1].children[1].innerHTML = quantity;
+    itemInfo.children[2].children[1].innerHTML = lastEdited;
+    // TODO: Add weapon data?
 }
