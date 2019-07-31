@@ -115,10 +115,8 @@ function displayData(){
 function showItemOptions(item) {
     var name = (item && item.n) ? item.n : "None";
     var quantity = (item && item.q) ? item.q + "/" + (item.mq ? item.mq : "-") : "-";
-    var lastEdited = (item && item.dt) ? new Date(item.dt * 1000).toLocaleString() : "-";
     itemInfo.classList.add("activeList");
     itemInfo.children[0].children[1].innerHTML = name;
     itemInfo.children[1].children[1].innerHTML = quantity;
-    itemInfo.children[2].children[1].innerHTML = lastEdited;
     // TODO: Add weapon data?
 }
