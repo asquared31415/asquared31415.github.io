@@ -2,13 +2,31 @@ var ws;
 var data = {profile:null, inventory:null};
 var out;
 
+function httpGet(theUrl)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+}
+
 function SubmitCreds(){
     out = document.getElementById("output");
-    ws = new WebSocket("wss://servers.omniaregna.com:" + document.getElementById("port").value);
+    // Yay CORS
+    client_config = JSON.parse(httpGet("https://cors-anywhere.herokuapp.com/https://omniaregna.com/client_config.json"));
+    tryOpenSocket(0, client_config.Servers);
+}
+
+function tryOpenSocket(index, hostList){
+    ws = new WebSocket("wss://" + hostList[index].Host + ":" + hostList[index].Port);
     ws.onopen = wsOnOpen;
     ws.onmessage = wsRecieveMessage;
     ws.onerror = function(e){
-        document.getElementById("port").style = "background-color: red";
+        console.warn("Connection to WebSocket " + ws.url + "failed.");
+        if(index < hostList.length - 1) {
+            console.warn("Trying again on host " + hostList[index + 1] + " port " + hostList[index + 1]);
+            tryOpenSocket(index + 1, hostList);
+        }
     }
 }
 
