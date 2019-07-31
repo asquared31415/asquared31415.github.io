@@ -1,7 +1,58 @@
+body {
+    background-color: #222;
+}
+
+#output {
+    color: white;
+}
+
 .avatar-display {
     width: 32px;
     height: 32px;
     display: inline-block;
     background-image: url("https://omniaregna.com/avatars.png");
     background-repeat: no-repeat;
+}
+
+#inventory {
+    display: inline-flex;
+}
+
+.inventoryItem {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-image: url("https://omniaregna.com/items.png");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.itemCount {
+    font-size: 75%;
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+    background: rgba(0,0,0,.61);
+    border-radius: 4px;
+    padding: 1px;
+    line-height: 1;
+}
+
+.noItem {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-image: url("NoItem.png");
+    background-repeat: no-repeat;
+}
+
+.inventoryItem .itemName {
+    position: relative;
+    bottom: -20px;
+    left: 0px;
+    visibility:hidden;
+}
+    
+.inventoryItem:hover .itemName {
+    visibility: visible;
 }
