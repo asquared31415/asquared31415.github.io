@@ -15,7 +15,7 @@ function SubmitCreds(){
 function wsOnOpen(){
     var u = document.getElementById("username").value;
     var p = document.getElementById("password").value;
-    var data = {"type":"LogIn","nameOrAddress": u,"password": p};
+    var data = {"type":"LogIn","nameOrAddress": u,"password": p, "persist": false};
     ws.send(JSON.stringify(data));
 }
 
