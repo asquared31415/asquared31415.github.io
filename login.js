@@ -1,10 +1,13 @@
 var ws;
 var data = {profile:null, inventory:null};
 var out;
+var chat;
 var itemInfo;
 
 document.addEventListener('DOMContentLoaded', (e) => {
+    out = document.getElementById("output");
     itemInfo = document.getElementById("itemInfo");
+    chat = document.getElementById("chatBox");
     document.getElementsByTagName("body")[0].addEventListener('click', event=>{
         if (!(event.path[2].id === "inventory")){
             itemInfo.classList.remove("activeList");
@@ -12,19 +15,31 @@ document.addEventListener('DOMContentLoaded', (e) => {
     });
 });
 
-function httpGet(theUrl)
+function httpGet(theUrl, callback)
 {
     var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.callback = callback;
+    xmlHttp.onload = function (e) {
+        if (xmlHttp.readyState === 4) {
+            if (xmlHttp.status === 200) {
+                console.log(xmlHttp.responseText);
+                callback.apply(xmlHttp, [0, JSON.parse(xmlHttp.responseText).Servers])
+            } else {
+                console.error(xmlHttp.statusText);
+            }
+        }
+    };
+    xmlHttp.onerror = function (e) {
+        console.error(xmlHttp.statusText);
+    };
+    xmlHttp.open( "GET", theUrl);
     xmlHttp.send( null );
-    return xmlHttp.responseText;
 }
 
 function SubmitCreds(){
-    out = document.getElementById("output");
     // Yay CORS
-    client_config = JSON.parse(httpGet("https://cors-anywhere.herokuapp.com/https://omniaregna.com/client_config.json"));
-    tryOpenSocket(0, client_config.Servers);
+    // Get the valid configurations and try to open a connection with them
+    httpGet("https://cors-anywhere.herokuapp.com/https://omniaregna.com/client_config.json", tryOpenSocket);
 }
 
 function tryOpenSocket(index, hostList){
@@ -49,6 +64,7 @@ function wsOnOpen(){
 
 function wsRecieveMessage(event){
     var json = JSON.parse(event.data);
+    console.log(json.type);
     switch (json.type){
         case "LoginStatus":
             var status = document.getElementById("status");
@@ -70,6 +86,10 @@ function wsRecieveMessage(event){
             break;
         case "Inventory":
             data.inventory = json.inventory;
+            break;
+        case "Chat":
+            console.Log(json);
+            chat.innerHTML += "<p class=\chatMessage\">" + json.line + "</p>";
             break;
         default:
             console.log("another message was recieved with type", json.type);

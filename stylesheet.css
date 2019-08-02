@@ -3,6 +3,32 @@ body {
     color: white;
 }
 
+#submit {
+    float: left;
+    margin-bottom: 15px;
+}
+
+#output {
+    float: left;
+    clear: both;
+    width: 50%;
+}
+
+#chat {
+    float: left;
+    width: 40%;
+}
+
+#chat > p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#chatBox {
+    padding: 1em;
+    border: 5px solid #666;
+}
+
 .avatar-display {
     width: 32px;
     height: 32px;
