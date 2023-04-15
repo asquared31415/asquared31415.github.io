@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Main API Entry Points </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Main API Entry Points ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="api_index">
+<h3 id="main-api-entry-points">Main API Entry Points</h3>
+
+<h4 id="check-that-the-twitch-integration-mod-is-enabled">Check that the Twitch Integration Mod is enabled!!!</h4>
+<p><a class="xref" href="ONITwitchLib.TwitchModInfo.html#ONITwitchLib_TwitchModInfo_TwitchIsPresent">TwitchModInfo.TwitchIsPresent</a>
+Most other methods will crash if called when the Twitch Integration mod is not present. Check the status of this bool to be sure that the Twitch Integration mod is present and enabled.</p>
+<p>Most methods should be called <strong>after</strong> the Twitch Integration mod has run its initialization. This typically means running all of your event setup in a patch:</p>
+<pre><code class="lang-cs">[HarmonyPatch(typeof(Db), &quot;Initialize&quot;)]
+[HarmonyAfter(TwitchModInfo.StaticID)]
+public static class Db_Initialize_Patch {
+</code></pre>
+<p>The <code>HarmonyAfter</code> attribute takes the StaticID of the mod that you want to run after, and in this case is used to run after the Twitch Integration mod.</p>
+<p>Complete examples can be found on <a href="https://github.com/asquared31415/ONITwitch/blob/main/TwitchTestExtension/TestTwitchExtension.cs#L21">GitHub</a>.</p>
+<h4 id="creating-an-event">Creating an Event</h4>
+<p>Create an <a class="xref" href="ONITwitchLib.EventGroup.html">EventGroup</a>:</p>
+<ul>
+<li><a class="xref" href="ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_GetOrCreateGroup_System_String_">EventGroup.GetOrCreateGroup(string)</a></li>
+<li><a class="xref" href="ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_DefaultSingleEventGroup_System_String_System_Int32_System_String_">EventGroup.DefaultSingleEventGroup(string, int, string)</a>
+<ul>
+<li>This creates both an event and a group, returning both to be used.</li>
+</ul>
+</li>
+</ul>
+<p>Add an event to an EventGroup:</p>
+<ul>
+<li><a class="xref" href="ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_AddEvent_System_String_System_Int32_System_String_">EventGroup.AddEvent(string,int,string)</a></li>
+</ul>
+<p>Modify an <a class="xref" href="ONITwitchLib.EventInfo.html">EventInfo</a>:</p>
+<ul>
+<li>Set the display name of the event (if not already set): <a class="xref" href="ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_FriendlyName">FriendlyName</a></li>
+<li>Specify how dangerous the event is: <a class="xref" href="ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_Danger">Danger</a></li>
+<li>Add code to the event: <a class="xref" href="ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_AddListener_System_Action_System_Object__">AddListener</a></li>
+<li>Add a condition for the event to appear in a vote: <a class="xref" href="ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_AddCondition_System_Func_System_Object_System_Boolean__">AddCondition</a>
+<ul>
+<li>NOTE: The condition may become false between it showing up in a vote and the code being run. Design your event's code to be resistant to any possible states. Do nothing and show a toast rather than crash.</li>
+<li>Examples of invalidated state:
+<ul>
+<li>At least one dupe was alive before, but now none are, so an event needs to find a default target or do nothing.</li>
+<li>A rocket was in flight when the condition ran, but landed or self destructed.</li>
+<li>A building existed when the condition ran, but has since been deconstructed, melted, or otherwise damaged.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Add an EventGroup to the deck of possible events:</p>
+<ul>
+<li><a class="xref" href="ONITwitchLib.Core.TwitchDeckManager.html#ONITwitchLib_Core_TwitchDeckManager_Instance">TwitchDeckManager.Instance</a></li>
+<li><a class="xref" href="ONITwitchLib.Core.TwitchDeckManager.html#ONITwitchLib_Core_TwitchDeckManager_AddGroup_ONITwitchLib_EventGroup_">TwitchDeckManager.Instance.AddGroup</a></li>
+</ul>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/asquared31415/ONITwitch/blob/main/docfx_project/api/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

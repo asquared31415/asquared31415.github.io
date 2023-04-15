@@ -1,0 +1,894 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class GridUtil
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class GridUtil
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ONITwitchLib.Utils.GridUtil">
+
+
+
+  <h1 id="ONITwitchLib_Utils_GridUtil" data-uid="ONITwitchLib.Utils.GridUtil" class="text-break">Class GridUtil
+</h1>
+  <div class="markdown level0 summary"><p>Provides utilities for searching the <span class="xref">Grid</span>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">GridUtil</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ONITwitchLib.html">ONITwitchLib</a>.<a class="xref" href="ONITwitchLib.Utils.html">Utils</a></h6>
+  <h6><strong>Assembly</strong>: ONITwitchLib.dll</h6>
+  <h5 id="ONITwitchLib_Utils_GridUtil_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public static class GridUtil</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_GridUtil_CellNeighbors.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.GridUtil.CellNeighbors%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/GridUtil.cs/#L19">View Source</a>
+  </span>
+  <h4 id="ONITwitchLib_Utils_GridUtil_CellNeighbors" data-uid="ONITwitchLib.Utils.GridUtil.CellNeighbors">CellNeighbors</h4>
+  <div class="markdown level1 summary"><p>The directions that are neighbors to any cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public static readonly List&lt;Direction&gt; CellNeighbors</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Direction</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_GridUtil_ActiveSimCells.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.GridUtil.ActiveSimCells%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/GridUtil.cs/#L301">View Source</a>
+  </span>
+  <a id="ONITwitchLib_Utils_GridUtil_ActiveSimCells_" data-uid="ONITwitchLib.Utils.GridUtil.ActiveSimCells*"></a>
+  <h4 id="ONITwitchLib_Utils_GridUtil_ActiveSimCells" data-uid="ONITwitchLib.Utils.GridUtil.ActiveSimCells">ActiveSimCells()</h4>
+  <div class="markdown level1 summary"><p>Iterates over all cells that the game considers currently active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+[NotNull]
+public static IEnumerable&lt;int&gt; ActiveSimCells()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</td>
+        <td><p>An enumerable containing all active cells.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ONITwitchLib_Utils_GridUtil_ActiveSimCells_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>As of Mergedown, the game activates whole planets at a time, based on whether they are discovered.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_GridUtil_FindCellOpenToBuilding_System_Int32_BuildingDef_Orientation_.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.GridUtil.FindCellOpenToBuilding(System.Int32%2CBuildingDef%2COrientation)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/GridUtil.cs/#L320">View Source</a>
+  </span>
+  <a id="ONITwitchLib_Utils_GridUtil_FindCellOpenToBuilding_" data-uid="ONITwitchLib.Utils.GridUtil.FindCellOpenToBuilding*"></a>
+  <h4 id="ONITwitchLib_Utils_GridUtil_FindCellOpenToBuilding_System_Int32_BuildingDef_Orientation_" data-uid="ONITwitchLib.Utils.GridUtil.FindCellOpenToBuilding(System.Int32,BuildingDef,Orientation)">FindCellOpenToBuilding(int, BuildingDef, Orientation)</h4>
+  <div class="markdown level1 summary"><p>Finds the nearest cell that can have the passed <span class="xref">BuildingDef</span> built,
+or <span class="xref">Grid.InvalidCell</span> (-1) if a cell cannot be found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public static int FindCellOpenToBuilding(int cell, BuildingDef building, Orientation orientation = Orientation.Neutral)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">cell</span></td>
+        <td><p>The cell to begin searching.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">BuildingDef</span></td>
+        <td><span class="parametername">building</span></td>
+        <td><p>The building to check placement for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Orientation</span></td>
+        <td><span class="parametername">orientation</span></td>
+        <td><p>The orientation of the building.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>The nearest cell to <code class="paramref">cell</code> that can support building <code class="paramref">building</code> with
+<code class="paramref">orientation</code> orientation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_GridUtil_FindCellWithCavityClearance_System_Int32_.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.GridUtil.FindCellWithCavityClearance(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/GridUtil.cs/#L148">View Source</a>
+  </span>
+  <a id="ONITwitchLib_Utils_GridUtil_FindCellWithCavityClearance_" data-uid="ONITwitchLib.Utils.GridUtil.FindCellWithCavityClearance*"></a>
+  <h4 id="ONITwitchLib_Utils_GridUtil_FindCellWithCavityClearance_System_Int32_" data-uid="ONITwitchLib.Utils.GridUtil.FindCellWithCavityClearance(System.Int32)">FindCellWithCavityClearance(int)</h4>
+  <div class="markdown level1 summary"><p>Finds the nearest empty cell within 40 cells of <code class="paramref">baseCell</code>
+that also has all neighbors empty.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public static int FindCellWithCavityClearance(int baseCell)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">baseCell</span></td>
+        <td><p>The cell to begin searching from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>The nearest cell within the same world as <code class="paramref">baseCell</code> that is not solid and has all neighbors
+empty, or <span class="xref">Grid.InvalidCell</span> (-1) if one cannot be found in range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ONITwitchLib_Utils_GridUtil_FindCellWithCavityClearance_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This search is based on <code>GameUtil.FloodFillFind</code>, which does a breadth first search,
+moving out approximately equally in all directions</p>
+</div>
+  <h5 id="ONITwitchLib_Utils_GridUtil_FindCellWithCavityClearance_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">FloodFillFind</a>&lt;ArgType&gt;(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, ArgType, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;, ArgType, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>)</div>
+      <div><a class="xref" href="ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_IsCellEmpty_System_Int32_">IsCellEmpty(int)</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_GridUtil_FindCellWithFoundationClearance_System_Int32_.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.GridUtil.FindCellWithFoundationClearance(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/GridUtil.cs/#L188">View Source</a>
+  </span>
+  <a id="ONITwitchLib_Utils_GridUtil_FindCellWithFoundationClearance_" data-uid="ONITwitchLib.Utils.GridUtil.FindCellWithFoundationClearance*"></a>
+  <h4 id="ONITwitchLib_Utils_GridUtil_FindCellWithFoundationClearance_System_Int32_" data-uid="ONITwitchLib.Utils.GridUtil.FindCellWithFoundationClearance(System.Int32)">FindCellWithFoundationClearance(int)</h4>
+  <div class="markdown level1 summary"><p>Finds the nearest cell that does not have a foundation within 40 cells
+of <code class="paramref">baseCell</code> where its neighbors also all have no foundation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public static int FindCellWithFoundationClearance(int baseCell)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">baseCell</span></td>
+        <td><p>The cell to begin searching from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>The nearest cell within the same world as <code class="paramref">baseCell</code> that is not foundation and where all
+neighbors do not have foundation, or <span class="xref">Grid.InvalidCell</span> (-1) if one cannot be found in range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ONITwitchLib_Utils_GridUtil_FindCellWithFoundationClearance_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This search is based on <code>GameUtil.FloodFillFind</code>, which does a breadth first search,
+moving out approximately equally in all directions</p>
+</div>
+  <h5 id="ONITwitchLib_Utils_GridUtil_FindCellWithFoundationClearance_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">FloodFillFind</a>&lt;ArgType&gt;(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, ArgType, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;, ArgType, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>)</div>
+      <div><a class="xref" href="ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_IsCellFoundationEmpty_System_Int32_">IsCellFoundationEmpty(int)</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_GridUtil_FloodCollectCells_System_Int32_System_Func_System_Int32_System_Boolean__System_Int32_System_Collections_Generic_HashSet_System_Int32__.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.GridUtil.FloodCollectCells(System.Int32%2CSystem.Func%7BSystem.Int32%2CSystem.Boolean%7D%2CSystem.Int32%2CSystem.Collections.Generic.HashSet%7BSystem.Int32%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/GridUtil.cs/#L222">View Source</a>
+  </span>
+  <a id="ONITwitchLib_Utils_GridUtil_FloodCollectCells_" data-uid="ONITwitchLib.Utils.GridUtil.FloodCollectCells*"></a>
+  <h4 id="ONITwitchLib_Utils_GridUtil_FloodCollectCells_System_Int32_System_Func_System_Int32_System_Boolean__System_Int32_System_Collections_Generic_HashSet_System_Int32__" data-uid="ONITwitchLib.Utils.GridUtil.FloodCollectCells(System.Int32,System.Func{System.Int32,System.Boolean},System.Int32,System.Collections.Generic.HashSet{System.Int32})">FloodCollectCells(int, Func&lt;int, bool&gt;, int, HashSet&lt;int&gt;)</h4>
+  <div class="markdown level1 summary"><p>Collects cells by flood fill but does not favor one direction first.
+Does not clear the set of found cells if too many cells match, it just stops early.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+[NotNull]
+public static HashSet&lt;int&gt; FloodCollectCells(int startCell, Func&lt;int, bool&gt; cellValid, int maxSize = 1000, HashSet&lt;int&gt; invalidVisitedCells = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">startCell</span></td>
+        <td><p>The initial cell to start searching from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td><span class="parametername">cellValid</span></td>
+        <td><p>The function called to determine whether a visited cell is valid.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">maxSize</span></td>
+        <td><p>The maximum number of cells to collect.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</td>
+        <td><span class="parametername">invalidVisitedCells</span></td>
+        <td><p>All of the cells that were visited that were not considered valid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</td>
+        <td><p>A HashSet containing the cells that were valid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_GridUtil_GetNeighborsInBounds_System_Int32_.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.GridUtil.GetNeighborsInBounds(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/GridUtil.cs/#L35">View Source</a>
+  </span>
+  <a id="ONITwitchLib_Utils_GridUtil_GetNeighborsInBounds_" data-uid="ONITwitchLib.Utils.GridUtil.GetNeighborsInBounds*"></a>
+  <h4 id="ONITwitchLib_Utils_GridUtil_GetNeighborsInBounds_System_Int32_" data-uid="ONITwitchLib.Utils.GridUtil.GetNeighborsInBounds(System.Int32)">GetNeighborsInBounds(int)</h4>
+  <div class="markdown level1 summary"><p>Gets all neighbors of a cell that are valid and in the same world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+[NotNull]
+public static IEnumerable&lt;int&gt; GetNeighborsInBounds(int cell)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">cell</span></td>
+        <td><p>The base cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</td>
+        <td><p>An enumerable of all cells that are in bounds neighbors of <code class="paramref">cell</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ONITwitchLib_Utils_GridUtil_GetNeighborsInBounds_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_CellNeighbors">CellNeighbors</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">IsValidCell</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>)</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">AreCellsInSameWorld</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>)</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_GridUtil_GetNeighborsWithFoundationClearance_System_Int32_.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.GridUtil.GetNeighborsWithFoundationClearance(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/GridUtil.cs/#L50">View Source</a>
+  </span>
+  <a id="ONITwitchLib_Utils_GridUtil_GetNeighborsWithFoundationClearance_" data-uid="ONITwitchLib.Utils.GridUtil.GetNeighborsWithFoundationClearance*"></a>
+  <h4 id="ONITwitchLib_Utils_GridUtil_GetNeighborsWithFoundationClearance_System_Int32_" data-uid="ONITwitchLib.Utils.GridUtil.GetNeighborsWithFoundationClearance(System.Int32)">GetNeighborsWithFoundationClearance(int)</h4>
+  <div class="markdown level1 summary"><p>Gets the neighbors of a cell that do not have foundation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+[NotNull]
+public static IEnumerable&lt;int&gt; GetNeighborsWithFoundationClearance(int cell)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">cell</span></td>
+        <td><p>The base cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</td>
+        <td><p>An enumerable of cells that are neighbors of <code class="paramref">cell</code> and that are clear for foundation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ONITwitchLib_Utils_GridUtil_GetNeighborsWithFoundationClearance_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_CellNeighbors">CellNeighbors</a></div>
+      <div><a class="xref" href="ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_IsCellFoundationEmpty_System_Int32_">IsCellFoundationEmpty(int)</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_GridUtil_IsCellEmpty_System_Int32_.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.GridUtil.IsCellEmpty(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/GridUtil.cs/#L69">View Source</a>
+  </span>
+  <a id="ONITwitchLib_Utils_GridUtil_IsCellEmpty_" data-uid="ONITwitchLib.Utils.GridUtil.IsCellEmpty*"></a>
+  <h4 id="ONITwitchLib_Utils_GridUtil_IsCellEmpty_System_Int32_" data-uid="ONITwitchLib.Utils.GridUtil.IsCellEmpty(System.Int32)">IsCellEmpty(int)</h4>
+  <div class="markdown level1 summary"><p>Gets whether a cell is empty of solids and foundation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public static bool IsCellEmpty(int cell)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">cell</span></td>
+        <td><p>The cell to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">cell</code> is not a foundation, is a valid cell for building,
+and is not solid, otherwise <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ONITwitchLib_Utils_GridUtil_IsCellEmpty_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">Foundation</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">IsValidBuildingCell</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>)</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">IsSolidCell</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>)</div>
+      <div><a class="xref" href="ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_IsCellFoundationEmpty_System_Int32_">IsCellFoundationEmpty(int)</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_GridUtil_IsCellFoundationEmpty_System_Int32_.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.GridUtil.IsCellFoundationEmpty(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/GridUtil.cs/#L90">View Source</a>
+  </span>
+  <a id="ONITwitchLib_Utils_GridUtil_IsCellFoundationEmpty_" data-uid="ONITwitchLib.Utils.GridUtil.IsCellFoundationEmpty*"></a>
+  <h4 id="ONITwitchLib_Utils_GridUtil_IsCellFoundationEmpty_System_Int32_" data-uid="ONITwitchLib.Utils.GridUtil.IsCellFoundationEmpty(System.Int32)">IsCellFoundationEmpty(int)</h4>
+  <div class="markdown level1 summary"><p>Gets whether a cell is empty for the purposes of foundation and if it is not maximum hardness.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public static bool IsCellFoundationEmpty(int cell)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">cell</span></td>
+        <td><p>The cell to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">cell</code> is not a foundation, is a valid cell for building,
+and is diggable, otherwise <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ONITwitchLib_Utils_GridUtil_IsCellFoundationEmpty_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">Foundation</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">IsValidBuildingCell</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>)</div>
+      <div><span class="xref">Element</span></div>
+      <div><a class="xref" href="ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_IsCellEmpty_System_Int32_">IsCellEmpty(int)</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_GridUtil_IterateCellRegion_Game_SimActiveRegion_.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.GridUtil.IterateCellRegion(Game.SimActiveRegion)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/GridUtil.cs/#L270">View Source</a>
+  </span>
+  <a id="ONITwitchLib_Utils_GridUtil_IterateCellRegion_" data-uid="ONITwitchLib.Utils.GridUtil.IterateCellRegion*"></a>
+  <h4 id="ONITwitchLib_Utils_GridUtil_IterateCellRegion_Game_SimActiveRegion_" data-uid="ONITwitchLib.Utils.GridUtil.IterateCellRegion(Game.SimActiveRegion)">IterateCellRegion(SimActiveRegion)</h4>
+  <div class="markdown level1 summary"><p>Iterates over a region of cells defined by a <span class="xref">Game.SimActiveRegion</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+[NotNull]
+public static IEnumerable&lt;int&gt; IterateCellRegion(Game.SimActiveRegion region)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Game</span>.<span class="xref">SimActiveRegion</span></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>The region of cells to iterate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</td>
+        <td><p>An enumerable containing every cell within the region.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_GridUtil_IterateCellRegion_Vector2I_Vector2I_.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.GridUtil.IterateCellRegion(Vector2I%2CVector2I)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/GridUtil.cs/#L283">View Source</a>
+  </span>
+  <a id="ONITwitchLib_Utils_GridUtil_IterateCellRegion_" data-uid="ONITwitchLib.Utils.GridUtil.IterateCellRegion*"></a>
+  <h4 id="ONITwitchLib_Utils_GridUtil_IterateCellRegion_Vector2I_Vector2I_" data-uid="ONITwitchLib.Utils.GridUtil.IterateCellRegion(Vector2I,Vector2I)">IterateCellRegion(Vector2I, Vector2I)</h4>
+  <div class="markdown level1 summary"><p>Iterates over a region of cells defined by a minimum and a maximum.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+[NotNull]
+public static IEnumerable&lt;int&gt; IterateCellRegion(Vector2I min, Vector2I max)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2I</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>The minimum bounds of the region.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2I</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>The maximum bounds of the region.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</td>
+        <td><p>An enumerable containing every cell within the region.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_GridUtil_NearestEmptyCell_System_Int32_.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.GridUtil.NearestEmptyCell(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/GridUtil.cs/#L113">View Source</a>
+  </span>
+  <a id="ONITwitchLib_Utils_GridUtil_NearestEmptyCell_" data-uid="ONITwitchLib.Utils.GridUtil.NearestEmptyCell*"></a>
+  <h4 id="ONITwitchLib_Utils_GridUtil_NearestEmptyCell_System_Int32_" data-uid="ONITwitchLib.Utils.GridUtil.NearestEmptyCell(System.Int32)">NearestEmptyCell(int)</h4>
+  <div class="markdown level1 summary"><p>Finds the nearest empty cell within 40 cells of <code class="paramref">baseCell</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public static int NearestEmptyCell(int baseCell)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">baseCell</span></td>
+        <td><p>The cell to begin searching from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>The nearest cell that is not solid, within the same world as <code class="paramref">baseCell</code>,
+or <span class="xref">Grid.InvalidCell</span> (-1) if one cannot be found in range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ONITwitchLib_Utils_GridUtil_NearestEmptyCell_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This search is based on <code>GameUtil.FloodFillFind</code>, which does a breadth first search,
+moving out approximately equally in all directions</p>
+</div>
+  <h5 id="ONITwitchLib_Utils_GridUtil_NearestEmptyCell_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">FloodFillFind</a>&lt;ArgType&gt;(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, ArgType, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;, ArgType, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>)</div>
+      <div><a class="xref" href="ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_IsCellEmpty_System_Int32_">IsCellEmpty(int)</a></div>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_GridUtil.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.GridUtil%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/GridUtil.cs/#L13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

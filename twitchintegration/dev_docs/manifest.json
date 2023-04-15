@@ -1,0 +1,313 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/callie/Documents/ONI-Twitch-new/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.Core.CommandBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Core.CommandBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.Core.CoreTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Core.CoreTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.Core.TwitchDeckManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Core.TwitchDeckManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.Danger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Danger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.DataManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.DataManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.EventGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.EventGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.EventInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.EventInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.EventManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.EventManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.ExtraTags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.ExtraTags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.ListExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.ListExt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.ThreadRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.ThreadRandom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.ToastManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.ToastManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.TwitchModInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.TwitchModInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.Utils.ColorUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Utils.ColorUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.Utils.DelegateUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Utils.DelegateUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.Utils.DialogUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Utils.DialogUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.Utils.ElementUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Utils.ElementUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.Utils.GridUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Utils.GridUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.Utils.MathUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Utils.MathUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.Utils.PosUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Utils.PosUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.Utils.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Utils.StringExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.Utils.WorldUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Utils.WorldUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Utils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.WaitTimeOrSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.WaitTimeOrSignal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ONITwitchLib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

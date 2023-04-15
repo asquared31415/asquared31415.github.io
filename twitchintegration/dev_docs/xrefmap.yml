@@ -1,0 +1,1654 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: api_index
+  name: Main API Entry Points
+  href: api/index.html
+- uid: ONITwitchLib
+  name: ONITwitchLib
+  href: api/ONITwitchLib.html
+  commentId: N:ONITwitchLib
+  fullName: ONITwitchLib
+  nameWithType: ONITwitchLib
+- uid: ONITwitchLib.Core
+  name: ONITwitchLib.Core
+  href: api/ONITwitchLib.Core.html
+  commentId: N:ONITwitchLib.Core
+  fullName: ONITwitchLib.Core
+  nameWithType: ONITwitchLib.Core
+- uid: ONITwitchLib.Core.CommandBase
+  name: CommandBase
+  href: api/ONITwitchLib.Core.CommandBase.html
+  commentId: T:ONITwitchLib.Core.CommandBase
+  fullName: ONITwitchLib.Core.CommandBase
+  nameWithType: CommandBase
+- uid: ONITwitchLib.Core.CommandBase.#ctor(System.Object)
+  name: CommandBase(object)
+  href: api/ONITwitchLib.Core.CommandBase.html#ONITwitchLib_Core_CommandBase__ctor_System_Object_
+  commentId: M:ONITwitchLib.Core.CommandBase.#ctor(System.Object)
+  name.vb: New(Object)
+  fullName: ONITwitchLib.Core.CommandBase.CommandBase(object)
+  fullName.vb: ONITwitchLib.Core.CommandBase.New(Object)
+  nameWithType: CommandBase.CommandBase(object)
+  nameWithType.vb: CommandBase.New(Object)
+- uid: ONITwitchLib.Core.CommandBase.#ctor(System.Type,System.Object[])
+  name: CommandBase(Type, params object[])
+  href: api/ONITwitchLib.Core.CommandBase.html#ONITwitchLib_Core_CommandBase__ctor_System_Type_System_Object___
+  commentId: M:ONITwitchLib.Core.CommandBase.#ctor(System.Type,System.Object[])
+  name.vb: New(Type, ParamArray Object())
+  fullName: ONITwitchLib.Core.CommandBase.CommandBase(System.Type, params object[])
+  fullName.vb: ONITwitchLib.Core.CommandBase.New(System.Type, ParamArray Object())
+  nameWithType: CommandBase.CommandBase(Type, params object[])
+  nameWithType.vb: CommandBase.New(Type, ParamArray Object())
+- uid: ONITwitchLib.Core.CommandBase.#ctor*
+  name: CommandBase
+  href: api/ONITwitchLib.Core.CommandBase.html#ONITwitchLib_Core_CommandBase__ctor_
+  commentId: Overload:ONITwitchLib.Core.CommandBase.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ONITwitchLib.Core.CommandBase.CommandBase
+  fullName.vb: ONITwitchLib.Core.CommandBase.New
+  nameWithType: CommandBase.CommandBase
+  nameWithType.vb: CommandBase.New
+- uid: ONITwitchLib.Core.CommandBase.GetConditionFunc
+  name: GetConditionFunc()
+  href: api/ONITwitchLib.Core.CommandBase.html#ONITwitchLib_Core_CommandBase_GetConditionFunc
+  commentId: M:ONITwitchLib.Core.CommandBase.GetConditionFunc
+  fullName: ONITwitchLib.Core.CommandBase.GetConditionFunc()
+  nameWithType: CommandBase.GetConditionFunc()
+- uid: ONITwitchLib.Core.CommandBase.GetConditionFunc*
+  name: GetConditionFunc
+  href: api/ONITwitchLib.Core.CommandBase.html#ONITwitchLib_Core_CommandBase_GetConditionFunc_
+  commentId: Overload:ONITwitchLib.Core.CommandBase.GetConditionFunc
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.CommandBase.GetConditionFunc
+  nameWithType: CommandBase.GetConditionFunc
+- uid: ONITwitchLib.Core.CommandBase.GetRunAction
+  name: GetRunAction()
+  href: api/ONITwitchLib.Core.CommandBase.html#ONITwitchLib_Core_CommandBase_GetRunAction
+  commentId: M:ONITwitchLib.Core.CommandBase.GetRunAction
+  fullName: ONITwitchLib.Core.CommandBase.GetRunAction()
+  nameWithType: CommandBase.GetRunAction()
+- uid: ONITwitchLib.Core.CommandBase.GetRunAction*
+  name: GetRunAction
+  href: api/ONITwitchLib.Core.CommandBase.html#ONITwitchLib_Core_CommandBase_GetRunAction_
+  commentId: Overload:ONITwitchLib.Core.CommandBase.GetRunAction
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.CommandBase.GetRunAction
+  nameWithType: CommandBase.GetRunAction
+- uid: ONITwitchLib.Core.CoreTypes
+  name: CoreTypes
+  href: api/ONITwitchLib.Core.CoreTypes.html
+  commentId: T:ONITwitchLib.Core.CoreTypes
+  fullName: ONITwitchLib.Core.CoreTypes
+  nameWithType: CoreTypes
+- uid: ONITwitchLib.Core.CoreTypes.CommandExtType
+  name: CommandExtType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_CommandExtType
+  commentId: P:ONITwitchLib.Core.CoreTypes.CommandExtType
+  fullName: ONITwitchLib.Core.CoreTypes.CommandExtType
+  nameWithType: CoreTypes.CommandExtType
+- uid: ONITwitchLib.Core.CoreTypes.CommandExtType*
+  name: CommandExtType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_CommandExtType_
+  commentId: Overload:ONITwitchLib.Core.CoreTypes.CommandExtType
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.CoreTypes.CommandExtType
+  nameWithType: CoreTypes.CommandExtType
+- uid: ONITwitchLib.Core.CoreTypes.CommandType
+  name: CommandType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_CommandType
+  commentId: P:ONITwitchLib.Core.CoreTypes.CommandType
+  fullName: ONITwitchLib.Core.CoreTypes.CommandType
+  nameWithType: CoreTypes.CommandType
+- uid: ONITwitchLib.Core.CoreTypes.CommandType*
+  name: CommandType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_CommandType_
+  commentId: Overload:ONITwitchLib.Core.CoreTypes.CommandType
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.CoreTypes.CommandType
+  nameWithType: CoreTypes.CommandType
+- uid: ONITwitchLib.Core.CoreTypes.DangerType
+  name: DangerType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_DangerType
+  commentId: P:ONITwitchLib.Core.CoreTypes.DangerType
+  fullName: ONITwitchLib.Core.CoreTypes.DangerType
+  nameWithType: CoreTypes.DangerType
+- uid: ONITwitchLib.Core.CoreTypes.DangerType*
+  name: DangerType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_DangerType_
+  commentId: Overload:ONITwitchLib.Core.CoreTypes.DangerType
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.CoreTypes.DangerType
+  nameWithType: CoreTypes.DangerType
+- uid: ONITwitchLib.Core.CoreTypes.DataManagerType
+  name: DataManagerType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_DataManagerType
+  commentId: P:ONITwitchLib.Core.CoreTypes.DataManagerType
+  fullName: ONITwitchLib.Core.CoreTypes.DataManagerType
+  nameWithType: CoreTypes.DataManagerType
+- uid: ONITwitchLib.Core.CoreTypes.DataManagerType*
+  name: DataManagerType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_DataManagerType_
+  commentId: Overload:ONITwitchLib.Core.CoreTypes.DataManagerType
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.CoreTypes.DataManagerType
+  nameWithType: CoreTypes.DataManagerType
+- uid: ONITwitchLib.Core.CoreTypes.EventGroupType
+  name: EventGroupType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_EventGroupType
+  commentId: P:ONITwitchLib.Core.CoreTypes.EventGroupType
+  fullName: ONITwitchLib.Core.CoreTypes.EventGroupType
+  nameWithType: CoreTypes.EventGroupType
+- uid: ONITwitchLib.Core.CoreTypes.EventGroupType*
+  name: EventGroupType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_EventGroupType_
+  commentId: Overload:ONITwitchLib.Core.CoreTypes.EventGroupType
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.CoreTypes.EventGroupType
+  nameWithType: CoreTypes.EventGroupType
+- uid: ONITwitchLib.Core.CoreTypes.EventInfoType
+  name: EventInfoType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_EventInfoType
+  commentId: P:ONITwitchLib.Core.CoreTypes.EventInfoType
+  fullName: ONITwitchLib.Core.CoreTypes.EventInfoType
+  nameWithType: CoreTypes.EventInfoType
+- uid: ONITwitchLib.Core.CoreTypes.EventInfoType*
+  name: EventInfoType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_EventInfoType_
+  commentId: Overload:ONITwitchLib.Core.CoreTypes.EventInfoType
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.CoreTypes.EventInfoType
+  nameWithType: CoreTypes.EventInfoType
+- uid: ONITwitchLib.Core.CoreTypes.EventManagerType
+  name: EventManagerType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_EventManagerType
+  commentId: P:ONITwitchLib.Core.CoreTypes.EventManagerType
+  fullName: ONITwitchLib.Core.CoreTypes.EventManagerType
+  nameWithType: CoreTypes.EventManagerType
+- uid: ONITwitchLib.Core.CoreTypes.EventManagerType*
+  name: EventManagerType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_EventManagerType_
+  commentId: Overload:ONITwitchLib.Core.CoreTypes.EventManagerType
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.CoreTypes.EventManagerType
+  nameWithType: CoreTypes.EventManagerType
+- uid: ONITwitchLib.Core.CoreTypes.ToastManagerType
+  name: ToastManagerType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_ToastManagerType
+  commentId: P:ONITwitchLib.Core.CoreTypes.ToastManagerType
+  fullName: ONITwitchLib.Core.CoreTypes.ToastManagerType
+  nameWithType: CoreTypes.ToastManagerType
+- uid: ONITwitchLib.Core.CoreTypes.ToastManagerType*
+  name: ToastManagerType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_ToastManagerType_
+  commentId: Overload:ONITwitchLib.Core.CoreTypes.ToastManagerType
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.CoreTypes.ToastManagerType
+  nameWithType: CoreTypes.ToastManagerType
+- uid: ONITwitchLib.Core.CoreTypes.TwitchDeckManagerType
+  name: TwitchDeckManagerType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_TwitchDeckManagerType
+  commentId: P:ONITwitchLib.Core.CoreTypes.TwitchDeckManagerType
+  fullName: ONITwitchLib.Core.CoreTypes.TwitchDeckManagerType
+  nameWithType: CoreTypes.TwitchDeckManagerType
+- uid: ONITwitchLib.Core.CoreTypes.TwitchDeckManagerType*
+  name: TwitchDeckManagerType
+  href: api/ONITwitchLib.Core.CoreTypes.html#ONITwitchLib_Core_CoreTypes_TwitchDeckManagerType_
+  commentId: Overload:ONITwitchLib.Core.CoreTypes.TwitchDeckManagerType
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.CoreTypes.TwitchDeckManagerType
+  nameWithType: CoreTypes.TwitchDeckManagerType
+- uid: ONITwitchLib.Core.TwitchDeckManager
+  name: TwitchDeckManager
+  href: api/ONITwitchLib.Core.TwitchDeckManager.html
+  commentId: T:ONITwitchLib.Core.TwitchDeckManager
+  fullName: ONITwitchLib.Core.TwitchDeckManager
+  nameWithType: TwitchDeckManager
+- uid: ONITwitchLib.Core.TwitchDeckManager.AddGroup(ONITwitchLib.EventGroup)
+  name: AddGroup(EventGroup)
+  href: api/ONITwitchLib.Core.TwitchDeckManager.html#ONITwitchLib_Core_TwitchDeckManager_AddGroup_ONITwitchLib_EventGroup_
+  commentId: M:ONITwitchLib.Core.TwitchDeckManager.AddGroup(ONITwitchLib.EventGroup)
+  fullName: ONITwitchLib.Core.TwitchDeckManager.AddGroup(ONITwitchLib.EventGroup)
+  nameWithType: TwitchDeckManager.AddGroup(EventGroup)
+- uid: ONITwitchLib.Core.TwitchDeckManager.AddGroup*
+  name: AddGroup
+  href: api/ONITwitchLib.Core.TwitchDeckManager.html#ONITwitchLib_Core_TwitchDeckManager_AddGroup_
+  commentId: Overload:ONITwitchLib.Core.TwitchDeckManager.AddGroup
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.TwitchDeckManager.AddGroup
+  nameWithType: TwitchDeckManager.AddGroup
+- uid: ONITwitchLib.Core.TwitchDeckManager.Draw
+  name: Draw()
+  href: api/ONITwitchLib.Core.TwitchDeckManager.html#ONITwitchLib_Core_TwitchDeckManager_Draw
+  commentId: M:ONITwitchLib.Core.TwitchDeckManager.Draw
+  fullName: ONITwitchLib.Core.TwitchDeckManager.Draw()
+  nameWithType: TwitchDeckManager.Draw()
+- uid: ONITwitchLib.Core.TwitchDeckManager.Draw*
+  name: Draw
+  href: api/ONITwitchLib.Core.TwitchDeckManager.html#ONITwitchLib_Core_TwitchDeckManager_Draw_
+  commentId: Overload:ONITwitchLib.Core.TwitchDeckManager.Draw
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.TwitchDeckManager.Draw
+  nameWithType: TwitchDeckManager.Draw
+- uid: ONITwitchLib.Core.TwitchDeckManager.GetGroup(System.String)
+  name: GetGroup(string)
+  href: api/ONITwitchLib.Core.TwitchDeckManager.html#ONITwitchLib_Core_TwitchDeckManager_GetGroup_System_String_
+  commentId: M:ONITwitchLib.Core.TwitchDeckManager.GetGroup(System.String)
+  name.vb: GetGroup(String)
+  fullName: ONITwitchLib.Core.TwitchDeckManager.GetGroup(string)
+  fullName.vb: ONITwitchLib.Core.TwitchDeckManager.GetGroup(String)
+  nameWithType: TwitchDeckManager.GetGroup(string)
+  nameWithType.vb: TwitchDeckManager.GetGroup(String)
+- uid: ONITwitchLib.Core.TwitchDeckManager.GetGroup*
+  name: GetGroup
+  href: api/ONITwitchLib.Core.TwitchDeckManager.html#ONITwitchLib_Core_TwitchDeckManager_GetGroup_
+  commentId: Overload:ONITwitchLib.Core.TwitchDeckManager.GetGroup
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.TwitchDeckManager.GetGroup
+  nameWithType: TwitchDeckManager.GetGroup
+- uid: ONITwitchLib.Core.TwitchDeckManager.GetGroups
+  name: GetGroups()
+  href: api/ONITwitchLib.Core.TwitchDeckManager.html#ONITwitchLib_Core_TwitchDeckManager_GetGroups
+  commentId: M:ONITwitchLib.Core.TwitchDeckManager.GetGroups
+  fullName: ONITwitchLib.Core.TwitchDeckManager.GetGroups()
+  nameWithType: TwitchDeckManager.GetGroups()
+- uid: ONITwitchLib.Core.TwitchDeckManager.GetGroups*
+  name: GetGroups
+  href: api/ONITwitchLib.Core.TwitchDeckManager.html#ONITwitchLib_Core_TwitchDeckManager_GetGroups_
+  commentId: Overload:ONITwitchLib.Core.TwitchDeckManager.GetGroups
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.TwitchDeckManager.GetGroups
+  nameWithType: TwitchDeckManager.GetGroups
+- uid: ONITwitchLib.Core.TwitchDeckManager.Instance
+  name: Instance
+  href: api/ONITwitchLib.Core.TwitchDeckManager.html#ONITwitchLib_Core_TwitchDeckManager_Instance
+  commentId: P:ONITwitchLib.Core.TwitchDeckManager.Instance
+  fullName: ONITwitchLib.Core.TwitchDeckManager.Instance
+  nameWithType: TwitchDeckManager.Instance
+- uid: ONITwitchLib.Core.TwitchDeckManager.Instance*
+  name: Instance
+  href: api/ONITwitchLib.Core.TwitchDeckManager.html#ONITwitchLib_Core_TwitchDeckManager_Instance_
+  commentId: Overload:ONITwitchLib.Core.TwitchDeckManager.Instance
+  isSpec: "True"
+  fullName: ONITwitchLib.Core.TwitchDeckManager.Instance
+  nameWithType: TwitchDeckManager.Instance
+- uid: ONITwitchLib.Danger
+  name: Danger
+  href: api/ONITwitchLib.Danger.html
+  commentId: T:ONITwitchLib.Danger
+  fullName: ONITwitchLib.Danger
+  nameWithType: Danger
+- uid: ONITwitchLib.Danger.Deadly
+  name: Deadly
+  href: api/ONITwitchLib.Danger.html#ONITwitchLib_Danger_Deadly
+  commentId: F:ONITwitchLib.Danger.Deadly
+  fullName: ONITwitchLib.Danger.Deadly
+  nameWithType: Danger.Deadly
+- uid: ONITwitchLib.Danger.Extreme
+  name: Extreme
+  href: api/ONITwitchLib.Danger.html#ONITwitchLib_Danger_Extreme
+  commentId: F:ONITwitchLib.Danger.Extreme
+  fullName: ONITwitchLib.Danger.Extreme
+  nameWithType: Danger.Extreme
+- uid: ONITwitchLib.Danger.High
+  name: High
+  href: api/ONITwitchLib.Danger.html#ONITwitchLib_Danger_High
+  commentId: F:ONITwitchLib.Danger.High
+  fullName: ONITwitchLib.Danger.High
+  nameWithType: Danger.High
+- uid: ONITwitchLib.Danger.Medium
+  name: Medium
+  href: api/ONITwitchLib.Danger.html#ONITwitchLib_Danger_Medium
+  commentId: F:ONITwitchLib.Danger.Medium
+  fullName: ONITwitchLib.Danger.Medium
+  nameWithType: Danger.Medium
+- uid: ONITwitchLib.Danger.None
+  name: None
+  href: api/ONITwitchLib.Danger.html#ONITwitchLib_Danger_None
+  commentId: F:ONITwitchLib.Danger.None
+  fullName: ONITwitchLib.Danger.None
+  nameWithType: Danger.None
+- uid: ONITwitchLib.Danger.Small
+  name: Small
+  href: api/ONITwitchLib.Danger.html#ONITwitchLib_Danger_Small
+  commentId: F:ONITwitchLib.Danger.Small
+  fullName: ONITwitchLib.Danger.Small
+  nameWithType: Danger.Small
+- uid: ONITwitchLib.DataManager
+  name: DataManager
+  href: api/ONITwitchLib.DataManager.html
+  commentId: T:ONITwitchLib.DataManager
+  fullName: ONITwitchLib.DataManager
+  nameWithType: DataManager
+- uid: ONITwitchLib.DataManager.GetDataForEvent(ONITwitchLib.EventInfo)
+  name: GetDataForEvent(EventInfo)
+  href: api/ONITwitchLib.DataManager.html#ONITwitchLib_DataManager_GetDataForEvent_ONITwitchLib_EventInfo_
+  commentId: M:ONITwitchLib.DataManager.GetDataForEvent(ONITwitchLib.EventInfo)
+  fullName: ONITwitchLib.DataManager.GetDataForEvent(ONITwitchLib.EventInfo)
+  nameWithType: DataManager.GetDataForEvent(EventInfo)
+- uid: ONITwitchLib.DataManager.GetDataForEvent*
+  name: GetDataForEvent
+  href: api/ONITwitchLib.DataManager.html#ONITwitchLib_DataManager_GetDataForEvent_
+  commentId: Overload:ONITwitchLib.DataManager.GetDataForEvent
+  isSpec: "True"
+  fullName: ONITwitchLib.DataManager.GetDataForEvent
+  nameWithType: DataManager.GetDataForEvent
+- uid: ONITwitchLib.DataManager.Instance
+  name: Instance
+  href: api/ONITwitchLib.DataManager.html#ONITwitchLib_DataManager_Instance
+  commentId: P:ONITwitchLib.DataManager.Instance
+  fullName: ONITwitchLib.DataManager.Instance
+  nameWithType: DataManager.Instance
+- uid: ONITwitchLib.DataManager.Instance*
+  name: Instance
+  href: api/ONITwitchLib.DataManager.html#ONITwitchLib_DataManager_Instance_
+  commentId: Overload:ONITwitchLib.DataManager.Instance
+  isSpec: "True"
+  fullName: ONITwitchLib.DataManager.Instance
+  nameWithType: DataManager.Instance
+- uid: ONITwitchLib.DataManager.SetDataForEvent(ONITwitchLib.EventInfo,System.Object)
+  name: SetDataForEvent(EventInfo, object)
+  href: api/ONITwitchLib.DataManager.html#ONITwitchLib_DataManager_SetDataForEvent_ONITwitchLib_EventInfo_System_Object_
+  commentId: M:ONITwitchLib.DataManager.SetDataForEvent(ONITwitchLib.EventInfo,System.Object)
+  name.vb: SetDataForEvent(EventInfo, Object)
+  fullName: ONITwitchLib.DataManager.SetDataForEvent(ONITwitchLib.EventInfo, object)
+  fullName.vb: ONITwitchLib.DataManager.SetDataForEvent(ONITwitchLib.EventInfo, Object)
+  nameWithType: DataManager.SetDataForEvent(EventInfo, object)
+  nameWithType.vb: DataManager.SetDataForEvent(EventInfo, Object)
+- uid: ONITwitchLib.DataManager.SetDataForEvent*
+  name: SetDataForEvent
+  href: api/ONITwitchLib.DataManager.html#ONITwitchLib_DataManager_SetDataForEvent_
+  commentId: Overload:ONITwitchLib.DataManager.SetDataForEvent
+  isSpec: "True"
+  fullName: ONITwitchLib.DataManager.SetDataForEvent
+  nameWithType: DataManager.SetDataForEvent
+- uid: ONITwitchLib.EventGroup
+  name: EventGroup
+  href: api/ONITwitchLib.EventGroup.html
+  commentId: T:ONITwitchLib.EventGroup
+  fullName: ONITwitchLib.EventGroup
+  nameWithType: EventGroup
+- uid: ONITwitchLib.EventGroup.AddEvent(System.String,System.Int32,System.String)
+  name: AddEvent(string, int, string)
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_AddEvent_System_String_System_Int32_System_String_
+  commentId: M:ONITwitchLib.EventGroup.AddEvent(System.String,System.Int32,System.String)
+  name.vb: AddEvent(String, Integer, String)
+  fullName: ONITwitchLib.EventGroup.AddEvent(string, int, string)
+  fullName.vb: ONITwitchLib.EventGroup.AddEvent(String, Integer, String)
+  nameWithType: EventGroup.AddEvent(string, int, string)
+  nameWithType.vb: EventGroup.AddEvent(String, Integer, String)
+- uid: ONITwitchLib.EventGroup.AddEvent*
+  name: AddEvent
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_AddEvent_
+  commentId: Overload:ONITwitchLib.EventGroup.AddEvent
+  isSpec: "True"
+  fullName: ONITwitchLib.EventGroup.AddEvent
+  nameWithType: EventGroup.AddEvent
+- uid: ONITwitchLib.EventGroup.DefaultSingleEventGroup(System.String,System.Int32,System.String)
+  name: DefaultSingleEventGroup(string, int, string)
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_DefaultSingleEventGroup_System_String_System_Int32_System_String_
+  commentId: M:ONITwitchLib.EventGroup.DefaultSingleEventGroup(System.String,System.Int32,System.String)
+  name.vb: DefaultSingleEventGroup(String, Integer, String)
+  fullName: ONITwitchLib.EventGroup.DefaultSingleEventGroup(string, int, string)
+  fullName.vb: ONITwitchLib.EventGroup.DefaultSingleEventGroup(String, Integer, String)
+  nameWithType: EventGroup.DefaultSingleEventGroup(string, int, string)
+  nameWithType.vb: EventGroup.DefaultSingleEventGroup(String, Integer, String)
+- uid: ONITwitchLib.EventGroup.DefaultSingleEventGroup*
+  name: DefaultSingleEventGroup
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_DefaultSingleEventGroup_
+  commentId: Overload:ONITwitchLib.EventGroup.DefaultSingleEventGroup
+  isSpec: "True"
+  fullName: ONITwitchLib.EventGroup.DefaultSingleEventGroup
+  nameWithType: EventGroup.DefaultSingleEventGroup
+- uid: ONITwitchLib.EventGroup.GetOrCreateGroup(System.String)
+  name: GetOrCreateGroup(string)
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_GetOrCreateGroup_System_String_
+  commentId: M:ONITwitchLib.EventGroup.GetOrCreateGroup(System.String)
+  name.vb: GetOrCreateGroup(String)
+  fullName: ONITwitchLib.EventGroup.GetOrCreateGroup(string)
+  fullName.vb: ONITwitchLib.EventGroup.GetOrCreateGroup(String)
+  nameWithType: EventGroup.GetOrCreateGroup(string)
+  nameWithType.vb: EventGroup.GetOrCreateGroup(String)
+- uid: ONITwitchLib.EventGroup.GetOrCreateGroup*
+  name: GetOrCreateGroup
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_GetOrCreateGroup_
+  commentId: Overload:ONITwitchLib.EventGroup.GetOrCreateGroup
+  isSpec: "True"
+  fullName: ONITwitchLib.EventGroup.GetOrCreateGroup
+  nameWithType: EventGroup.GetOrCreateGroup
+- uid: ONITwitchLib.EventGroup.GetWeights
+  name: GetWeights()
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_GetWeights
+  commentId: M:ONITwitchLib.EventGroup.GetWeights
+  fullName: ONITwitchLib.EventGroup.GetWeights()
+  nameWithType: EventGroup.GetWeights()
+- uid: ONITwitchLib.EventGroup.GetWeights*
+  name: GetWeights
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_GetWeights_
+  commentId: Overload:ONITwitchLib.EventGroup.GetWeights
+  isSpec: "True"
+  fullName: ONITwitchLib.EventGroup.GetWeights
+  nameWithType: EventGroup.GetWeights
+- uid: ONITwitchLib.EventGroup.Name
+  name: Name
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_Name
+  commentId: P:ONITwitchLib.EventGroup.Name
+  fullName: ONITwitchLib.EventGroup.Name
+  nameWithType: EventGroup.Name
+- uid: ONITwitchLib.EventGroup.Name*
+  name: Name
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_Name_
+  commentId: Overload:ONITwitchLib.EventGroup.Name
+  isSpec: "True"
+  fullName: ONITwitchLib.EventGroup.Name
+  nameWithType: EventGroup.Name
+- uid: ONITwitchLib.EventGroup.OnGroupChanged
+  name: OnGroupChanged
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_OnGroupChanged
+  commentId: E:ONITwitchLib.EventGroup.OnGroupChanged
+  fullName: ONITwitchLib.EventGroup.OnGroupChanged
+  nameWithType: EventGroup.OnGroupChanged
+- uid: ONITwitchLib.EventGroup.RemoveEvent(ONITwitchLib.EventInfo)
+  name: RemoveEvent(EventInfo)
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_RemoveEvent_ONITwitchLib_EventInfo_
+  commentId: M:ONITwitchLib.EventGroup.RemoveEvent(ONITwitchLib.EventInfo)
+  fullName: ONITwitchLib.EventGroup.RemoveEvent(ONITwitchLib.EventInfo)
+  nameWithType: EventGroup.RemoveEvent(EventInfo)
+- uid: ONITwitchLib.EventGroup.RemoveEvent*
+  name: RemoveEvent
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_RemoveEvent_
+  commentId: Overload:ONITwitchLib.EventGroup.RemoveEvent
+  isSpec: "True"
+  fullName: ONITwitchLib.EventGroup.RemoveEvent
+  nameWithType: EventGroup.RemoveEvent
+- uid: ONITwitchLib.EventGroup.SetWeight(ONITwitchLib.EventInfo,System.Int32)
+  name: SetWeight(EventInfo, int)
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_SetWeight_ONITwitchLib_EventInfo_System_Int32_
+  commentId: M:ONITwitchLib.EventGroup.SetWeight(ONITwitchLib.EventInfo,System.Int32)
+  name.vb: SetWeight(EventInfo, Integer)
+  fullName: ONITwitchLib.EventGroup.SetWeight(ONITwitchLib.EventInfo, int)
+  fullName.vb: ONITwitchLib.EventGroup.SetWeight(ONITwitchLib.EventInfo, Integer)
+  nameWithType: EventGroup.SetWeight(EventInfo, int)
+  nameWithType.vb: EventGroup.SetWeight(EventInfo, Integer)
+- uid: ONITwitchLib.EventGroup.SetWeight*
+  name: SetWeight
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_SetWeight_
+  commentId: Overload:ONITwitchLib.EventGroup.SetWeight
+  isSpec: "True"
+  fullName: ONITwitchLib.EventGroup.SetWeight
+  nameWithType: EventGroup.SetWeight
+- uid: ONITwitchLib.EventGroup.ToString
+  name: ToString()
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_ToString
+  commentId: M:ONITwitchLib.EventGroup.ToString
+  fullName: ONITwitchLib.EventGroup.ToString()
+  nameWithType: EventGroup.ToString()
+- uid: ONITwitchLib.EventGroup.ToString*
+  name: ToString
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_ToString_
+  commentId: Overload:ONITwitchLib.EventGroup.ToString
+  isSpec: "True"
+  fullName: ONITwitchLib.EventGroup.ToString
+  nameWithType: EventGroup.ToString
+- uid: ONITwitchLib.EventGroup.TotalWeight
+  name: TotalWeight
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_TotalWeight
+  commentId: P:ONITwitchLib.EventGroup.TotalWeight
+  fullName: ONITwitchLib.EventGroup.TotalWeight
+  nameWithType: EventGroup.TotalWeight
+- uid: ONITwitchLib.EventGroup.TotalWeight*
+  name: TotalWeight
+  href: api/ONITwitchLib.EventGroup.html#ONITwitchLib_EventGroup_TotalWeight_
+  commentId: Overload:ONITwitchLib.EventGroup.TotalWeight
+  isSpec: "True"
+  fullName: ONITwitchLib.EventGroup.TotalWeight
+  nameWithType: EventGroup.TotalWeight
+- uid: ONITwitchLib.EventInfo
+  name: EventInfo
+  href: api/ONITwitchLib.EventInfo.html
+  commentId: T:ONITwitchLib.EventInfo
+  fullName: ONITwitchLib.EventInfo
+  nameWithType: EventInfo
+- uid: ONITwitchLib.EventInfo.AddCondition(System.Func{System.Object,System.Boolean})
+  name: AddCondition(Func<object, bool>)
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_AddCondition_System_Func_System_Object_System_Boolean__
+  commentId: M:ONITwitchLib.EventInfo.AddCondition(System.Func{System.Object,System.Boolean})
+  name.vb: AddCondition(Func(Of Object, Boolean))
+  fullName: ONITwitchLib.EventInfo.AddCondition(System.Func<object, bool>)
+  fullName.vb: ONITwitchLib.EventInfo.AddCondition(System.Func(Of Object, Boolean))
+  nameWithType: EventInfo.AddCondition(Func<object, bool>)
+  nameWithType.vb: EventInfo.AddCondition(Func(Of Object, Boolean))
+- uid: ONITwitchLib.EventInfo.AddCondition*
+  name: AddCondition
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_AddCondition_
+  commentId: Overload:ONITwitchLib.EventInfo.AddCondition
+  isSpec: "True"
+  fullName: ONITwitchLib.EventInfo.AddCondition
+  nameWithType: EventInfo.AddCondition
+- uid: ONITwitchLib.EventInfo.AddListener(System.Action{System.Object})
+  name: AddListener(Action<object>)
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_AddListener_System_Action_System_Object__
+  commentId: M:ONITwitchLib.EventInfo.AddListener(System.Action{System.Object})
+  name.vb: AddListener(Action(Of Object))
+  fullName: ONITwitchLib.EventInfo.AddListener(System.Action<object>)
+  fullName.vb: ONITwitchLib.EventInfo.AddListener(System.Action(Of Object))
+  nameWithType: EventInfo.AddListener(Action<object>)
+  nameWithType.vb: EventInfo.AddListener(Action(Of Object))
+- uid: ONITwitchLib.EventInfo.AddListener*
+  name: AddListener
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_AddListener_
+  commentId: Overload:ONITwitchLib.EventInfo.AddListener
+  isSpec: "True"
+  fullName: ONITwitchLib.EventInfo.AddListener
+  nameWithType: EventInfo.AddListener
+- uid: ONITwitchLib.EventInfo.CheckCondition(System.Object)
+  name: CheckCondition(object)
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_CheckCondition_System_Object_
+  commentId: M:ONITwitchLib.EventInfo.CheckCondition(System.Object)
+  name.vb: CheckCondition(Object)
+  fullName: ONITwitchLib.EventInfo.CheckCondition(object)
+  fullName.vb: ONITwitchLib.EventInfo.CheckCondition(Object)
+  nameWithType: EventInfo.CheckCondition(object)
+  nameWithType.vb: EventInfo.CheckCondition(Object)
+- uid: ONITwitchLib.EventInfo.CheckCondition*
+  name: CheckCondition
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_CheckCondition_
+  commentId: Overload:ONITwitchLib.EventInfo.CheckCondition
+  isSpec: "True"
+  fullName: ONITwitchLib.EventInfo.CheckCondition
+  nameWithType: EventInfo.CheckCondition
+- uid: ONITwitchLib.EventInfo.Danger
+  name: Danger
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_Danger
+  commentId: P:ONITwitchLib.EventInfo.Danger
+  fullName: ONITwitchLib.EventInfo.Danger
+  nameWithType: EventInfo.Danger
+- uid: ONITwitchLib.EventInfo.Danger*
+  name: Danger
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_Danger_
+  commentId: Overload:ONITwitchLib.EventInfo.Danger
+  isSpec: "True"
+  fullName: ONITwitchLib.EventInfo.Danger
+  nameWithType: EventInfo.Danger
+- uid: ONITwitchLib.EventInfo.EventId
+  name: EventId
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_EventId
+  commentId: P:ONITwitchLib.EventInfo.EventId
+  fullName: ONITwitchLib.EventInfo.EventId
+  nameWithType: EventInfo.EventId
+- uid: ONITwitchLib.EventInfo.EventId*
+  name: EventId
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_EventId_
+  commentId: Overload:ONITwitchLib.EventInfo.EventId
+  isSpec: "True"
+  fullName: ONITwitchLib.EventInfo.EventId
+  nameWithType: EventInfo.EventId
+- uid: ONITwitchLib.EventInfo.EventNamespace
+  name: EventNamespace
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_EventNamespace
+  commentId: P:ONITwitchLib.EventInfo.EventNamespace
+  fullName: ONITwitchLib.EventInfo.EventNamespace
+  nameWithType: EventInfo.EventNamespace
+- uid: ONITwitchLib.EventInfo.EventNamespace*
+  name: EventNamespace
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_EventNamespace_
+  commentId: Overload:ONITwitchLib.EventInfo.EventNamespace
+  isSpec: "True"
+  fullName: ONITwitchLib.EventInfo.EventNamespace
+  nameWithType: EventInfo.EventNamespace
+- uid: ONITwitchLib.EventInfo.FriendlyName
+  name: FriendlyName
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_FriendlyName
+  commentId: P:ONITwitchLib.EventInfo.FriendlyName
+  fullName: ONITwitchLib.EventInfo.FriendlyName
+  nameWithType: EventInfo.FriendlyName
+- uid: ONITwitchLib.EventInfo.FriendlyName*
+  name: FriendlyName
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_FriendlyName_
+  commentId: Overload:ONITwitchLib.EventInfo.FriendlyName
+  isSpec: "True"
+  fullName: ONITwitchLib.EventInfo.FriendlyName
+  nameWithType: EventInfo.FriendlyName
+- uid: ONITwitchLib.EventInfo.Group
+  name: Group
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_Group
+  commentId: P:ONITwitchLib.EventInfo.Group
+  fullName: ONITwitchLib.EventInfo.Group
+  nameWithType: EventInfo.Group
+- uid: ONITwitchLib.EventInfo.Group*
+  name: Group
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_Group_
+  commentId: Overload:ONITwitchLib.EventInfo.Group
+  isSpec: "True"
+  fullName: ONITwitchLib.EventInfo.Group
+  nameWithType: EventInfo.Group
+- uid: ONITwitchLib.EventInfo.Id
+  name: Id
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_Id
+  commentId: P:ONITwitchLib.EventInfo.Id
+  fullName: ONITwitchLib.EventInfo.Id
+  nameWithType: EventInfo.Id
+- uid: ONITwitchLib.EventInfo.Id*
+  name: Id
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_Id_
+  commentId: Overload:ONITwitchLib.EventInfo.Id
+  isSpec: "True"
+  fullName: ONITwitchLib.EventInfo.Id
+  nameWithType: EventInfo.Id
+- uid: ONITwitchLib.EventInfo.RemoveListener(System.Action{System.Object})
+  name: RemoveListener(Action<object>)
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_RemoveListener_System_Action_System_Object__
+  commentId: M:ONITwitchLib.EventInfo.RemoveListener(System.Action{System.Object})
+  name.vb: RemoveListener(Action(Of Object))
+  fullName: ONITwitchLib.EventInfo.RemoveListener(System.Action<object>)
+  fullName.vb: ONITwitchLib.EventInfo.RemoveListener(System.Action(Of Object))
+  nameWithType: EventInfo.RemoveListener(Action<object>)
+  nameWithType.vb: EventInfo.RemoveListener(Action(Of Object))
+- uid: ONITwitchLib.EventInfo.RemoveListener*
+  name: RemoveListener
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_RemoveListener_
+  commentId: Overload:ONITwitchLib.EventInfo.RemoveListener
+  isSpec: "True"
+  fullName: ONITwitchLib.EventInfo.RemoveListener
+  nameWithType: EventInfo.RemoveListener
+- uid: ONITwitchLib.EventInfo.ToString
+  name: ToString()
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_ToString
+  commentId: M:ONITwitchLib.EventInfo.ToString
+  fullName: ONITwitchLib.EventInfo.ToString()
+  nameWithType: EventInfo.ToString()
+- uid: ONITwitchLib.EventInfo.ToString*
+  name: ToString
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_ToString_
+  commentId: Overload:ONITwitchLib.EventInfo.ToString
+  isSpec: "True"
+  fullName: ONITwitchLib.EventInfo.ToString
+  nameWithType: EventInfo.ToString
+- uid: ONITwitchLib.EventInfo.Trigger(System.Object)
+  name: Trigger(object)
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_Trigger_System_Object_
+  commentId: M:ONITwitchLib.EventInfo.Trigger(System.Object)
+  name.vb: Trigger(Object)
+  fullName: ONITwitchLib.EventInfo.Trigger(object)
+  fullName.vb: ONITwitchLib.EventInfo.Trigger(Object)
+  nameWithType: EventInfo.Trigger(object)
+  nameWithType.vb: EventInfo.Trigger(Object)
+- uid: ONITwitchLib.EventInfo.Trigger*
+  name: Trigger
+  href: api/ONITwitchLib.EventInfo.html#ONITwitchLib_EventInfo_Trigger_
+  commentId: Overload:ONITwitchLib.EventInfo.Trigger
+  isSpec: "True"
+  fullName: ONITwitchLib.EventInfo.Trigger
+  nameWithType: EventInfo.Trigger
+- uid: ONITwitchLib.EventManager
+  name: EventManager
+  href: api/ONITwitchLib.EventManager.html
+  commentId: T:ONITwitchLib.EventManager
+  fullName: ONITwitchLib.EventManager
+  nameWithType: EventManager
+- uid: ONITwitchLib.EventManager.GetEventByID(System.String,System.String)
+  name: GetEventByID(string, string)
+  href: api/ONITwitchLib.EventManager.html#ONITwitchLib_EventManager_GetEventByID_System_String_System_String_
+  commentId: M:ONITwitchLib.EventManager.GetEventByID(System.String,System.String)
+  name.vb: GetEventByID(String, String)
+  fullName: ONITwitchLib.EventManager.GetEventByID(string, string)
+  fullName.vb: ONITwitchLib.EventManager.GetEventByID(String, String)
+  nameWithType: EventManager.GetEventByID(string, string)
+  nameWithType.vb: EventManager.GetEventByID(String, String)
+- uid: ONITwitchLib.EventManager.GetEventByID*
+  name: GetEventByID
+  href: api/ONITwitchLib.EventManager.html#ONITwitchLib_EventManager_GetEventByID_
+  commentId: Overload:ONITwitchLib.EventManager.GetEventByID
+  isSpec: "True"
+  fullName: ONITwitchLib.EventManager.GetEventByID
+  nameWithType: EventManager.GetEventByID
+- uid: ONITwitchLib.EventManager.Instance
+  name: Instance
+  href: api/ONITwitchLib.EventManager.html#ONITwitchLib_EventManager_Instance
+  commentId: P:ONITwitchLib.EventManager.Instance
+  fullName: ONITwitchLib.EventManager.Instance
+  nameWithType: EventManager.Instance
+- uid: ONITwitchLib.EventManager.Instance*
+  name: Instance
+  href: api/ONITwitchLib.EventManager.html#ONITwitchLib_EventManager_Instance_
+  commentId: Overload:ONITwitchLib.EventManager.Instance
+  isSpec: "True"
+  fullName: ONITwitchLib.EventManager.Instance
+  nameWithType: EventManager.Instance
+- uid: ONITwitchLib.ExtraTags
+  name: ExtraTags
+  href: api/ONITwitchLib.ExtraTags.html
+  commentId: T:ONITwitchLib.ExtraTags
+  fullName: ONITwitchLib.ExtraTags
+  nameWithType: ExtraTags
+- uid: ONITwitchLib.ExtraTags.OniTwitchSurpriseBoxForceDisabled
+  name: OniTwitchSurpriseBoxForceDisabled
+  href: api/ONITwitchLib.ExtraTags.html#ONITwitchLib_ExtraTags_OniTwitchSurpriseBoxForceDisabled
+  commentId: F:ONITwitchLib.ExtraTags.OniTwitchSurpriseBoxForceDisabled
+  fullName: ONITwitchLib.ExtraTags.OniTwitchSurpriseBoxForceDisabled
+  nameWithType: ExtraTags.OniTwitchSurpriseBoxForceDisabled
+- uid: ONITwitchLib.ExtraTags.OniTwitchSurpriseBoxForceEnabled
+  name: OniTwitchSurpriseBoxForceEnabled
+  href: api/ONITwitchLib.ExtraTags.html#ONITwitchLib_ExtraTags_OniTwitchSurpriseBoxForceEnabled
+  commentId: F:ONITwitchLib.ExtraTags.OniTwitchSurpriseBoxForceEnabled
+  fullName: ONITwitchLib.ExtraTags.OniTwitchSurpriseBoxForceEnabled
+  nameWithType: ExtraTags.OniTwitchSurpriseBoxForceEnabled
+- uid: ONITwitchLib.ListExt
+  name: ListExt
+  href: api/ONITwitchLib.ListExt.html
+  commentId: T:ONITwitchLib.ListExt
+  fullName: ONITwitchLib.ListExt
+  nameWithType: ListExt
+- uid: ONITwitchLib.ListExt.ShuffleList*
+  name: ShuffleList
+  href: api/ONITwitchLib.ListExt.html#ONITwitchLib_ListExt_ShuffleList_
+  commentId: Overload:ONITwitchLib.ListExt.ShuffleList
+  isSpec: "True"
+  fullName: ONITwitchLib.ListExt.ShuffleList
+  nameWithType: ListExt.ShuffleList
+- uid: ONITwitchLib.ListExt.ShuffleList``1(System.Collections.Generic.IList{``0})
+  name: ShuffleList<T>(IList<T>)
+  href: api/ONITwitchLib.ListExt.html#ONITwitchLib_ListExt_ShuffleList__1_System_Collections_Generic_IList___0__
+  commentId: M:ONITwitchLib.ListExt.ShuffleList``1(System.Collections.Generic.IList{``0})
+  name.vb: ShuffleList(Of T)(IList(Of T))
+  fullName: ONITwitchLib.ListExt.ShuffleList<T>(System.Collections.Generic.IList<T>)
+  fullName.vb: ONITwitchLib.ListExt.ShuffleList(Of T)(System.Collections.Generic.IList(Of T))
+  nameWithType: ListExt.ShuffleList<T>(IList<T>)
+  nameWithType.vb: ListExt.ShuffleList(Of T)(IList(Of T))
+- uid: ONITwitchLib.ThreadRandom
+  name: ThreadRandom
+  href: api/ONITwitchLib.ThreadRandom.html
+  commentId: T:ONITwitchLib.ThreadRandom
+  fullName: ONITwitchLib.ThreadRandom
+  nameWithType: ThreadRandom
+- uid: ONITwitchLib.ThreadRandom.Next
+  name: Next()
+  href: api/ONITwitchLib.ThreadRandom.html#ONITwitchLib_ThreadRandom_Next
+  commentId: M:ONITwitchLib.ThreadRandom.Next
+  fullName: ONITwitchLib.ThreadRandom.Next()
+  nameWithType: ThreadRandom.Next()
+- uid: ONITwitchLib.ThreadRandom.Next(System.Int32,System.Int32)
+  name: Next(int, int)
+  href: api/ONITwitchLib.ThreadRandom.html#ONITwitchLib_ThreadRandom_Next_System_Int32_System_Int32_
+  commentId: M:ONITwitchLib.ThreadRandom.Next(System.Int32,System.Int32)
+  name.vb: Next(Integer, Integer)
+  fullName: ONITwitchLib.ThreadRandom.Next(int, int)
+  fullName.vb: ONITwitchLib.ThreadRandom.Next(Integer, Integer)
+  nameWithType: ThreadRandom.Next(int, int)
+  nameWithType.vb: ThreadRandom.Next(Integer, Integer)
+- uid: ONITwitchLib.ThreadRandom.Next(System.Int32)
+  name: Next(int)
+  href: api/ONITwitchLib.ThreadRandom.html#ONITwitchLib_ThreadRandom_Next_System_Int32_
+  commentId: M:ONITwitchLib.ThreadRandom.Next(System.Int32)
+  name.vb: Next(Integer)
+  fullName: ONITwitchLib.ThreadRandom.Next(int)
+  fullName.vb: ONITwitchLib.ThreadRandom.Next(Integer)
+  nameWithType: ThreadRandom.Next(int)
+  nameWithType.vb: ThreadRandom.Next(Integer)
+- uid: ONITwitchLib.ThreadRandom.Next*
+  name: Next
+  href: api/ONITwitchLib.ThreadRandom.html#ONITwitchLib_ThreadRandom_Next_
+  commentId: Overload:ONITwitchLib.ThreadRandom.Next
+  isSpec: "True"
+  fullName: ONITwitchLib.ThreadRandom.Next
+  nameWithType: ThreadRandom.Next
+- uid: ONITwitchLib.ThreadRandom.NextBytes(System.Byte[])
+  name: NextBytes(byte[])
+  href: api/ONITwitchLib.ThreadRandom.html#ONITwitchLib_ThreadRandom_NextBytes_System_Byte___
+  commentId: M:ONITwitchLib.ThreadRandom.NextBytes(System.Byte[])
+  name.vb: NextBytes(Byte())
+  fullName: ONITwitchLib.ThreadRandom.NextBytes(byte[])
+  fullName.vb: ONITwitchLib.ThreadRandom.NextBytes(Byte())
+  nameWithType: ThreadRandom.NextBytes(byte[])
+  nameWithType.vb: ThreadRandom.NextBytes(Byte())
+- uid: ONITwitchLib.ThreadRandom.NextBytes*
+  name: NextBytes
+  href: api/ONITwitchLib.ThreadRandom.html#ONITwitchLib_ThreadRandom_NextBytes_
+  commentId: Overload:ONITwitchLib.ThreadRandom.NextBytes
+  isSpec: "True"
+  fullName: ONITwitchLib.ThreadRandom.NextBytes
+  nameWithType: ThreadRandom.NextBytes
+- uid: ONITwitchLib.ThreadRandom.NextDouble
+  name: NextDouble()
+  href: api/ONITwitchLib.ThreadRandom.html#ONITwitchLib_ThreadRandom_NextDouble
+  commentId: M:ONITwitchLib.ThreadRandom.NextDouble
+  fullName: ONITwitchLib.ThreadRandom.NextDouble()
+  nameWithType: ThreadRandom.NextDouble()
+- uid: ONITwitchLib.ThreadRandom.NextDouble*
+  name: NextDouble
+  href: api/ONITwitchLib.ThreadRandom.html#ONITwitchLib_ThreadRandom_NextDouble_
+  commentId: Overload:ONITwitchLib.ThreadRandom.NextDouble
+  isSpec: "True"
+  fullName: ONITwitchLib.ThreadRandom.NextDouble
+  nameWithType: ThreadRandom.NextDouble
+- uid: ONITwitchLib.ToastManager
+  name: ToastManager
+  href: api/ONITwitchLib.ToastManager.html
+  commentId: T:ONITwitchLib.ToastManager
+  fullName: ONITwitchLib.ToastManager
+  nameWithType: ToastManager
+- uid: ONITwitchLib.ToastManager.InstantiateToast(System.String,System.String)
+  name: InstantiateToast(string, string)
+  href: api/ONITwitchLib.ToastManager.html#ONITwitchLib_ToastManager_InstantiateToast_System_String_System_String_
+  commentId: M:ONITwitchLib.ToastManager.InstantiateToast(System.String,System.String)
+  name.vb: InstantiateToast(String, String)
+  fullName: ONITwitchLib.ToastManager.InstantiateToast(string, string)
+  fullName.vb: ONITwitchLib.ToastManager.InstantiateToast(String, String)
+  nameWithType: ToastManager.InstantiateToast(string, string)
+  nameWithType.vb: ToastManager.InstantiateToast(String, String)
+- uid: ONITwitchLib.ToastManager.InstantiateToast*
+  name: InstantiateToast
+  href: api/ONITwitchLib.ToastManager.html#ONITwitchLib_ToastManager_InstantiateToast_
+  commentId: Overload:ONITwitchLib.ToastManager.InstantiateToast
+  isSpec: "True"
+  fullName: ONITwitchLib.ToastManager.InstantiateToast
+  nameWithType: ToastManager.InstantiateToast
+- uid: ONITwitchLib.ToastManager.InstantiateToastWithGoTarget(System.String,System.String,UnityEngine.GameObject)
+  name: InstantiateToastWithGoTarget(string, string, GameObject)
+  href: api/ONITwitchLib.ToastManager.html#ONITwitchLib_ToastManager_InstantiateToastWithGoTarget_System_String_System_String_UnityEngine_GameObject_
+  commentId: M:ONITwitchLib.ToastManager.InstantiateToastWithGoTarget(System.String,System.String,UnityEngine.GameObject)
+  name.vb: InstantiateToastWithGoTarget(String, String, GameObject)
+  fullName: ONITwitchLib.ToastManager.InstantiateToastWithGoTarget(string, string, UnityEngine.GameObject)
+  fullName.vb: ONITwitchLib.ToastManager.InstantiateToastWithGoTarget(String, String, UnityEngine.GameObject)
+  nameWithType: ToastManager.InstantiateToastWithGoTarget(string, string, GameObject)
+  nameWithType.vb: ToastManager.InstantiateToastWithGoTarget(String, String, GameObject)
+- uid: ONITwitchLib.ToastManager.InstantiateToastWithGoTarget*
+  name: InstantiateToastWithGoTarget
+  href: api/ONITwitchLib.ToastManager.html#ONITwitchLib_ToastManager_InstantiateToastWithGoTarget_
+  commentId: Overload:ONITwitchLib.ToastManager.InstantiateToastWithGoTarget
+  isSpec: "True"
+  fullName: ONITwitchLib.ToastManager.InstantiateToastWithGoTarget
+  nameWithType: ToastManager.InstantiateToastWithGoTarget
+- uid: ONITwitchLib.ToastManager.InstantiateToastWithPosTarget(System.String,System.String,UnityEngine.Vector3)
+  name: InstantiateToastWithPosTarget(string, string, Vector3)
+  href: api/ONITwitchLib.ToastManager.html#ONITwitchLib_ToastManager_InstantiateToastWithPosTarget_System_String_System_String_UnityEngine_Vector3_
+  commentId: M:ONITwitchLib.ToastManager.InstantiateToastWithPosTarget(System.String,System.String,UnityEngine.Vector3)
+  name.vb: InstantiateToastWithPosTarget(String, String, Vector3)
+  fullName: ONITwitchLib.ToastManager.InstantiateToastWithPosTarget(string, string, UnityEngine.Vector3)
+  fullName.vb: ONITwitchLib.ToastManager.InstantiateToastWithPosTarget(String, String, UnityEngine.Vector3)
+  nameWithType: ToastManager.InstantiateToastWithPosTarget(string, string, Vector3)
+  nameWithType.vb: ToastManager.InstantiateToastWithPosTarget(String, String, Vector3)
+- uid: ONITwitchLib.ToastManager.InstantiateToastWithPosTarget*
+  name: InstantiateToastWithPosTarget
+  href: api/ONITwitchLib.ToastManager.html#ONITwitchLib_ToastManager_InstantiateToastWithPosTarget_
+  commentId: Overload:ONITwitchLib.ToastManager.InstantiateToastWithPosTarget
+  isSpec: "True"
+  fullName: ONITwitchLib.ToastManager.InstantiateToastWithPosTarget
+  nameWithType: ToastManager.InstantiateToastWithPosTarget
+- uid: ONITwitchLib.TwitchModInfo
+  name: TwitchModInfo
+  href: api/ONITwitchLib.TwitchModInfo.html
+  commentId: T:ONITwitchLib.TwitchModInfo
+  fullName: ONITwitchLib.TwitchModInfo
+  nameWithType: TwitchModInfo
+- uid: ONITwitchLib.TwitchModInfo.ConfigName
+  name: ConfigName
+  href: api/ONITwitchLib.TwitchModInfo.html#ONITwitchLib_TwitchModInfo_ConfigName
+  commentId: F:ONITwitchLib.TwitchModInfo.ConfigName
+  fullName: ONITwitchLib.TwitchModInfo.ConfigName
+  nameWithType: TwitchModInfo.ConfigName
+- uid: ONITwitchLib.TwitchModInfo.ConfigPath
+  name: ConfigPath
+  href: api/ONITwitchLib.TwitchModInfo.html#ONITwitchLib_TwitchModInfo_ConfigPath
+  commentId: F:ONITwitchLib.TwitchModInfo.ConfigPath
+  fullName: ONITwitchLib.TwitchModInfo.ConfigPath
+  nameWithType: TwitchModInfo.ConfigPath
+- uid: ONITwitchLib.TwitchModInfo.MainModFolder
+  name: MainModFolder
+  href: api/ONITwitchLib.TwitchModInfo.html#ONITwitchLib_TwitchModInfo_MainModFolder
+  commentId: F:ONITwitchLib.TwitchModInfo.MainModFolder
+  fullName: ONITwitchLib.TwitchModInfo.MainModFolder
+  nameWithType: TwitchModInfo.MainModFolder
+- uid: ONITwitchLib.TwitchModInfo.MainTwitchModType
+  name: MainTwitchModType
+  href: api/ONITwitchLib.TwitchModInfo.html#ONITwitchLib_TwitchModInfo_MainTwitchModType
+  commentId: P:ONITwitchLib.TwitchModInfo.MainTwitchModType
+  fullName: ONITwitchLib.TwitchModInfo.MainTwitchModType
+  nameWithType: TwitchModInfo.MainTwitchModType
+- uid: ONITwitchLib.TwitchModInfo.MainTwitchModType*
+  name: MainTwitchModType
+  href: api/ONITwitchLib.TwitchModInfo.html#ONITwitchLib_TwitchModInfo_MainTwitchModType_
+  commentId: Overload:ONITwitchLib.TwitchModInfo.MainTwitchModType
+  isSpec: "True"
+  fullName: ONITwitchLib.TwitchModInfo.MainTwitchModType
+  nameWithType: TwitchModInfo.MainTwitchModType
+- uid: ONITwitchLib.TwitchModInfo.ModPrefix
+  name: ModPrefix
+  href: api/ONITwitchLib.TwitchModInfo.html#ONITwitchLib_TwitchModInfo_ModPrefix
+  commentId: F:ONITwitchLib.TwitchModInfo.ModPrefix
+  fullName: ONITwitchLib.TwitchModInfo.ModPrefix
+  nameWithType: TwitchModInfo.ModPrefix
+- uid: ONITwitchLib.TwitchModInfo.StaticID
+  name: StaticID
+  href: api/ONITwitchLib.TwitchModInfo.html#ONITwitchLib_TwitchModInfo_StaticID
+  commentId: F:ONITwitchLib.TwitchModInfo.StaticID
+  fullName: ONITwitchLib.TwitchModInfo.StaticID
+  nameWithType: TwitchModInfo.StaticID
+- uid: ONITwitchLib.TwitchModInfo.TwitchIsPresent
+  name: TwitchIsPresent
+  href: api/ONITwitchLib.TwitchModInfo.html#ONITwitchLib_TwitchModInfo_TwitchIsPresent
+  commentId: P:ONITwitchLib.TwitchModInfo.TwitchIsPresent
+  fullName: ONITwitchLib.TwitchModInfo.TwitchIsPresent
+  nameWithType: TwitchModInfo.TwitchIsPresent
+- uid: ONITwitchLib.TwitchModInfo.TwitchIsPresent*
+  name: TwitchIsPresent
+  href: api/ONITwitchLib.TwitchModInfo.html#ONITwitchLib_TwitchModInfo_TwitchIsPresent_
+  commentId: Overload:ONITwitchLib.TwitchModInfo.TwitchIsPresent
+  isSpec: "True"
+  fullName: ONITwitchLib.TwitchModInfo.TwitchIsPresent
+  nameWithType: TwitchModInfo.TwitchIsPresent
+- uid: ONITwitchLib.Utils
+  name: ONITwitchLib.Utils
+  href: api/ONITwitchLib.Utils.html
+  commentId: N:ONITwitchLib.Utils
+  fullName: ONITwitchLib.Utils
+  nameWithType: ONITwitchLib.Utils
+- uid: ONITwitchLib.Utils.ColorUtil
+  name: ColorUtil
+  href: api/ONITwitchLib.Utils.ColorUtil.html
+  commentId: T:ONITwitchLib.Utils.ColorUtil
+  fullName: ONITwitchLib.Utils.ColorUtil
+  nameWithType: ColorUtil
+- uid: ONITwitchLib.Utils.ColorUtil.GreenSuccessColor
+  name: GreenSuccessColor
+  href: api/ONITwitchLib.Utils.ColorUtil.html#ONITwitchLib_Utils_ColorUtil_GreenSuccessColor
+  commentId: F:ONITwitchLib.Utils.ColorUtil.GreenSuccessColor
+  fullName: ONITwitchLib.Utils.ColorUtil.GreenSuccessColor
+  nameWithType: ColorUtil.GreenSuccessColor
+- uid: ONITwitchLib.Utils.ColorUtil.RedWarningColor
+  name: RedWarningColor
+  href: api/ONITwitchLib.Utils.ColorUtil.html#ONITwitchLib_Utils_ColorUtil_RedWarningColor
+  commentId: F:ONITwitchLib.Utils.ColorUtil.RedWarningColor
+  fullName: ONITwitchLib.Utils.ColorUtil.RedWarningColor
+  nameWithType: ColorUtil.RedWarningColor
+- uid: ONITwitchLib.Utils.ColorUtil.TryParseHexString(System.String,UnityEngine.Color@)
+  name: TryParseHexString(string, out Color)
+  href: api/ONITwitchLib.Utils.ColorUtil.html#ONITwitchLib_Utils_ColorUtil_TryParseHexString_System_String_UnityEngine_Color__
+  commentId: M:ONITwitchLib.Utils.ColorUtil.TryParseHexString(System.String,UnityEngine.Color@)
+  name.vb: TryParseHexString(String, Color)
+  fullName: ONITwitchLib.Utils.ColorUtil.TryParseHexString(string, out UnityEngine.Color)
+  fullName.vb: ONITwitchLib.Utils.ColorUtil.TryParseHexString(String, UnityEngine.Color)
+  nameWithType: ColorUtil.TryParseHexString(string, out Color)
+  nameWithType.vb: ColorUtil.TryParseHexString(String, Color)
+- uid: ONITwitchLib.Utils.ColorUtil.TryParseHexString*
+  name: TryParseHexString
+  href: api/ONITwitchLib.Utils.ColorUtil.html#ONITwitchLib_Utils_ColorUtil_TryParseHexString_
+  commentId: Overload:ONITwitchLib.Utils.ColorUtil.TryParseHexString
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.ColorUtil.TryParseHexString
+  nameWithType: ColorUtil.TryParseHexString
+- uid: ONITwitchLib.Utils.DelegateUtil
+  name: DelegateUtil
+  href: api/ONITwitchLib.Utils.DelegateUtil.html
+  commentId: T:ONITwitchLib.Utils.DelegateUtil
+  fullName: ONITwitchLib.Utils.DelegateUtil
+  nameWithType: DelegateUtil
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateDelegate*
+  name: CreateDelegate
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateDelegate_
+  commentId: Overload:ONITwitchLib.Utils.DelegateUtil.CreateDelegate
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateDelegate
+  nameWithType: DelegateUtil.CreateDelegate
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateDelegate``1(System.Reflection.MethodInfo,System.Object)
+  name: CreateDelegate<T>(MethodInfo, object)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateDelegate__1_System_Reflection_MethodInfo_System_Object_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateDelegate``1(System.Reflection.MethodInfo,System.Object)
+  name.vb: CreateDelegate(Of T)(MethodInfo, Object)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateDelegate<T>(System.Reflection.MethodInfo, object)
+  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateDelegate(Of T)(System.Reflection.MethodInfo, Object)
+  nameWithType: DelegateUtil.CreateDelegate<T>(MethodInfo, object)
+  nameWithType.vb: DelegateUtil.CreateDelegate(Of T)(MethodInfo, Object)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type,System.Type)
+  name: CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type, Type, Type)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeActionDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_System_Type_System_Type_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type,System.Type)
+  name.vb: CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type, Type, Type)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type, System.Type, System.Type)
+  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type, System.Type, System.Type)
+  nameWithType: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type, Type, Type)
+  nameWithType.vb: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type, Type, Type)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type)
+  name: CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type, Type)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeActionDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_System_Type_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type)
+  name.vb: CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type, Type)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type, System.Type)
+  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type, System.Type)
+  nameWithType: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type, Type)
+  nameWithType.vb: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type, Type)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type)
+  name: CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeActionDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type)
+  name.vb: CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type)
+  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type)
+  nameWithType: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type)
+  nameWithType.vb: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type)
+  name: CreateRuntimeTypeActionDelegate(MethodInfo, object, Type)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeActionDelegate_System_Reflection_MethodInfo_System_Object_System_Type_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type)
+  name.vb: CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, object, System.Type)
+  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, Object, System.Type)
+  nameWithType: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, object, Type)
+  nameWithType.vb: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate*
+  name: CreateRuntimeTypeActionDelegate
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeActionDelegate_
+  commentId: Overload:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate
+  nameWithType: DelegateUtil.CreateRuntimeTypeActionDelegate
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeConstructorDelegate(System.Reflection.ConstructorInfo,System.Type)
+  name: CreateRuntimeTypeConstructorDelegate(ConstructorInfo, Type)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeConstructorDelegate_System_Reflection_ConstructorInfo_System_Type_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeConstructorDelegate(System.Reflection.ConstructorInfo,System.Type)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeConstructorDelegate(System.Reflection.ConstructorInfo, System.Type)
+  nameWithType: DelegateUtil.CreateRuntimeTypeConstructorDelegate(ConstructorInfo, Type)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeConstructorDelegate*
+  name: CreateRuntimeTypeConstructorDelegate
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeConstructorDelegate_
+  commentId: Overload:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeConstructorDelegate
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeConstructorDelegate
+  nameWithType: DelegateUtil.CreateRuntimeTypeConstructorDelegate
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type,System.Type)
+  name: CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type, Type, Type)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeFuncDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_System_Type_System_Type_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type,System.Type)
+  name.vb: CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type, Type, Type)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type, System.Type, System.Type)
+  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type, System.Type, System.Type)
+  nameWithType: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type, Type, Type)
+  nameWithType.vb: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type, Type, Type)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type)
+  name: CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type, Type)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeFuncDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_System_Type_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type)
+  name.vb: CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type, Type)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type, System.Type)
+  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type, System.Type)
+  nameWithType: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type, Type)
+  nameWithType.vb: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type, Type)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type)
+  name: CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeFuncDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type)
+  name.vb: CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type)
+  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type)
+  nameWithType: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type)
+  nameWithType.vb: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type)
+  name: CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeFuncDelegate_System_Reflection_MethodInfo_System_Object_System_Type_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type)
+  name.vb: CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, object, System.Type)
+  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, Object, System.Type)
+  nameWithType: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type)
+  nameWithType.vb: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate*
+  name: CreateRuntimeTypeFuncDelegate
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeFuncDelegate_
+  commentId: Overload:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate
+  nameWithType: DelegateUtil.CreateRuntimeTypeFuncDelegate
+- uid: ONITwitchLib.Utils.DialogUtil
+  name: DialogUtil
+  href: api/ONITwitchLib.Utils.DialogUtil.html
+  commentId: T:ONITwitchLib.Utils.DialogUtil
+  fullName: ONITwitchLib.Utils.DialogUtil
+  nameWithType: DialogUtil
+- uid: ONITwitchLib.Utils.DialogUtil.MakeDialog(System.String,System.String,System.String,System.Action,System.String,System.Action,System.String,System.Action)
+  name: MakeDialog(string, string, string, Action, string, Action, string, Action)
+  href: api/ONITwitchLib.Utils.DialogUtil.html#ONITwitchLib_Utils_DialogUtil_MakeDialog_System_String_System_String_System_String_System_Action_System_String_System_Action_System_String_System_Action_
+  commentId: M:ONITwitchLib.Utils.DialogUtil.MakeDialog(System.String,System.String,System.String,System.Action,System.String,System.Action,System.String,System.Action)
+  name.vb: MakeDialog(String, String, String, Action, String, Action, String, Action)
+  fullName: ONITwitchLib.Utils.DialogUtil.MakeDialog(string, string, string, System.Action, string, System.Action, string, System.Action)
+  fullName.vb: ONITwitchLib.Utils.DialogUtil.MakeDialog(String, String, String, System.Action, String, System.Action, String, System.Action)
+  nameWithType: DialogUtil.MakeDialog(string, string, string, Action, string, Action, string, Action)
+  nameWithType.vb: DialogUtil.MakeDialog(String, String, String, Action, String, Action, String, Action)
+- uid: ONITwitchLib.Utils.DialogUtil.MakeDialog(System.String,System.String,System.String,System.Action)
+  name: MakeDialog(string, string, string, Action)
+  href: api/ONITwitchLib.Utils.DialogUtil.html#ONITwitchLib_Utils_DialogUtil_MakeDialog_System_String_System_String_System_String_System_Action_
+  commentId: M:ONITwitchLib.Utils.DialogUtil.MakeDialog(System.String,System.String,System.String,System.Action)
+  name.vb: MakeDialog(String, String, String, Action)
+  fullName: ONITwitchLib.Utils.DialogUtil.MakeDialog(string, string, string, System.Action)
+  fullName.vb: ONITwitchLib.Utils.DialogUtil.MakeDialog(String, String, String, System.Action)
+  nameWithType: DialogUtil.MakeDialog(string, string, string, Action)
+  nameWithType.vb: DialogUtil.MakeDialog(String, String, String, Action)
+- uid: ONITwitchLib.Utils.DialogUtil.MakeDialog*
+  name: MakeDialog
+  href: api/ONITwitchLib.Utils.DialogUtil.html#ONITwitchLib_Utils_DialogUtil_MakeDialog_
+  commentId: Overload:ONITwitchLib.Utils.DialogUtil.MakeDialog
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.DialogUtil.MakeDialog
+  nameWithType: DialogUtil.MakeDialog
+- uid: ONITwitchLib.Utils.ElementUtil
+  name: ElementUtil
+  href: api/ONITwitchLib.Utils.ElementUtil.html
+  commentId: T:ONITwitchLib.Utils.ElementUtil
+  fullName: ONITwitchLib.Utils.ElementUtil
+  nameWithType: ElementUtil
+- uid: ONITwitchLib.Utils.ElementUtil.ElementExistsAndEnabled(Element)
+  name: ElementExistsAndEnabled(Element)
+  href: api/ONITwitchLib.Utils.ElementUtil.html#ONITwitchLib_Utils_ElementUtil_ElementExistsAndEnabled_Element_
+  commentId: M:ONITwitchLib.Utils.ElementUtil.ElementExistsAndEnabled(Element)
+  fullName: ONITwitchLib.Utils.ElementUtil.ElementExistsAndEnabled(Element)
+  nameWithType: ElementUtil.ElementExistsAndEnabled(Element)
+- uid: ONITwitchLib.Utils.ElementUtil.ElementExistsAndEnabled(SimHashes)
+  name: ElementExistsAndEnabled(SimHashes)
+  href: api/ONITwitchLib.Utils.ElementUtil.html#ONITwitchLib_Utils_ElementUtil_ElementExistsAndEnabled_SimHashes_
+  commentId: M:ONITwitchLib.Utils.ElementUtil.ElementExistsAndEnabled(SimHashes)
+  fullName: ONITwitchLib.Utils.ElementUtil.ElementExistsAndEnabled(SimHashes)
+  nameWithType: ElementUtil.ElementExistsAndEnabled(SimHashes)
+- uid: ONITwitchLib.Utils.ElementUtil.ElementExistsAndEnabled(System.String)
+  name: ElementExistsAndEnabled(string)
+  href: api/ONITwitchLib.Utils.ElementUtil.html#ONITwitchLib_Utils_ElementUtil_ElementExistsAndEnabled_System_String_
+  commentId: M:ONITwitchLib.Utils.ElementUtil.ElementExistsAndEnabled(System.String)
+  name.vb: ElementExistsAndEnabled(String)
+  fullName: ONITwitchLib.Utils.ElementUtil.ElementExistsAndEnabled(string)
+  fullName.vb: ONITwitchLib.Utils.ElementUtil.ElementExistsAndEnabled(String)
+  nameWithType: ElementUtil.ElementExistsAndEnabled(string)
+  nameWithType.vb: ElementUtil.ElementExistsAndEnabled(String)
+- uid: ONITwitchLib.Utils.ElementUtil.ElementExistsAndEnabled*
+  name: ElementExistsAndEnabled
+  href: api/ONITwitchLib.Utils.ElementUtil.html#ONITwitchLib_Utils_ElementUtil_ElementExistsAndEnabled_
+  commentId: Overload:ONITwitchLib.Utils.ElementUtil.ElementExistsAndEnabled
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.ElementUtil.ElementExistsAndEnabled
+  nameWithType: ElementUtil.ElementExistsAndEnabled
+- uid: ONITwitchLib.Utils.ElementUtil.FindElementByNameFast(System.String)
+  name: FindElementByNameFast(string)
+  href: api/ONITwitchLib.Utils.ElementUtil.html#ONITwitchLib_Utils_ElementUtil_FindElementByNameFast_System_String_
+  commentId: M:ONITwitchLib.Utils.ElementUtil.FindElementByNameFast(System.String)
+  name.vb: FindElementByNameFast(String)
+  fullName: ONITwitchLib.Utils.ElementUtil.FindElementByNameFast(string)
+  fullName.vb: ONITwitchLib.Utils.ElementUtil.FindElementByNameFast(String)
+  nameWithType: ElementUtil.FindElementByNameFast(string)
+  nameWithType.vb: ElementUtil.FindElementByNameFast(String)
+- uid: ONITwitchLib.Utils.ElementUtil.FindElementByNameFast*
+  name: FindElementByNameFast
+  href: api/ONITwitchLib.Utils.ElementUtil.html#ONITwitchLib_Utils_ElementUtil_FindElementByNameFast_
+  commentId: Overload:ONITwitchLib.Utils.ElementUtil.FindElementByNameFast
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.ElementUtil.FindElementByNameFast
+  nameWithType: ElementUtil.FindElementByNameFast
+- uid: ONITwitchLib.Utils.GridUtil
+  name: GridUtil
+  href: api/ONITwitchLib.Utils.GridUtil.html
+  commentId: T:ONITwitchLib.Utils.GridUtil
+  fullName: ONITwitchLib.Utils.GridUtil
+  nameWithType: GridUtil
+- uid: ONITwitchLib.Utils.GridUtil.ActiveSimCells
+  name: ActiveSimCells()
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_ActiveSimCells
+  commentId: M:ONITwitchLib.Utils.GridUtil.ActiveSimCells
+  fullName: ONITwitchLib.Utils.GridUtil.ActiveSimCells()
+  nameWithType: GridUtil.ActiveSimCells()
+- uid: ONITwitchLib.Utils.GridUtil.ActiveSimCells*
+  name: ActiveSimCells
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_ActiveSimCells_
+  commentId: Overload:ONITwitchLib.Utils.GridUtil.ActiveSimCells
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.GridUtil.ActiveSimCells
+  nameWithType: GridUtil.ActiveSimCells
+- uid: ONITwitchLib.Utils.GridUtil.CellNeighbors
+  name: CellNeighbors
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_CellNeighbors
+  commentId: F:ONITwitchLib.Utils.GridUtil.CellNeighbors
+  fullName: ONITwitchLib.Utils.GridUtil.CellNeighbors
+  nameWithType: GridUtil.CellNeighbors
+- uid: ONITwitchLib.Utils.GridUtil.FindCellOpenToBuilding(System.Int32,BuildingDef,Orientation)
+  name: FindCellOpenToBuilding(int, BuildingDef, Orientation)
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_FindCellOpenToBuilding_System_Int32_BuildingDef_Orientation_
+  commentId: M:ONITwitchLib.Utils.GridUtil.FindCellOpenToBuilding(System.Int32,BuildingDef,Orientation)
+  name.vb: FindCellOpenToBuilding(Integer, BuildingDef, Orientation)
+  fullName: ONITwitchLib.Utils.GridUtil.FindCellOpenToBuilding(int, BuildingDef, Orientation)
+  fullName.vb: ONITwitchLib.Utils.GridUtil.FindCellOpenToBuilding(Integer, BuildingDef, Orientation)
+  nameWithType: GridUtil.FindCellOpenToBuilding(int, BuildingDef, Orientation)
+  nameWithType.vb: GridUtil.FindCellOpenToBuilding(Integer, BuildingDef, Orientation)
+- uid: ONITwitchLib.Utils.GridUtil.FindCellOpenToBuilding*
+  name: FindCellOpenToBuilding
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_FindCellOpenToBuilding_
+  commentId: Overload:ONITwitchLib.Utils.GridUtil.FindCellOpenToBuilding
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.GridUtil.FindCellOpenToBuilding
+  nameWithType: GridUtil.FindCellOpenToBuilding
+- uid: ONITwitchLib.Utils.GridUtil.FindCellWithCavityClearance(System.Int32)
+  name: FindCellWithCavityClearance(int)
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_FindCellWithCavityClearance_System_Int32_
+  commentId: M:ONITwitchLib.Utils.GridUtil.FindCellWithCavityClearance(System.Int32)
+  name.vb: FindCellWithCavityClearance(Integer)
+  fullName: ONITwitchLib.Utils.GridUtil.FindCellWithCavityClearance(int)
+  fullName.vb: ONITwitchLib.Utils.GridUtil.FindCellWithCavityClearance(Integer)
+  nameWithType: GridUtil.FindCellWithCavityClearance(int)
+  nameWithType.vb: GridUtil.FindCellWithCavityClearance(Integer)
+- uid: ONITwitchLib.Utils.GridUtil.FindCellWithCavityClearance*
+  name: FindCellWithCavityClearance
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_FindCellWithCavityClearance_
+  commentId: Overload:ONITwitchLib.Utils.GridUtil.FindCellWithCavityClearance
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.GridUtil.FindCellWithCavityClearance
+  nameWithType: GridUtil.FindCellWithCavityClearance
+- uid: ONITwitchLib.Utils.GridUtil.FindCellWithFoundationClearance(System.Int32)
+  name: FindCellWithFoundationClearance(int)
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_FindCellWithFoundationClearance_System_Int32_
+  commentId: M:ONITwitchLib.Utils.GridUtil.FindCellWithFoundationClearance(System.Int32)
+  name.vb: FindCellWithFoundationClearance(Integer)
+  fullName: ONITwitchLib.Utils.GridUtil.FindCellWithFoundationClearance(int)
+  fullName.vb: ONITwitchLib.Utils.GridUtil.FindCellWithFoundationClearance(Integer)
+  nameWithType: GridUtil.FindCellWithFoundationClearance(int)
+  nameWithType.vb: GridUtil.FindCellWithFoundationClearance(Integer)
+- uid: ONITwitchLib.Utils.GridUtil.FindCellWithFoundationClearance*
+  name: FindCellWithFoundationClearance
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_FindCellWithFoundationClearance_
+  commentId: Overload:ONITwitchLib.Utils.GridUtil.FindCellWithFoundationClearance
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.GridUtil.FindCellWithFoundationClearance
+  nameWithType: GridUtil.FindCellWithFoundationClearance
+- uid: ONITwitchLib.Utils.GridUtil.FloodCollectCells(System.Int32,System.Func{System.Int32,System.Boolean},System.Int32,System.Collections.Generic.HashSet{System.Int32})
+  name: FloodCollectCells(int, Func<int, bool>, int, HashSet<int>)
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_FloodCollectCells_System_Int32_System_Func_System_Int32_System_Boolean__System_Int32_System_Collections_Generic_HashSet_System_Int32__
+  commentId: M:ONITwitchLib.Utils.GridUtil.FloodCollectCells(System.Int32,System.Func{System.Int32,System.Boolean},System.Int32,System.Collections.Generic.HashSet{System.Int32})
+  name.vb: FloodCollectCells(Integer, Func(Of Integer, Boolean), Integer, HashSet(Of Integer))
+  fullName: ONITwitchLib.Utils.GridUtil.FloodCollectCells(int, System.Func<int, bool>, int, System.Collections.Generic.HashSet<int>)
+  fullName.vb: ONITwitchLib.Utils.GridUtil.FloodCollectCells(Integer, System.Func(Of Integer, Boolean), Integer, System.Collections.Generic.HashSet(Of Integer))
+  nameWithType: GridUtil.FloodCollectCells(int, Func<int, bool>, int, HashSet<int>)
+  nameWithType.vb: GridUtil.FloodCollectCells(Integer, Func(Of Integer, Boolean), Integer, HashSet(Of Integer))
+- uid: ONITwitchLib.Utils.GridUtil.FloodCollectCells*
+  name: FloodCollectCells
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_FloodCollectCells_
+  commentId: Overload:ONITwitchLib.Utils.GridUtil.FloodCollectCells
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.GridUtil.FloodCollectCells
+  nameWithType: GridUtil.FloodCollectCells
+- uid: ONITwitchLib.Utils.GridUtil.GetNeighborsInBounds(System.Int32)
+  name: GetNeighborsInBounds(int)
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_GetNeighborsInBounds_System_Int32_
+  commentId: M:ONITwitchLib.Utils.GridUtil.GetNeighborsInBounds(System.Int32)
+  name.vb: GetNeighborsInBounds(Integer)
+  fullName: ONITwitchLib.Utils.GridUtil.GetNeighborsInBounds(int)
+  fullName.vb: ONITwitchLib.Utils.GridUtil.GetNeighborsInBounds(Integer)
+  nameWithType: GridUtil.GetNeighborsInBounds(int)
+  nameWithType.vb: GridUtil.GetNeighborsInBounds(Integer)
+- uid: ONITwitchLib.Utils.GridUtil.GetNeighborsInBounds*
+  name: GetNeighborsInBounds
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_GetNeighborsInBounds_
+  commentId: Overload:ONITwitchLib.Utils.GridUtil.GetNeighborsInBounds
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.GridUtil.GetNeighborsInBounds
+  nameWithType: GridUtil.GetNeighborsInBounds
+- uid: ONITwitchLib.Utils.GridUtil.GetNeighborsWithFoundationClearance(System.Int32)
+  name: GetNeighborsWithFoundationClearance(int)
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_GetNeighborsWithFoundationClearance_System_Int32_
+  commentId: M:ONITwitchLib.Utils.GridUtil.GetNeighborsWithFoundationClearance(System.Int32)
+  name.vb: GetNeighborsWithFoundationClearance(Integer)
+  fullName: ONITwitchLib.Utils.GridUtil.GetNeighborsWithFoundationClearance(int)
+  fullName.vb: ONITwitchLib.Utils.GridUtil.GetNeighborsWithFoundationClearance(Integer)
+  nameWithType: GridUtil.GetNeighborsWithFoundationClearance(int)
+  nameWithType.vb: GridUtil.GetNeighborsWithFoundationClearance(Integer)
+- uid: ONITwitchLib.Utils.GridUtil.GetNeighborsWithFoundationClearance*
+  name: GetNeighborsWithFoundationClearance
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_GetNeighborsWithFoundationClearance_
+  commentId: Overload:ONITwitchLib.Utils.GridUtil.GetNeighborsWithFoundationClearance
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.GridUtil.GetNeighborsWithFoundationClearance
+  nameWithType: GridUtil.GetNeighborsWithFoundationClearance
+- uid: ONITwitchLib.Utils.GridUtil.IsCellEmpty(System.Int32)
+  name: IsCellEmpty(int)
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_IsCellEmpty_System_Int32_
+  commentId: M:ONITwitchLib.Utils.GridUtil.IsCellEmpty(System.Int32)
+  name.vb: IsCellEmpty(Integer)
+  fullName: ONITwitchLib.Utils.GridUtil.IsCellEmpty(int)
+  fullName.vb: ONITwitchLib.Utils.GridUtil.IsCellEmpty(Integer)
+  nameWithType: GridUtil.IsCellEmpty(int)
+  nameWithType.vb: GridUtil.IsCellEmpty(Integer)
+- uid: ONITwitchLib.Utils.GridUtil.IsCellEmpty*
+  name: IsCellEmpty
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_IsCellEmpty_
+  commentId: Overload:ONITwitchLib.Utils.GridUtil.IsCellEmpty
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.GridUtil.IsCellEmpty
+  nameWithType: GridUtil.IsCellEmpty
+- uid: ONITwitchLib.Utils.GridUtil.IsCellFoundationEmpty(System.Int32)
+  name: IsCellFoundationEmpty(int)
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_IsCellFoundationEmpty_System_Int32_
+  commentId: M:ONITwitchLib.Utils.GridUtil.IsCellFoundationEmpty(System.Int32)
+  name.vb: IsCellFoundationEmpty(Integer)
+  fullName: ONITwitchLib.Utils.GridUtil.IsCellFoundationEmpty(int)
+  fullName.vb: ONITwitchLib.Utils.GridUtil.IsCellFoundationEmpty(Integer)
+  nameWithType: GridUtil.IsCellFoundationEmpty(int)
+  nameWithType.vb: GridUtil.IsCellFoundationEmpty(Integer)
+- uid: ONITwitchLib.Utils.GridUtil.IsCellFoundationEmpty*
+  name: IsCellFoundationEmpty
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_IsCellFoundationEmpty_
+  commentId: Overload:ONITwitchLib.Utils.GridUtil.IsCellFoundationEmpty
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.GridUtil.IsCellFoundationEmpty
+  nameWithType: GridUtil.IsCellFoundationEmpty
+- uid: ONITwitchLib.Utils.GridUtil.IterateCellRegion(Game.SimActiveRegion)
+  name: IterateCellRegion(SimActiveRegion)
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_IterateCellRegion_Game_SimActiveRegion_
+  commentId: M:ONITwitchLib.Utils.GridUtil.IterateCellRegion(Game.SimActiveRegion)
+  fullName: ONITwitchLib.Utils.GridUtil.IterateCellRegion(Game.SimActiveRegion)
+  nameWithType: GridUtil.IterateCellRegion(Game.SimActiveRegion)
+- uid: ONITwitchLib.Utils.GridUtil.IterateCellRegion(Vector2I,Vector2I)
+  name: IterateCellRegion(Vector2I, Vector2I)
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_IterateCellRegion_Vector2I_Vector2I_
+  commentId: M:ONITwitchLib.Utils.GridUtil.IterateCellRegion(Vector2I,Vector2I)
+  fullName: ONITwitchLib.Utils.GridUtil.IterateCellRegion(Vector2I, Vector2I)
+  nameWithType: GridUtil.IterateCellRegion(Vector2I, Vector2I)
+- uid: ONITwitchLib.Utils.GridUtil.IterateCellRegion*
+  name: IterateCellRegion
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_IterateCellRegion_
+  commentId: Overload:ONITwitchLib.Utils.GridUtil.IterateCellRegion
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.GridUtil.IterateCellRegion
+  nameWithType: GridUtil.IterateCellRegion
+- uid: ONITwitchLib.Utils.GridUtil.NearestEmptyCell(System.Int32)
+  name: NearestEmptyCell(int)
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_NearestEmptyCell_System_Int32_
+  commentId: M:ONITwitchLib.Utils.GridUtil.NearestEmptyCell(System.Int32)
+  name.vb: NearestEmptyCell(Integer)
+  fullName: ONITwitchLib.Utils.GridUtil.NearestEmptyCell(int)
+  fullName.vb: ONITwitchLib.Utils.GridUtil.NearestEmptyCell(Integer)
+  nameWithType: GridUtil.NearestEmptyCell(int)
+  nameWithType.vb: GridUtil.NearestEmptyCell(Integer)
+- uid: ONITwitchLib.Utils.GridUtil.NearestEmptyCell*
+  name: NearestEmptyCell
+  href: api/ONITwitchLib.Utils.GridUtil.html#ONITwitchLib_Utils_GridUtil_NearestEmptyCell_
+  commentId: Overload:ONITwitchLib.Utils.GridUtil.NearestEmptyCell
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.GridUtil.NearestEmptyCell
+  nameWithType: GridUtil.NearestEmptyCell
+- uid: ONITwitchLib.Utils.MathUtil
+  name: MathUtil
+  href: api/ONITwitchLib.Utils.MathUtil.html
+  commentId: T:ONITwitchLib.Utils.MathUtil
+  fullName: ONITwitchLib.Utils.MathUtil
+  nameWithType: MathUtil
+- uid: ONITwitchLib.Utils.MathUtil.ShortestDistanceModuloOne(System.Single,System.Single)
+  name: ShortestDistanceModuloOne(float, float)
+  href: api/ONITwitchLib.Utils.MathUtil.html#ONITwitchLib_Utils_MathUtil_ShortestDistanceModuloOne_System_Single_System_Single_
+  commentId: M:ONITwitchLib.Utils.MathUtil.ShortestDistanceModuloOne(System.Single,System.Single)
+  name.vb: ShortestDistanceModuloOne(Single, Single)
+  fullName: ONITwitchLib.Utils.MathUtil.ShortestDistanceModuloOne(float, float)
+  fullName.vb: ONITwitchLib.Utils.MathUtil.ShortestDistanceModuloOne(Single, Single)
+  nameWithType: MathUtil.ShortestDistanceModuloOne(float, float)
+  nameWithType.vb: MathUtil.ShortestDistanceModuloOne(Single, Single)
+- uid: ONITwitchLib.Utils.MathUtil.ShortestDistanceModuloOne*
+  name: ShortestDistanceModuloOne
+  href: api/ONITwitchLib.Utils.MathUtil.html#ONITwitchLib_Utils_MathUtil_ShortestDistanceModuloOne_
+  commentId: Overload:ONITwitchLib.Utils.MathUtil.ShortestDistanceModuloOne
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.MathUtil.ShortestDistanceModuloOne
+  nameWithType: MathUtil.ShortestDistanceModuloOne
+- uid: ONITwitchLib.Utils.PosUtil
+  name: PosUtil
+  href: api/ONITwitchLib.Utils.PosUtil.html
+  commentId: T:ONITwitchLib.Utils.PosUtil
+  fullName: ONITwitchLib.Utils.PosUtil
+  nameWithType: PosUtil
+- uid: ONITwitchLib.Utils.PosUtil.CameraMaxWorldPos
+  name: CameraMaxWorldPos()
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_CameraMaxWorldPos
+  commentId: M:ONITwitchLib.Utils.PosUtil.CameraMaxWorldPos
+  fullName: ONITwitchLib.Utils.PosUtil.CameraMaxWorldPos()
+  nameWithType: PosUtil.CameraMaxWorldPos()
+- uid: ONITwitchLib.Utils.PosUtil.CameraMaxWorldPos*
+  name: CameraMaxWorldPos
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_CameraMaxWorldPos_
+  commentId: Overload:ONITwitchLib.Utils.PosUtil.CameraMaxWorldPos
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.PosUtil.CameraMaxWorldPos
+  nameWithType: PosUtil.CameraMaxWorldPos
+- uid: ONITwitchLib.Utils.PosUtil.CameraMinWorldPos
+  name: CameraMinWorldPos()
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_CameraMinWorldPos
+  commentId: M:ONITwitchLib.Utils.PosUtil.CameraMinWorldPos
+  fullName: ONITwitchLib.Utils.PosUtil.CameraMinWorldPos()
+  nameWithType: PosUtil.CameraMinWorldPos()
+- uid: ONITwitchLib.Utils.PosUtil.CameraMinWorldPos*
+  name: CameraMinWorldPos
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_CameraMinWorldPos_
+  commentId: Overload:ONITwitchLib.Utils.PosUtil.CameraMinWorldPos
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.PosUtil.CameraMinWorldPos
+  nameWithType: PosUtil.CameraMinWorldPos
+- uid: ONITwitchLib.Utils.PosUtil.ClampedMouseCell
+  name: ClampedMouseCell()
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_ClampedMouseCell
+  commentId: M:ONITwitchLib.Utils.PosUtil.ClampedMouseCell
+  fullName: ONITwitchLib.Utils.PosUtil.ClampedMouseCell()
+  nameWithType: PosUtil.ClampedMouseCell()
+- uid: ONITwitchLib.Utils.PosUtil.ClampedMouseCell*
+  name: ClampedMouseCell
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_ClampedMouseCell_
+  commentId: Overload:ONITwitchLib.Utils.PosUtil.ClampedMouseCell
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.PosUtil.ClampedMouseCell
+  nameWithType: PosUtil.ClampedMouseCell
+- uid: ONITwitchLib.Utils.PosUtil.ClampedMouseCellWithRange(System.Int32)
+  name: ClampedMouseCellWithRange(int)
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_ClampedMouseCellWithRange_System_Int32_
+  commentId: M:ONITwitchLib.Utils.PosUtil.ClampedMouseCellWithRange(System.Int32)
+  name.vb: ClampedMouseCellWithRange(Integer)
+  fullName: ONITwitchLib.Utils.PosUtil.ClampedMouseCellWithRange(int)
+  fullName.vb: ONITwitchLib.Utils.PosUtil.ClampedMouseCellWithRange(Integer)
+  nameWithType: PosUtil.ClampedMouseCellWithRange(int)
+  nameWithType.vb: PosUtil.ClampedMouseCellWithRange(Integer)
+- uid: ONITwitchLib.Utils.PosUtil.ClampedMouseCellWithRange*
+  name: ClampedMouseCellWithRange
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_ClampedMouseCellWithRange_
+  commentId: Overload:ONITwitchLib.Utils.PosUtil.ClampedMouseCellWithRange
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.PosUtil.ClampedMouseCellWithRange
+  nameWithType: PosUtil.ClampedMouseCellWithRange
+- uid: ONITwitchLib.Utils.PosUtil.ClampedMouseCellWorldPos
+  name: ClampedMouseCellWorldPos()
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_ClampedMouseCellWorldPos
+  commentId: M:ONITwitchLib.Utils.PosUtil.ClampedMouseCellWorldPos
+  fullName: ONITwitchLib.Utils.PosUtil.ClampedMouseCellWorldPos()
+  nameWithType: PosUtil.ClampedMouseCellWorldPos()
+- uid: ONITwitchLib.Utils.PosUtil.ClampedMouseCellWorldPos*
+  name: ClampedMouseCellWorldPos
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_ClampedMouseCellWorldPos_
+  commentId: Overload:ONITwitchLib.Utils.PosUtil.ClampedMouseCellWorldPos
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.PosUtil.ClampedMouseCellWorldPos
+  nameWithType: PosUtil.ClampedMouseCellWorldPos
+- uid: ONITwitchLib.Utils.PosUtil.ClampedMousePosWithRange(System.Int32)
+  name: ClampedMousePosWithRange(int)
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_ClampedMousePosWithRange_System_Int32_
+  commentId: M:ONITwitchLib.Utils.PosUtil.ClampedMousePosWithRange(System.Int32)
+  name.vb: ClampedMousePosWithRange(Integer)
+  fullName: ONITwitchLib.Utils.PosUtil.ClampedMousePosWithRange(int)
+  fullName.vb: ONITwitchLib.Utils.PosUtil.ClampedMousePosWithRange(Integer)
+  nameWithType: PosUtil.ClampedMousePosWithRange(int)
+  nameWithType.vb: PosUtil.ClampedMousePosWithRange(Integer)
+- uid: ONITwitchLib.Utils.PosUtil.ClampedMousePosWithRange*
+  name: ClampedMousePosWithRange
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_ClampedMousePosWithRange_
+  commentId: Overload:ONITwitchLib.Utils.PosUtil.ClampedMousePosWithRange
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.PosUtil.ClampedMousePosWithRange
+  nameWithType: PosUtil.ClampedMousePosWithRange
+- uid: ONITwitchLib.Utils.PosUtil.ClampedMouseWorldPos
+  name: ClampedMouseWorldPos()
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_ClampedMouseWorldPos
+  commentId: M:ONITwitchLib.Utils.PosUtil.ClampedMouseWorldPos
+  fullName: ONITwitchLib.Utils.PosUtil.ClampedMouseWorldPos()
+  nameWithType: PosUtil.ClampedMouseWorldPos()
+- uid: ONITwitchLib.Utils.PosUtil.ClampedMouseWorldPos*
+  name: ClampedMouseWorldPos
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_ClampedMouseWorldPos_
+  commentId: Overload:ONITwitchLib.Utils.PosUtil.ClampedMouseWorldPos
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.PosUtil.ClampedMouseWorldPos
+  nameWithType: PosUtil.ClampedMouseWorldPos
+- uid: ONITwitchLib.Utils.PosUtil.EaseOutBack(System.Single)
+  name: EaseOutBack(float)
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_EaseOutBack_System_Single_
+  commentId: M:ONITwitchLib.Utils.PosUtil.EaseOutBack(System.Single)
+  name.vb: EaseOutBack(Single)
+  fullName: ONITwitchLib.Utils.PosUtil.EaseOutBack(float)
+  fullName.vb: ONITwitchLib.Utils.PosUtil.EaseOutBack(Single)
+  nameWithType: PosUtil.EaseOutBack(float)
+  nameWithType.vb: PosUtil.EaseOutBack(Single)
+- uid: ONITwitchLib.Utils.PosUtil.EaseOutBack*
+  name: EaseOutBack
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_EaseOutBack_
+  commentId: Overload:ONITwitchLib.Utils.PosUtil.EaseOutBack
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.PosUtil.EaseOutBack
+  nameWithType: PosUtil.EaseOutBack
+- uid: ONITwitchLib.Utils.PosUtil.EaseOutLerp(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  name: EaseOutLerp(Vector3, Vector3, float)
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_EaseOutLerp_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_
+  commentId: M:ONITwitchLib.Utils.PosUtil.EaseOutLerp(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  name.vb: EaseOutLerp(Vector3, Vector3, Single)
+  fullName: ONITwitchLib.Utils.PosUtil.EaseOutLerp(UnityEngine.Vector3, UnityEngine.Vector3, float)
+  fullName.vb: ONITwitchLib.Utils.PosUtil.EaseOutLerp(UnityEngine.Vector3, UnityEngine.Vector3, Single)
+  nameWithType: PosUtil.EaseOutLerp(Vector3, Vector3, float)
+  nameWithType.vb: PosUtil.EaseOutLerp(Vector3, Vector3, Single)
+- uid: ONITwitchLib.Utils.PosUtil.EaseOutLerp*
+  name: EaseOutLerp
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_EaseOutLerp_
+  commentId: Overload:ONITwitchLib.Utils.PosUtil.EaseOutLerp
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.PosUtil.EaseOutLerp
+  nameWithType: PosUtil.EaseOutLerp
+- uid: ONITwitchLib.Utils.PosUtil.RandomCellNearMouse
+  name: RandomCellNearMouse()
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_RandomCellNearMouse
+  commentId: M:ONITwitchLib.Utils.PosUtil.RandomCellNearMouse
+  fullName: ONITwitchLib.Utils.PosUtil.RandomCellNearMouse()
+  nameWithType: PosUtil.RandomCellNearMouse()
+- uid: ONITwitchLib.Utils.PosUtil.RandomCellNearMouse*
+  name: RandomCellNearMouse
+  href: api/ONITwitchLib.Utils.PosUtil.html#ONITwitchLib_Utils_PosUtil_RandomCellNearMouse_
+  commentId: Overload:ONITwitchLib.Utils.PosUtil.RandomCellNearMouse
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.PosUtil.RandomCellNearMouse
+  nameWithType: PosUtil.RandomCellNearMouse
+- uid: ONITwitchLib.Utils.StringExtensions
+  name: StringExtensions
+  href: api/ONITwitchLib.Utils.StringExtensions.html
+  commentId: T:ONITwitchLib.Utils.StringExtensions
+  fullName: ONITwitchLib.Utils.StringExtensions
+  nameWithType: StringExtensions
+- uid: ONITwitchLib.Utils.StringExtensions.Colored(System.String,UnityEngine.Color)
+  name: Colored(string, Color)
+  href: api/ONITwitchLib.Utils.StringExtensions.html#ONITwitchLib_Utils_StringExtensions_Colored_System_String_UnityEngine_Color_
+  commentId: M:ONITwitchLib.Utils.StringExtensions.Colored(System.String,UnityEngine.Color)
+  name.vb: Colored(String, Color)
+  fullName: ONITwitchLib.Utils.StringExtensions.Colored(string, UnityEngine.Color)
+  fullName.vb: ONITwitchLib.Utils.StringExtensions.Colored(String, UnityEngine.Color)
+  nameWithType: StringExtensions.Colored(string, Color)
+  nameWithType.vb: StringExtensions.Colored(String, Color)
+- uid: ONITwitchLib.Utils.StringExtensions.Colored*
+  name: Colored
+  href: api/ONITwitchLib.Utils.StringExtensions.html#ONITwitchLib_Utils_StringExtensions_Colored_
+  commentId: Overload:ONITwitchLib.Utils.StringExtensions.Colored
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.StringExtensions.Colored
+  nameWithType: StringExtensions.Colored
+- uid: ONITwitchLib.Utils.WorldUtil
+  name: WorldUtil
+  href: api/ONITwitchLib.Utils.WorldUtil.html
+  commentId: T:ONITwitchLib.Utils.WorldUtil
+  fullName: ONITwitchLib.Utils.WorldUtil
+  nameWithType: WorldUtil
+- uid: ONITwitchLib.Utils.WorldUtil.AddDiagnostic(System.Int32,ColonyDiagnostic,ColonyDiagnosticUtility.DisplaySetting)
+  name: AddDiagnostic(int, ColonyDiagnostic, DisplaySetting)
+  href: api/ONITwitchLib.Utils.WorldUtil.html#ONITwitchLib_Utils_WorldUtil_AddDiagnostic_System_Int32_ColonyDiagnostic_ColonyDiagnosticUtility_DisplaySetting_
+  commentId: M:ONITwitchLib.Utils.WorldUtil.AddDiagnostic(System.Int32,ColonyDiagnostic,ColonyDiagnosticUtility.DisplaySetting)
+  name.vb: AddDiagnostic(Integer, ColonyDiagnostic, DisplaySetting)
+  fullName: ONITwitchLib.Utils.WorldUtil.AddDiagnostic(int, ColonyDiagnostic, ColonyDiagnosticUtility.DisplaySetting)
+  fullName.vb: ONITwitchLib.Utils.WorldUtil.AddDiagnostic(Integer, ColonyDiagnostic, ColonyDiagnosticUtility.DisplaySetting)
+  nameWithType: WorldUtil.AddDiagnostic(int, ColonyDiagnostic, ColonyDiagnosticUtility.DisplaySetting)
+  nameWithType.vb: WorldUtil.AddDiagnostic(Integer, ColonyDiagnostic, ColonyDiagnosticUtility.DisplaySetting)
+- uid: ONITwitchLib.Utils.WorldUtil.AddDiagnostic*
+  name: AddDiagnostic
+  href: api/ONITwitchLib.Utils.WorldUtil.html#ONITwitchLib_Utils_WorldUtil_AddDiagnostic_
+  commentId: Overload:ONITwitchLib.Utils.WorldUtil.AddDiagnostic
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.WorldUtil.AddDiagnostic
+  nameWithType: WorldUtil.AddDiagnostic
+- uid: ONITwitchLib.Utils.WorldUtil.CreateWorldWithTemplate(UnityEngine.GameObject,Vector2I,System.String,System.Action{WorldContainer})
+  name: CreateWorldWithTemplate(GameObject, Vector2I, string, Action<WorldContainer>)
+  href: api/ONITwitchLib.Utils.WorldUtil.html#ONITwitchLib_Utils_WorldUtil_CreateWorldWithTemplate_UnityEngine_GameObject_Vector2I_System_String_System_Action_WorldContainer__
+  commentId: M:ONITwitchLib.Utils.WorldUtil.CreateWorldWithTemplate(UnityEngine.GameObject,Vector2I,System.String,System.Action{WorldContainer})
+  name.vb: CreateWorldWithTemplate(GameObject, Vector2I, String, Action(Of WorldContainer))
+  fullName: ONITwitchLib.Utils.WorldUtil.CreateWorldWithTemplate(UnityEngine.GameObject, Vector2I, string, System.Action<WorldContainer>)
+  fullName.vb: ONITwitchLib.Utils.WorldUtil.CreateWorldWithTemplate(UnityEngine.GameObject, Vector2I, String, System.Action(Of WorldContainer))
+  nameWithType: WorldUtil.CreateWorldWithTemplate(GameObject, Vector2I, string, Action<WorldContainer>)
+  nameWithType.vb: WorldUtil.CreateWorldWithTemplate(GameObject, Vector2I, String, Action(Of WorldContainer))
+- uid: ONITwitchLib.Utils.WorldUtil.CreateWorldWithTemplate*
+  name: CreateWorldWithTemplate
+  href: api/ONITwitchLib.Utils.WorldUtil.html#ONITwitchLib_Utils_WorldUtil_CreateWorldWithTemplate_
+  commentId: Overload:ONITwitchLib.Utils.WorldUtil.CreateWorldWithTemplate
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.WorldUtil.CreateWorldWithTemplate
+  nameWithType: WorldUtil.CreateWorldWithTemplate
+- uid: ONITwitchLib.Utils.WorldUtil.RefreshWorldSelector(System.Nullable{System.Int32})
+  name: RefreshWorldSelector(int?)
+  href: api/ONITwitchLib.Utils.WorldUtil.html#ONITwitchLib_Utils_WorldUtil_RefreshWorldSelector_System_Nullable_System_Int32__
+  commentId: M:ONITwitchLib.Utils.WorldUtil.RefreshWorldSelector(System.Nullable{System.Int32})
+  name.vb: RefreshWorldSelector(Integer?)
+  fullName: ONITwitchLib.Utils.WorldUtil.RefreshWorldSelector(int?)
+  fullName.vb: ONITwitchLib.Utils.WorldUtil.RefreshWorldSelector(Integer?)
+  nameWithType: WorldUtil.RefreshWorldSelector(int?)
+  nameWithType.vb: WorldUtil.RefreshWorldSelector(Integer?)
+- uid: ONITwitchLib.Utils.WorldUtil.RefreshWorldSelector*
+  name: RefreshWorldSelector
+  href: api/ONITwitchLib.Utils.WorldUtil.html#ONITwitchLib_Utils_WorldUtil_RefreshWorldSelector_
+  commentId: Overload:ONITwitchLib.Utils.WorldUtil.RefreshWorldSelector
+  isSpec: "True"
+  fullName: ONITwitchLib.Utils.WorldUtil.RefreshWorldSelector
+  nameWithType: WorldUtil.RefreshWorldSelector
+- uid: ONITwitchLib.WaitTimeOrSignal
+  name: WaitTimeOrSignal
+  href: api/ONITwitchLib.WaitTimeOrSignal.html
+  commentId: T:ONITwitchLib.WaitTimeOrSignal
+  fullName: ONITwitchLib.WaitTimeOrSignal
+  nameWithType: WaitTimeOrSignal
+- uid: ONITwitchLib.WaitTimeOrSignal.#ctor(System.Single,System.Func{System.Boolean})
+  name: WaitTimeOrSignal(float, Func<bool>)
+  href: api/ONITwitchLib.WaitTimeOrSignal.html#ONITwitchLib_WaitTimeOrSignal__ctor_System_Single_System_Func_System_Boolean__
+  commentId: M:ONITwitchLib.WaitTimeOrSignal.#ctor(System.Single,System.Func{System.Boolean})
+  name.vb: New(Single, Func(Of Boolean))
+  fullName: ONITwitchLib.WaitTimeOrSignal.WaitTimeOrSignal(float, System.Func<bool>)
+  fullName.vb: ONITwitchLib.WaitTimeOrSignal.New(Single, System.Func(Of Boolean))
+  nameWithType: WaitTimeOrSignal.WaitTimeOrSignal(float, Func<bool>)
+  nameWithType.vb: WaitTimeOrSignal.New(Single, Func(Of Boolean))
+- uid: ONITwitchLib.WaitTimeOrSignal.#ctor*
+  name: WaitTimeOrSignal
+  href: api/ONITwitchLib.WaitTimeOrSignal.html#ONITwitchLib_WaitTimeOrSignal__ctor_
+  commentId: Overload:ONITwitchLib.WaitTimeOrSignal.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ONITwitchLib.WaitTimeOrSignal.WaitTimeOrSignal
+  fullName.vb: ONITwitchLib.WaitTimeOrSignal.New
+  nameWithType: WaitTimeOrSignal.WaitTimeOrSignal
+  nameWithType.vb: WaitTimeOrSignal.New
+- uid: ONITwitchLib.WaitTimeOrSignal.keepWaiting
+  name: keepWaiting
+  href: api/ONITwitchLib.WaitTimeOrSignal.html#ONITwitchLib_WaitTimeOrSignal_keepWaiting
+  commentId: P:ONITwitchLib.WaitTimeOrSignal.keepWaiting
+  fullName: ONITwitchLib.WaitTimeOrSignal.keepWaiting
+  nameWithType: WaitTimeOrSignal.keepWaiting
+- uid: ONITwitchLib.WaitTimeOrSignal.keepWaiting*
+  name: keepWaiting
+  href: api/ONITwitchLib.WaitTimeOrSignal.html#ONITwitchLib_WaitTimeOrSignal_keepWaiting_
+  commentId: Overload:ONITwitchLib.WaitTimeOrSignal.keepWaiting
+  isSpec: "True"
+  fullName: ONITwitchLib.WaitTimeOrSignal.keepWaiting
+  nameWithType: WaitTimeOrSignal.keepWaiting
