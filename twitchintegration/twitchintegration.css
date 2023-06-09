@@ -1,9 +1,3 @@
 body {
     font-family: sans-serif !important;
 }
-
-/* no border on iframes and make them block elements */
-iframe {
-    display: block;
-    border-style: none;
-}
