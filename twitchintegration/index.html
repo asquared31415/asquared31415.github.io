@@ -20,24 +20,27 @@
     <hr>
     <div id="main" class="container-fluid my-3 justify-content-center">
         <div class="row justify-content-center">
-            <!--
-                mb-1 mb-md-0 adds a bottom margin to separate the buttons when they're stacked
-                but removes that margin when they are not stacked
-
-                the buttons should add to more than 12 columns only when they are meant to be stacked
-            -->
-            <a class="btn btn-primary btn-lg mx-1 mb-1 mb-md-0 col-10 col-sm-8 col-md-4 col-lg-3 col-xxl-2"
-                href="https://steamcommunity.com/sharedfiles/filedetails/?id=2983351482" target="_blank"
-                rel="noopener noreferrer">Steam Workshop Link</a>
-            <a class="btn btn-primary btn-lg mx-1 col-10 col-sm-8 col-md-2 col-lg-1"
-                href="https://id.twitch.tv/oauth2/authorize?client_id=g2fyk2spobjdks7i320ernxtrmig38&redirect_uri=https://asquared31415.github.io/twitchintegration/login.html&response_type=token&scope=user:read:email+chat:read+chat:edit">
-                Twitch Login</a>
+            <div class="col-12 col-sm-8 col-md-6">
+                <div class="alert alert-primary">
+                    <h3>The Twitch Integration mod will be releasing on Saturday, June 10th, at 12:00PM (noon) EDT</h3>
+                    <p>Here's that time in your time zone: <span><a
+                                href="https://www.tickcounter.com/countdown/4191235/" target="_blank"
+                                rel="noopener noreferrer">Countdown</a></span></p>
+                </div>
+                <div class="alert alert-secondary">
+                    <p>More information and links will be available on release.</p>
+                </div>
+            </div>
         </div>
         <br><br>
 
         <div class="row justify-content-center">
             <div id="description" class="col-12 col-sm-8 col-md-6">
                 <section id="intro">
+                    <div class="alert alert-success">
+                        For more info and to get announcements: join the <a href="https://discord.gg/XbQ2xzZNsD"
+                            target="_blank" rel="noopener noreferrer">Discord</a>!
+                    </div>
                     <h3>How It Works</h3>
                     <p>
                         The Twitch Integration mod for Oxygen Not Included allows viewers to affect a streamer's colony
@@ -50,117 +53,14 @@
                         After the voting time ends, the event with the most votes will be chosen. The chosen event will
                         begin immediately when the voting time ends.
                     </p>
-                    <div class="alert alert-secondary">
-                        Note: some events have an inherent delay, and even if it looks like
-                        nothing is happening, it's likely processing in the background.
-                    </div>
                     <p>
                         If two or more options are tied for the most votes, one of the tied votes is chosen at random.
                         If all options have 0 votes, nothing happens.
                     </p>
                 </section>
-                <section id="getting_started">
-                    <h3>How Do I Start?</h3>
-                    <div class="alert alert-success">
-                        For more info and for help: join the <a href="https://discord.gg/XbQ2xzZNsD" target="_blank"
-                            rel="noopener noreferrer">Discord</a>!
-                    </div>
-                    <ol type="1">
-                        <li>
-                            Download the mod using the link at the top of the page. Then launch Oxygen Not Included, go
-                            to the Mods menu, and click the checkmark to enable the mod. Close the mod menu and let the
-                            game restart.
-                        </li>
-                        <li>
-                            Configure the mod to be able to chat on your behalf. <b>This step must be done in
-                                private!</b> If anyone sees the right information during this step, they could send
-                            messages as if they were you!
-                            <ol type="a">
-                                <li>
-                                    Log in to Twitch with the account that you want to send messages. This should be a
-                                    broadcaster, mod, or VIP account, to make sure that it can bypass automod or similar
-                                    filters.
-                                </li>
-                                <li>
-                                    Get the login token for the account by clicking the Login button at the top of this
-                                    page.
-                                </li>
-                                <li>
-                                    Open the mods folder:
-                                    <ul>
-                                        <li>
-                                            Windows:
-                                            <code>%USERPROFILE%\Documents\Klei\OxygenNotIncluded\mods\Steam\2983351482</code>
-                                        </li>
-                                        <li>
-                                            Linux:
-                                            <code>~/.config/unity3d/Klei/OxygenNotIncluded/mods/Steam/2983351482</code>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    Open <code>SECRET_credentials.json</code> in a text editor, like Notepad.
-                                </li>
-                                <li>
-                                    Put the username and login token into the file. It should look like<br>
-                                    <code>{"Nick":"MyTwitchUsername", "Oauth":"oauth:XXXXXXXXXXXXXXX"}</code>.
-                                </li>
-                                <li>Restart the game if it was open.</li>
-                            </ol>
-                        </li>
-                        <li>
-                            Configure the mod to interact with your channel by going to the Mods menu, and clicking the
-                            Settings button that is next to the Twitch Integration mod.
-                            <ol type="a">
-                                <li>
-                                    Enter your channel name in <code>Channel Name</code>. This is the channel that the
-                                    game will look at for votes and send messages to.
-                                </li>
-                                <li>
-                                    Set <code>Time Between Votes</code> to the amount of time you would like to pass
-                                    between each vote. A single cycle in ONI at 1x speed is 600 seconds.
-                                </li>
-                                <li>
-                                    Set <code>Voting Time</code> to the amount of time chatters should have to vote.
-                                </li>
-                                <li>
-                                    Set <code>Min Danger</code> and <code>Max Danger</code> to control the difficulty.
-                                    Hover over one of the options to see a description.
-                                </li>
-                                <li>
-                                    Set any other non-critical settings that you would like. You can ignore the Edit
-                                    Config menu for now.
-                                </li>
-                                <li>Changes in this menu immediately apply when you press <code>Apply</code>.</li>
-                            </ol>
-                        </li>
-                        <li>
-                            To begin votes, enter any game, and open the pause menu. Click the purple
-                            <code>Start Voting</code> button to begin.
-                        </li>
-                    </ol>
-                </section>
-                <section id="help">
-                    <h3>Help, Something Broke!</h3>
-                    <div class="alert alert-danger">Join the <a href="https://discord.gg/XbQ2xzZNsD" target="_blank"
-                            rel="noopener noreferrer">Discord</a> for support.</div>
-                </section>
             </div>
         </div>
     </div>
-    <footer class="row mt-5 mb-4 mx-2 flex-wrap justify-content-center" role="group">
-        <!--
-            mb-3 mb-md-0 adds a bottom margin to separate the buttons when they're stacked
-            but removes that margin when they are not stacked
-
-            the buttons should add to more than 12 columns only when they are meant to be stacked
-        -->
-        <a class="btn btn-outline-success mb-3 mb-md-0 mx-1 col-12 col-sm-8 col-md-2 col-lg-1" href="config/">Config</a>
-        <a class="btn btn-outline-secondary mb-3 mb-md-0 mx-1 col-12 col-sm-8 col-md-4 col-lg-3 col-xxl-2"
-            href="dev_docs/">Developer Documentation</a>
-        <a class="btn btn-outline-secondary mb-3 mb-md-0 mx-1 col-12 col-sm-8 col-md-2 col-lg-1"
-            href="https://github.com/asquared31415/ONITwitch">GitHub</a>
-    </footer>
 </body>
 
 </html>
