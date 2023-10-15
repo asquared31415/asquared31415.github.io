@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>1.2.0 (2023-TODO-TODO) </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="1.2.0 (2023-TODO-TODO) ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/asquared31415/ONITwitch/blob/1.2.0-beta/changelogs/1.2.0.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="120-2023-todo-todo">1.2.0 (2023-TODO-TODO)</h1>
+
+<h2 id="additions">Additions</h2>
+<ul>
+<li>Add a list of names that will not be used to name a dupe. By default this includes several commonly used Twitch bots.
+<ul>
+<li>note: For the time being, this can only be configured in the config file.</li>
+</ul>
+</li>
+<li>A new &quot;Light Sensitivity Mode&quot; has been added that removes some effects that may cause eye strain.</li>
+<li>New settings are now shown on a message on the Mods button.</li>
+<li>Poisoned duplicants now have a status item that shows how much longer the poison lasts.</li>
+<li>Geysers tuned by chat now have a status item that shows that they have been tuned.</li>
+</ul>
+<h2 id="fixes">Fixes</h2>
+<ul>
+<li>Fixed a crash that could happen on load when using two different mods with the same assembly.</li>
+<li>Fix a crash that happened when a geotuner was added to a geyser that was tuned by the mod.</li>
+<li>Surprise Box no longer moves the camera when it is opened immediately after clicking its toast.</li>
+<li>Several useless objects removed from Surprise Box.</li>
+<li>Unimplemented elements removed from the Surprise Box due to crashes when the resource is pinned.
+<ul>
+<li>These elements generally weren't useful either besides their thermal properties in rare cases.</li>
+</ul>
+</li>
+<li>Mini-Pods and rocket platforms can no longer be placed in a pocket dimension.</li>
+<li>Duplicants that leave a pocket dimension no longer play their falling animation for longer than they should.</li>
+<li>Attempt to fix bug causing duplicants leaving a pocket dimension to sometimes teleport to the bottom of the world.</li>
+<li>Pocket Dimensions no longer show &quot;Space Exposure&quot; when they are not exposed to space.</li>
+<li>Pocket Dimensions that show &quot;Space Exposure&quot; are now actually exposed to space.</li>
+<li>Pocket Dimensions should no longer leave &quot;unknown&quot; tiles at incorrect locations.</li>
+<li>Extremely warm and over-pressurized elements no longer break out of their protective cage.</li>
+</ul>
+<h2 id="changes">Changes</h2>
+<ul>
+<li>Temporary geyser tuning now applies a much more extreme effect. (3x as strong)</li>
+<li>Surprise Box now spawns elements at their default mass and temperature (as if you had selected them in sandbox tools).
+<ul>
+<li>This should resolve issues where elements were instantly turning to a solid or gas tile, they should now slowly exchange temperature as debris first.</li>
+</ul>
+</li>
+<li>Several messages changed for clarity.</li>
+</ul>
+<h2 id="mod-support">Mod Support</h2>
+<ul>
+<li>Pop-up toasts can now specify a camera zoom level to use when they are clicked.</li>
+<li>Pocket Dimension entities have a tag that can be used to identify them from a <code>WorldContainer</code></li>
+<li>Unimplemented Pocket Dimension generation API removed (it was never able to be used anyway).</li>
+<li>Twitch Integration dev tools slightly tweaked, notably searching for an event now only searches the <em>non-namespaced</em> ID.
+<ul>
+<li>Surprise Box dev tools show the proper name and tag of an entry and are sorted by tag.</li>
+</ul>
+</li>
+<li>Settings from the Twitch Integration mod are now available to other mods.
+<ul>
+<li>There is a <code>bool PhotosensitiveMode</code> setting which, if <code>true</code>, should disable any events that may cause eye strain or use intense or rapidly changing lights or colors</li>
+</ul>
+</li>
+</ul>
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/asquared31415/ONITwitch/blob/1.2.0-beta/changelogs/1.2.0.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

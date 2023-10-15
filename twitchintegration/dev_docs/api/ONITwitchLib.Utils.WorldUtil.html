@@ -1,88 +1,128 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
-
   <head>
     <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Class WorldUtil
  </title>
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class WorldUtil
  ">
-    
-      <link rel="shortcut icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
-      <link rel="stylesheet" href="../styles/docfx.css">
-      <link rel="stylesheet" href="../styles/main.css">
-      <meta property="docfx:navrel" content="../toc.html">
-      <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/asquared31415/ONITwitch/new/1.2.0-beta/apiSpec/new?filename=ONITwitchLib_Utils_WorldUtil.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.WorldUtil%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
 
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
 
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
-              </a>
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
+      </nav>
+    </header>
 
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ONITwitchLib.Utils.WorldUtil">
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ONITwitchLib.Utils.WorldUtil">
 
 
 
-  <h1 id="ONITwitchLib_Utils_WorldUtil" data-uid="ONITwitchLib.Utils.WorldUtil" class="text-break">Class WorldUtil
-</h1>
-  <div class="markdown level0 summary"><p>Utilities for working with worlds.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">WorldUtil</span></div>
+  <h1 id="ONITwitchLib_Utils_WorldUtil" data-uid="ONITwitchLib.Utils.WorldUtil" class="text-break">
+    Class WorldUtil
+  <a class="header-action link-secondary" title="View source" href="https://github.com/asquared31415/ONITwitch/blob/1.2.0-beta/ONITwitchLib/Utils/WorldUtil.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ONITwitchLib.html">ONITwitchLib</a>.<a class="xref" href="ONITwitchLib.Utils.html">Utils</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ONITwitchLib.dll</dd></dl>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
+
+  <div class="markdown summary"><p>Utilities for working with worlds.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public static class WorldUtil</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">WorldUtil</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -104,209 +144,208 @@
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ONITwitchLib.html">ONITwitchLib</a>.<a class="xref" href="ONITwitchLib.Utils.html">Utils</a></h6>
-  <h6><strong>Assembly</strong>: ONITwitchLib.dll</h6>
-  <h5 id="ONITwitchLib_Utils_WorldUtil_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[PublicAPI]
-public static class WorldUtil</code></pre>
-  </div>
-  <h3 id="methods">Methods
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_WorldUtil_AddDiagnostic_System_Int32_ColonyDiagnostic_ColonyDiagnosticUtility_DisplaySetting_.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.WorldUtil.AddDiagnostic(System.Int32%2CColonyDiagnostic%2CColonyDiagnosticUtility.DisplaySetting)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/WorldUtil.cs/#L122">View Source</a>
-  </span>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
   <a id="ONITwitchLib_Utils_WorldUtil_AddDiagnostic_" data-uid="ONITwitchLib.Utils.WorldUtil.AddDiagnostic*"></a>
-  <h4 id="ONITwitchLib_Utils_WorldUtil_AddDiagnostic_System_Int32_ColonyDiagnostic_ColonyDiagnosticUtility_DisplaySetting_" data-uid="ONITwitchLib.Utils.WorldUtil.AddDiagnostic(System.Int32,ColonyDiagnostic,ColonyDiagnosticUtility.DisplaySetting)">AddDiagnostic(int, ColonyDiagnostic, DisplaySetting)</h4>
+
+  <h3 id="ONITwitchLib_Utils_WorldUtil_AddDiagnostic_System_Int32_ColonyDiagnostic_ColonyDiagnosticUtility_DisplaySetting_" data-uid="ONITwitchLib.Utils.WorldUtil.AddDiagnostic(System.Int32,ColonyDiagnostic,ColonyDiagnosticUtility.DisplaySetting)">
+  AddDiagnostic(int, ColonyDiagnostic, DisplaySetting)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/asquared31415/ONITwitch/blob/1.2.0-beta/ONITwitchLib/Utils/WorldUtil.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Adds a diagnostic to a world.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[PublicAPI]
 public static void AddDiagnostic(int worldIdx, ColonyDiagnostic diagnostic, ColonyDiagnosticUtility.DisplaySetting displaySetting = DisplaySetting.AlertOnly)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">worldIdx</span></td>
-        <td><p>The index of the world to add to.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">ColonyDiagnostic</span></td>
-        <td><span class="parametername">diagnostic</span></td>
-        <td><p>The diagnostic to add.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">ColonyDiagnosticUtility</span>.<span class="xref">DisplaySetting</span></td>
-        <td><span class="parametername">displaySetting</span></td>
-        <td><p>When to display the diagnostic in the world selector.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_WorldUtil_CreateWorldWithTemplate_UnityEngine_GameObject_Vector2I_System_String_System_Action_WorldContainer__.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.WorldUtil.CreateWorldWithTemplate(UnityEngine.GameObject%2CVector2I%2CSystem.String%2CSystem.Action%7BWorldContainer%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/WorldUtil.cs/#L25">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>worldIdx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The index of the world to add to.</p>
+</dd>
+    <dt><code>diagnostic</code> <span class="xref">ColonyDiagnostic</span></dt>
+    <dd><p>The diagnostic to add.</p>
+</dd>
+    <dt><code>displaySetting</code> <span class="xref">ColonyDiagnosticUtility</span>.<span class="xref">DisplaySetting</span></dt>
+    <dd><p>When to display the diagnostic in the world selector.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="ONITwitchLib_Utils_WorldUtil_CreateWorldWithTemplate_" data-uid="ONITwitchLib.Utils.WorldUtil.CreateWorldWithTemplate*"></a>
-  <h4 id="ONITwitchLib_Utils_WorldUtil_CreateWorldWithTemplate_UnityEngine_GameObject_Vector2I_System_String_System_Action_WorldContainer__" data-uid="ONITwitchLib.Utils.WorldUtil.CreateWorldWithTemplate(UnityEngine.GameObject,Vector2I,System.String,System.Action{WorldContainer})">CreateWorldWithTemplate(GameObject, Vector2I, string, Action&lt;WorldContainer&gt;)</h4>
-  <div class="markdown level1 summary"><p>Allocates <span class="xref">Grid</span> space for a world and creates the world with a template, calling the callback once the template is placed.</p>
+
+  <h3 id="ONITwitchLib_Utils_WorldUtil_CreateWorldWithTemplate_UnityEngine_GameObject_Vector2I_System_String_System_Action_WorldContainer__" data-uid="ONITwitchLib.Utils.WorldUtil.CreateWorldWithTemplate(UnityEngine.GameObject,Vector2I,System.String,System.Action{WorldContainer})">
+  CreateWorldWithTemplate(GameObject, Vector2I, string, Action&lt;WorldContainer&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/asquared31415/ONITwitch/blob/1.2.0-beta/ONITwitchLib/Utils/WorldUtil.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Allocates <span class="xref">Grid</span> space for a world and creates the world with a template, calling the callback once
+the template is placed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[PublicAPI]
 [CanBeNull]
 public static WorldContainer CreateWorldWithTemplate(GameObject worldGo, Vector2I size, string template, Action&lt;WorldContainer&gt; callback = null)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">worldGo</span></td>
-        <td><p>The object that is an instance of a <span class="xref">ClusterGridEntity</span> to set up as the world.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Vector2I</span></td>
-        <td><span class="parametername">size</span></td>
-        <td><p>The size of the world to create, in cells.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">template</span></td>
-        <td><p>The template to place in the world.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">WorldContainer</span>&gt;</td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>If present, the callback to call after placing the template.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">WorldContainer</span></td>
-        <td><p>The <span class="xref">WorldContainer</span> for the newly created world.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_WorldUtil_RefreshWorldSelector_System_Nullable_System_Int32__.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.WorldUtil.RefreshWorldSelector(System.Nullable%7BSystem.Int32%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/WorldUtil.cs/#L68">View Source</a>
-  </span>
-  <a id="ONITwitchLib_Utils_WorldUtil_RefreshWorldSelector_" data-uid="ONITwitchLib.Utils.WorldUtil.RefreshWorldSelector*"></a>
-  <h4 id="ONITwitchLib_Utils_WorldUtil_RefreshWorldSelector_System_Nullable_System_Int32__" data-uid="ONITwitchLib.Utils.WorldUtil.RefreshWorldSelector(System.Nullable{System.Int32})">RefreshWorldSelector(int?)</h4>
-  <div class="markdown level1 summary"><p>Refreshes the specified world index in the world selector, or refreshes the entire selector if no index is provided.</p>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>worldGo</code> <span class="xref">GameObject</span></dt>
+    <dd><p>The object that is an instance of a <span class="xref">ClusterGridEntity</span> to set up as the world.</p>
+</dd>
+    <dt><code>size</code> <span class="xref">Vector2I</span></dt>
+    <dd><p>The size of the world to create, in cells.</p>
+</dd>
+    <dt><code>template</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The template to place in the world.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">WorldContainer</span>&gt;</dt>
+    <dd><p>If present, the callback to call after placing the template.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">WorldContainer</span></dt>
+    <dd><p>The <span class="xref">WorldContainer</span> for the newly created world.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="ONITwitchLib_Utils_WorldUtil_CreateWorldWithTemplate_UnityEngine_GameObject_Vector2I_System_String_System_Action_WorldContainer___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Important notes for modder usage:<br>
+The <code>WorldContainer</code> does not have an <code>overworldCell</code> set. You should set that field
+and add the cell to <code>SaveLoader.Instance.clusterDetailSave.overworldCells</code>.<br>
+None of the <code>Grid</code> is revealed. Use <code>GridVisibility.Reveal</code> or <code>Grid.Reveal</code> to reveal the grid.</p>
+</div>
+
+
+
+
+  <a id="ONITwitchLib_Utils_WorldUtil_FreeGridSpace_" data-uid="ONITwitchLib.Utils.WorldUtil.FreeGridSpace*"></a>
+
+  <h3 id="ONITwitchLib_Utils_WorldUtil_FreeGridSpace_Vector2I_Vector2I_" data-uid="ONITwitchLib.Utils.WorldUtil.FreeGridSpace(Vector2I,Vector2I)">
+  FreeGridSpace(Vector2I, Vector2I)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/asquared31415/ONITwitch/blob/1.2.0-beta/ONITwitchLib/Utils/WorldUtil.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Frees grid space for a world. This is a version of Grid.FreeGridSpace that actually functions to clear some
+properties of the cells, to avoid bugs where the solid property is not properly cleared.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FreeGridSpace(Vector2I size, Vector2I offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>size</code> <span class="xref">Vector2I</span></dt>
+    <dd><p>The size of the space to clear, in cells.</p>
+</dd>
+    <dt><code>offset</code> <span class="xref">Vector2I</span></dt>
+    <dd><p>The starting offset of the space to clear, in cells.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ONITwitchLib_Utils_WorldUtil_RefreshWorldSelector_" data-uid="ONITwitchLib.Utils.WorldUtil.RefreshWorldSelector*"></a>
+
+  <h3 id="ONITwitchLib_Utils_WorldUtil_RefreshWorldSelector_System_Nullable_System_Int32__" data-uid="ONITwitchLib.Utils.WorldUtil.RefreshWorldSelector(System.Nullable{System.Int32})">
+  RefreshWorldSelector(int?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/asquared31415/ONITwitch/blob/1.2.0-beta/ONITwitchLib/Utils/WorldUtil.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Refreshes the specified world index in the world selector, or refreshes the entire selector if no index is
+provided.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[PublicAPI]
 public static void RefreshWorldSelector(int? worldIndex = null)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</td>
-        <td><span class="parametername">worldIndex</span></td>
-        <td><p>The index of the world to refresh.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>worldIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The index of the world to refresh.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
-          </div>
 
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_WorldUtil.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.WorldUtil%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/WorldUtil.cs/#L14" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
-          </div>
+        <div class="contribution d-print-none">
+          <a href="https://github.com/asquared31415/ONITwitch/blob/1.2.0-beta/ONITwitchLib/Utils/WorldUtil.cs/#L14" class="edit-link">Edit this page</a>
         </div>
+
+        
       </div>
 
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-      
-      <span>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
-    </div>
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

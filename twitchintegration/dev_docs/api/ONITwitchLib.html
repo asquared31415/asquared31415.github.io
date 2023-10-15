@@ -1,155 +1,193 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
-
   <head>
     <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Namespace ONITwitchLib
  </title>
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Namespace ONITwitchLib
  ">
-    
-      <link rel="shortcut icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
-      <link rel="stylesheet" href="../styles/docfx.css">
-      <link rel="stylesheet" href="../styles/main.css">
-      <meta property="docfx:navrel" content="../toc.html">
-      <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
 
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
 
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
-              </a>
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
+      </nav>
+    </header>
 
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ONITwitchLib">
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ONITwitchLib">
 
   <h1 id="ONITwitchLib" data-uid="ONITwitchLib" class="text-break">Namespace ONITwitchLib
 </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+
+    <h3 id="classes">
+Classes
 </h3>
-      <h4><a class="xref" href="ONITwitchLib.DataManager.html">DataManager</a></h4>
-      <section><p>Provides methods to manipulate data of <a class="xref" href="ONITwitchLib.EventInfo.html">EventInfo</a>s</p>
-</section>
-      <h4><a class="xref" href="ONITwitchLib.EventGroup.html">EventGroup</a></h4>
-      <section><p>A group of associated <a class="xref" href="ONITwitchLib.EventInfo.html">EventInfo</a>s with relative weights.
+    <dl class="jumplist">
+      <dt><a class="xref" href="ONITwitchLib.DataManager.html">DataManager</a></dt>
+      <dd><p>Provides methods to manipulate data of <a class="xref" href="ONITwitchLib.EventInfo.html">EventInfo</a>s</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ONITwitchLib.DeleteOnSpawn.html">DeleteOnSpawn</a></dt>
+      <dd><p>Deletes an object immediately upon spawning.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ONITwitchLib.EventGroup.html">EventGroup</a></dt>
+      <dd><p>A group of associated <a class="xref" href="ONITwitchLib.EventInfo.html">EventInfo</a>s with relative weights.
 <a class="xref" href="ONITwitchLib.EventInfo.html">EventInfo</a>s in an <a class="xref" href="ONITwitchLib.EventGroup.html">EventGroup</a> will attempt to be spread out for variety.</p>
-</section>
-      <h4><a class="xref" href="ONITwitchLib.EventInfo.html">EventInfo</a></h4>
-      <section><p>Represents an event that is known to the <a class="xref" href="ONITwitchLib.EventManager.html">EventManager</a>.</p>
-</section>
-      <h4><a class="xref" href="ONITwitchLib.EventManager.html">EventManager</a></h4>
-      <section><p>Provides a way to obtain a method by its id.</p>
-</section>
-      <h4><a class="xref" href="ONITwitchLib.ExtraTags.html">ExtraTags</a></h4>
-      <section><p>Additional tags that the Twitch mod uses</p>
-</section>
-      <h4><a class="xref" href="ONITwitchLib.ListExt.html">ListExt</a></h4>
-      <section><p>Provides additional utilities for working with lists.</p>
-</section>
-      <h4><a class="xref" href="ONITwitchLib.ThreadRandom.html">ThreadRandom</a></h4>
-      <section><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.random">Random</a> that is safe to use from any thread.</p>
-</section>
-      <h4><a class="xref" href="ONITwitchLib.ToastManager.html">ToastManager</a></h4>
-      <section><p>Provides methods for creating toasts.</p>
-</section>
-      <h4><a class="xref" href="ONITwitchLib.TwitchModInfo.html">TwitchModInfo</a></h4>
-      <section><p>Various information about the Twitch mod, primarily for integrations.</p>
-</section>
-      <h4><a class="xref" href="ONITwitchLib.WaitTimeOrSignal.html">WaitTimeOrSignal</a></h4>
-      <section><p>A class for use in Unity coroutines that continues execution after a duration has elapsed, or a function signals
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ONITwitchLib.EventInfo.html">EventInfo</a></dt>
+      <dd><p>Represents an event that is known to the <a class="xref" href="ONITwitchLib.EventManager.html">EventManager</a>.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ONITwitchLib.EventManager.html">EventManager</a></dt>
+      <dd><p>Provides a way to obtain a method by its id.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ONITwitchLib.ExtraTags.html">ExtraTags</a></dt>
+      <dd><p>Additional tags that the Twitch mod uses</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ONITwitchLib.ListExt.html">ListExt</a></dt>
+      <dd><p>Provides additional utilities for working with lists.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ONITwitchLib.ThreadRandom.html">ThreadRandom</a></dt>
+      <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.random">Random</a> that is safe to use from any thread.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ONITwitchLib.ToastManager.html">ToastManager</a></dt>
+      <dd><p>Provides methods for creating toasts.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ONITwitchLib.TwitchModInfo.html">TwitchModInfo</a></dt>
+      <dd><p>Various information about the Twitch mod, primarily for integrations.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ONITwitchLib.TwitchSimHashes.html">TwitchSimHashes</a></dt>
+      <dd><p>SimHashes for the Twitch mod.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ONITwitchLib.WaitTimeOrSignal.html">WaitTimeOrSignal</a></dt>
+      <dd><p>A class for use in Unity coroutines that continues execution after a duration has elapsed, or a function signals
 to continue, whichever comes first.</p>
-</section>
-    <h3 id="enums">Enums
+</dd>
+    </dl>
+    <h3 id="enums">
+Enums
 </h3>
-      <h4><a class="xref" href="ONITwitchLib.Danger.html">Danger</a></h4>
-      <section><p>Represents how much harm an <a class="xref" href="ONITwitchLib.EventInfo.html">EventInfo</a> can do.
+    <dl class="jumplist">
+      <dt><a class="xref" href="ONITwitchLib.Danger.html">Danger</a></dt>
+      <dd><p>Represents how much harm an <a class="xref" href="ONITwitchLib.EventInfo.html">EventInfo</a> can do.
 This estimate should be a reasonable maximum and should take into account both short-term and long-term consequences.</p>
-</section>
+</dd>
+    </dl>
 
 
 </article>
-          </div>
 
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
-          </div>
+        <div class="contribution d-print-none">
         </div>
+
+        
       </div>
 
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-      
-      <span>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
-    </div>
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
