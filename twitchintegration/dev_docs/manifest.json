@@ -65,6 +65,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "changelogs/1.2.3.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelogs/1.2.3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "changelogs/betas/1.2.0-beta.1.md",
       "output": {
         ".html": {
@@ -325,6 +335,26 @@
         },
         ".json": {
           "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ONITwitchLib/ONITwitchLib.Consts.EventWeight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Consts.EventWeight.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ONITwitchLib/ONITwitchLib.Consts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ONITwitchLib.Consts.html"
         }
       },
       "version": ""

@@ -7,6 +7,60 @@ references:
   commentId: N:ONITwitchLib
   fullName: ONITwitchLib
   nameWithType: ONITwitchLib
+- uid: ONITwitchLib.Consts
+  name: Consts
+  href: api/ONITwitchLib.Consts.html
+  commentId: T:ONITwitchLib.Consts
+  fullName: ONITwitchLib.Consts
+  nameWithType: Consts
+- uid: ONITwitchLib.Consts.EventWeight
+  name: Consts.EventWeight
+  href: api/ONITwitchLib.Consts.EventWeight.html
+  commentId: T:ONITwitchLib.Consts.EventWeight
+  fullName: ONITwitchLib.Consts.EventWeight
+  nameWithType: Consts.EventWeight
+- uid: ONITwitchLib.Consts.EventWeight.AlmostNever
+  name: AlmostNever
+  href: api/ONITwitchLib.Consts.EventWeight.html#ONITwitchLib_Consts_EventWeight_AlmostNever
+  commentId: F:ONITwitchLib.Consts.EventWeight.AlmostNever
+  fullName: ONITwitchLib.Consts.EventWeight.AlmostNever
+  nameWithType: Consts.EventWeight.AlmostNever
+- uid: ONITwitchLib.Consts.EventWeight.Common
+  name: Common
+  href: api/ONITwitchLib.Consts.EventWeight.html#ONITwitchLib_Consts_EventWeight_Common
+  commentId: F:ONITwitchLib.Consts.EventWeight.Common
+  fullName: ONITwitchLib.Consts.EventWeight.Common
+  nameWithType: Consts.EventWeight.Common
+- uid: ONITwitchLib.Consts.EventWeight.Frequent
+  name: Frequent
+  href: api/ONITwitchLib.Consts.EventWeight.html#ONITwitchLib_Consts_EventWeight_Frequent
+  commentId: F:ONITwitchLib.Consts.EventWeight.Frequent
+  fullName: ONITwitchLib.Consts.EventWeight.Frequent
+  nameWithType: Consts.EventWeight.Frequent
+- uid: ONITwitchLib.Consts.EventWeight.Never
+  name: Never
+  href: api/ONITwitchLib.Consts.EventWeight.html#ONITwitchLib_Consts_EventWeight_Never
+  commentId: F:ONITwitchLib.Consts.EventWeight.Never
+  fullName: ONITwitchLib.Consts.EventWeight.Never
+  nameWithType: Consts.EventWeight.Never
+- uid: ONITwitchLib.Consts.EventWeight.Rare
+  name: Rare
+  href: api/ONITwitchLib.Consts.EventWeight.html#ONITwitchLib_Consts_EventWeight_Rare
+  commentId: F:ONITwitchLib.Consts.EventWeight.Rare
+  fullName: ONITwitchLib.Consts.EventWeight.Rare
+  nameWithType: Consts.EventWeight.Rare
+- uid: ONITwitchLib.Consts.EventWeight.Uncommon
+  name: Uncommon
+  href: api/ONITwitchLib.Consts.EventWeight.html#ONITwitchLib_Consts_EventWeight_Uncommon
+  commentId: F:ONITwitchLib.Consts.EventWeight.Uncommon
+  fullName: ONITwitchLib.Consts.EventWeight.Uncommon
+  nameWithType: Consts.EventWeight.Uncommon
+- uid: ONITwitchLib.Consts.EventWeight.VeryRare
+  name: VeryRare
+  href: api/ONITwitchLib.Consts.EventWeight.html#ONITwitchLib_Consts_EventWeight_VeryRare
+  commentId: F:ONITwitchLib.Consts.EventWeight.VeryRare
+  fullName: ONITwitchLib.Consts.EventWeight.VeryRare
+  nameWithType: Consts.EventWeight.VeryRare
 - uid: ONITwitchLib.Core
   name: ONITwitchLib.Core
   href: api/ONITwitchLib.Core.html
