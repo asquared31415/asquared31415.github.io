@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "/home/callie/Documents/ONI-Twitch-new",
+  "source_base_path": "/home/citrine/Documents/oni_projects/ONI-Twitch-new",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -69,6 +69,16 @@
       "output": {
         ".html": {
           "relative_path": "changelogs/1.2.3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelogs/1.2.4.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelogs/1.2.4.html"
         }
       },
       "version": ""

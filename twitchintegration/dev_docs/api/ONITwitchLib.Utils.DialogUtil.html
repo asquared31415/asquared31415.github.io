@@ -9,39 +9,25 @@
  ">
       
       <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
+      <link rel="stylesheet" href="../styles/main.css">
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       
-      
-      
       <meta name="docfx:docurl" content="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_DialogUtil.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.DialogUtil%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-      <meta name="loc:inThisArticle" content="In this article">
-      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
-      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
-      <meta name="loc:tocFilter" content="Filter by title">
-      <meta name="loc:nextArticle" content="Next">
-      <meta name="loc:prevArticle" content="Previous">
-      <meta name="loc:themeLight" content="Light">
-      <meta name="loc:themeDark" content="Dark">
-      <meta name="loc:themeAuto" content="Auto">
-      <meta name="loc:changeTheme" content="Change theme">
-      <meta name="loc:copy" content="Copy">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../styles/main.js"></script>
   </head>
-
-  <script type="module">
-    import options from './../public/main.js'
-    import { init } from './../public/docfx.min.js'
-    init(options)
-  </script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -157,55 +143,6 @@ public static class DialogUtil</code></pre>
 
   <a id="ONITwitchLib_Utils_DialogUtil_MakeDialog_" data-uid="ONITwitchLib.Utils.DialogUtil.MakeDialog*"></a>
 
-  <h3 id="ONITwitchLib_Utils_DialogUtil_MakeDialog_System_String_System_String_System_String_System_Action_" data-uid="ONITwitchLib.Utils.DialogUtil.MakeDialog(System.String,System.String,System.String,System.Action)">
-  MakeDialog(string, string, string, Action)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/DialogUtil.cs/#L19"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Creates a dialog with only a confirm action.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[PublicAPI]
-public static KScreen MakeDialog(string title, string text, string confirmText, Action onConfirm)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The title of the dialog.</p>
-</dd>
-    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The message in the body of the dialog.</p>
-</dd>
-    <dt><code>confirmText</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The text on the confirm button.</p>
-</dd>
-    <dt><code>onConfirm</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
-    <dd><p>If not <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, the action to call when the confirm button is pressed.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">KScreen</span></dt>
-    <dd><p>The newly created dialog.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ONITwitchLib_Utils_DialogUtil_MakeDialog_" data-uid="ONITwitchLib.Utils.DialogUtil.MakeDialog*"></a>
-
   <h3 id="ONITwitchLib_Utils_DialogUtil_MakeDialog_System_String_System_String_System_String_System_Action_System_String_System_Action_System_String_System_Action_" data-uid="ONITwitchLib.Utils.DialogUtil.MakeDialog(System.String,System.String,System.String,System.Action,System.String,System.Action,System.String,System.Action)">
   MakeDialog(string, string, string, Action, string, Action, string, Action)
   <a class="header-action link-secondary" title="View source" href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/DialogUtil.cs/#L55"><i class="bi bi-code-slash"></i></a>
@@ -265,11 +202,60 @@ public static KScreen MakeDialog(string title, string text, string confirmText, 
 
 
 
+  <a id="ONITwitchLib_Utils_DialogUtil_MakeDialog_" data-uid="ONITwitchLib.Utils.DialogUtil.MakeDialog*"></a>
+
+  <h3 id="ONITwitchLib_Utils_DialogUtil_MakeDialog_System_String_System_String_System_String_System_Action_" data-uid="ONITwitchLib.Utils.DialogUtil.MakeDialog(System.String,System.String,System.String,System.Action)">
+  MakeDialog(string, string, string, Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/DialogUtil.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a dialog with only a confirm action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public static KScreen MakeDialog(string title, string text, string confirmText, Action onConfirm)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The title of the dialog.</p>
+</dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message in the body of the dialog.</p>
+</dd>
+    <dt><code>confirmText</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text on the confirm button.</p>
+</dd>
+    <dt><code>onConfirm</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>If not <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, the action to call when the confirm button is pressed.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">KScreen</span></dt>
+    <dd><p>The newly created dialog.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Utils/DialogUtil.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Utils_DialogUtil.md&amp;value=---%0Auid%3A%20ONITwitchLib.Utils.DialogUtil%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
         </div>
 
         
