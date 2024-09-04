@@ -85,6 +85,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "changelogs/1.2.5.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelogs/1.2.5.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "changelogs/betas/1.2.0-beta.1.md",
       "output": {
         ".html": {
