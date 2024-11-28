@@ -1,9 +1,982 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: api_index
-  name: Main API Entry Points
-  href: api/index.html
+- uid: ONITwitch
+  name: ONITwitch
+  href: api/ONITwitch.html
+  commentId: N:ONITwitch
+  fullName: ONITwitch
+  nameWithType: ONITwitch
+- uid: ONITwitch.Commands
+  name: ONITwitch.Commands
+  href: api/ONITwitch.Commands.html
+  commentId: N:ONITwitch.Commands
+  fullName: ONITwitch.Commands
+  nameWithType: ONITwitch.Commands
+- uid: ONITwitch.Commands.CommandBase
+  name: CommandBase
+  href: api/ONITwitch.Commands.CommandBase.html
+  commentId: T:ONITwitch.Commands.CommandBase
+  fullName: ONITwitch.Commands.CommandBase
+  nameWithType: CommandBase
+- uid: ONITwitch.Commands.CommandBase.Condition(System.Object)
+  name: Condition(object)
+  href: api/ONITwitch.Commands.CommandBase.html#ONITwitch_Commands_CommandBase_Condition_System_Object_
+  commentId: M:ONITwitch.Commands.CommandBase.Condition(System.Object)
+  name.vb: Condition(Object)
+  fullName: ONITwitch.Commands.CommandBase.Condition(object)
+  fullName.vb: ONITwitch.Commands.CommandBase.Condition(Object)
+  nameWithType: CommandBase.Condition(object)
+  nameWithType.vb: CommandBase.Condition(Object)
+- uid: ONITwitch.Commands.CommandBase.Condition*
+  name: Condition
+  href: api/ONITwitch.Commands.CommandBase.html#ONITwitch_Commands_CommandBase_Condition_
+  commentId: Overload:ONITwitch.Commands.CommandBase.Condition
+  isSpec: "True"
+  fullName: ONITwitch.Commands.CommandBase.Condition
+  nameWithType: CommandBase.Condition
+- uid: ONITwitch.Commands.CommandBase.Run(System.Object)
+  name: Run(object)
+  href: api/ONITwitch.Commands.CommandBase.html#ONITwitch_Commands_CommandBase_Run_System_Object_
+  commentId: M:ONITwitch.Commands.CommandBase.Run(System.Object)
+  name.vb: Run(Object)
+  fullName: ONITwitch.Commands.CommandBase.Run(object)
+  fullName.vb: ONITwitch.Commands.CommandBase.Run(Object)
+  nameWithType: CommandBase.Run(object)
+  nameWithType.vb: CommandBase.Run(Object)
+- uid: ONITwitch.Commands.CommandBase.Run*
+  name: Run
+  href: api/ONITwitch.Commands.CommandBase.html#ONITwitch_Commands_CommandBase_Run_
+  commentId: Overload:ONITwitch.Commands.CommandBase.Run
+  isSpec: "True"
+  fullName: ONITwitch.Commands.CommandBase.Run
+  nameWithType: CommandBase.Run
+- uid: ONITwitch.Commands.CommandBaseExt
+  name: CommandBaseExt
+  href: api/ONITwitch.Commands.CommandBaseExt.html
+  commentId: T:ONITwitch.Commands.CommandBaseExt
+  fullName: ONITwitch.Commands.CommandBaseExt
+  nameWithType: CommandBaseExt
+- uid: ONITwitch.Commands.CommandBaseExt.GetConditionFunc(ONITwitch.Commands.CommandBase)
+  name: GetConditionFunc(CommandBase)
+  href: api/ONITwitch.Commands.CommandBaseExt.html#ONITwitch_Commands_CommandBaseExt_GetConditionFunc_ONITwitch_Commands_CommandBase_
+  commentId: M:ONITwitch.Commands.CommandBaseExt.GetConditionFunc(ONITwitch.Commands.CommandBase)
+  fullName: ONITwitch.Commands.CommandBaseExt.GetConditionFunc(ONITwitch.Commands.CommandBase)
+  nameWithType: CommandBaseExt.GetConditionFunc(CommandBase)
+- uid: ONITwitch.Commands.CommandBaseExt.GetConditionFunc*
+  name: GetConditionFunc
+  href: api/ONITwitch.Commands.CommandBaseExt.html#ONITwitch_Commands_CommandBaseExt_GetConditionFunc_
+  commentId: Overload:ONITwitch.Commands.CommandBaseExt.GetConditionFunc
+  isSpec: "True"
+  fullName: ONITwitch.Commands.CommandBaseExt.GetConditionFunc
+  nameWithType: CommandBaseExt.GetConditionFunc
+- uid: ONITwitch.Commands.CommandBaseExt.GetRunAction(ONITwitch.Commands.CommandBase)
+  name: GetRunAction(CommandBase)
+  href: api/ONITwitch.Commands.CommandBaseExt.html#ONITwitch_Commands_CommandBaseExt_GetRunAction_ONITwitch_Commands_CommandBase_
+  commentId: M:ONITwitch.Commands.CommandBaseExt.GetRunAction(ONITwitch.Commands.CommandBase)
+  fullName: ONITwitch.Commands.CommandBaseExt.GetRunAction(ONITwitch.Commands.CommandBase)
+  nameWithType: CommandBaseExt.GetRunAction(CommandBase)
+- uid: ONITwitch.Commands.CommandBaseExt.GetRunAction*
+  name: GetRunAction
+  href: api/ONITwitch.Commands.CommandBaseExt.html#ONITwitch_Commands_CommandBaseExt_GetRunAction_
+  commentId: Overload:ONITwitch.Commands.CommandBaseExt.GetRunAction
+  isSpec: "True"
+  fullName: ONITwitch.Commands.CommandBaseExt.GetRunAction
+  nameWithType: CommandBaseExt.GetRunAction
+- uid: ONITwitch.Content
+  name: ONITwitch.Content
+  href: api/ONITwitch.Content.html
+  commentId: N:ONITwitch.Content
+  fullName: ONITwitch.Content
+  nameWithType: ONITwitch.Content
+- uid: ONITwitch.Content.BasePocketDimensionGeneration
+  name: BasePocketDimensionGeneration
+  href: api/ONITwitch.Content.BasePocketDimensionGeneration.html
+  commentId: T:ONITwitch.Content.BasePocketDimensionGeneration
+  fullName: ONITwitch.Content.BasePocketDimensionGeneration
+  nameWithType: BasePocketDimensionGeneration
+- uid: ONITwitch.Content.BasePocketDimensionGeneration.#ctor(System.Single,ProcGen.SubWorld.ZoneType,System.String,System.Collections.Generic.List{System.String})
+  name: BasePocketDimensionGeneration(float, ZoneType, string, List<string>)
+  href: api/ONITwitch.Content.BasePocketDimensionGeneration.html#ONITwitch_Content_BasePocketDimensionGeneration__ctor_System_Single_ProcGen_SubWorld_ZoneType_System_String_System_Collections_Generic_List_System_String__
+  commentId: M:ONITwitch.Content.BasePocketDimensionGeneration.#ctor(System.Single,ProcGen.SubWorld.ZoneType,System.String,System.Collections.Generic.List{System.String})
+  name.vb: New(Single, ZoneType, String, List(Of String))
+  fullName: ONITwitch.Content.BasePocketDimensionGeneration.BasePocketDimensionGeneration(float, ProcGen.SubWorld.ZoneType, string, System.Collections.Generic.List<string>)
+  fullName.vb: ONITwitch.Content.BasePocketDimensionGeneration.New(Single, ProcGen.SubWorld.ZoneType, String, System.Collections.Generic.List(Of String))
+  nameWithType: BasePocketDimensionGeneration.BasePocketDimensionGeneration(float, SubWorld.ZoneType, string, List<string>)
+  nameWithType.vb: BasePocketDimensionGeneration.New(Single, SubWorld.ZoneType, String, List(Of String))
+- uid: ONITwitch.Content.BasePocketDimensionGeneration.#ctor*
+  name: BasePocketDimensionGeneration
+  href: api/ONITwitch.Content.BasePocketDimensionGeneration.html#ONITwitch_Content_BasePocketDimensionGeneration__ctor_
+  commentId: Overload:ONITwitch.Content.BasePocketDimensionGeneration.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ONITwitch.Content.BasePocketDimensionGeneration.BasePocketDimensionGeneration
+  fullName.vb: ONITwitch.Content.BasePocketDimensionGeneration.New
+  nameWithType: BasePocketDimensionGeneration.BasePocketDimensionGeneration
+  nameWithType.vb: BasePocketDimensionGeneration.New
+- uid: ONITwitch.Content.BasePocketDimensionGeneration.GeneratePrefabs(WorldContainer)
+  name: GeneratePrefabs(WorldContainer)
+  href: api/ONITwitch.Content.BasePocketDimensionGeneration.html#ONITwitch_Content_BasePocketDimensionGeneration_GeneratePrefabs_WorldContainer_
+  commentId: M:ONITwitch.Content.BasePocketDimensionGeneration.GeneratePrefabs(WorldContainer)
+  fullName: ONITwitch.Content.BasePocketDimensionGeneration.GeneratePrefabs(WorldContainer)
+  nameWithType: BasePocketDimensionGeneration.GeneratePrefabs(WorldContainer)
+- uid: ONITwitch.Content.BasePocketDimensionGeneration.GeneratePrefabs*
+  name: GeneratePrefabs
+  href: api/ONITwitch.Content.BasePocketDimensionGeneration.html#ONITwitch_Content_BasePocketDimensionGeneration_GeneratePrefabs_
+  commentId: Overload:ONITwitch.Content.BasePocketDimensionGeneration.GeneratePrefabs
+  isSpec: "True"
+  fullName: ONITwitch.Content.BasePocketDimensionGeneration.GeneratePrefabs
+  nameWithType: BasePocketDimensionGeneration.GeneratePrefabs
+- uid: ONITwitch.Content.BasePocketDimensionGeneration.GenerateTiles(WorldContainer)
+  name: GenerateTiles(WorldContainer)
+  href: api/ONITwitch.Content.BasePocketDimensionGeneration.html#ONITwitch_Content_BasePocketDimensionGeneration_GenerateTiles_WorldContainer_
+  commentId: M:ONITwitch.Content.BasePocketDimensionGeneration.GenerateTiles(WorldContainer)
+  fullName: ONITwitch.Content.BasePocketDimensionGeneration.GenerateTiles(WorldContainer)
+  nameWithType: BasePocketDimensionGeneration.GenerateTiles(WorldContainer)
+- uid: ONITwitch.Content.BasePocketDimensionGeneration.GenerateTiles*
+  name: GenerateTiles
+  href: api/ONITwitch.Content.BasePocketDimensionGeneration.html#ONITwitch_Content_BasePocketDimensionGeneration_GenerateTiles_
+  commentId: Overload:ONITwitch.Content.BasePocketDimensionGeneration.GenerateTiles
+  isSpec: "True"
+  fullName: ONITwitch.Content.BasePocketDimensionGeneration.GenerateTiles
+  nameWithType: BasePocketDimensionGeneration.GenerateTiles
+- uid: ONITwitch.Content.CustomEffects
+  name: CustomEffects
+  href: api/ONITwitch.Content.CustomEffects.html
+  commentId: T:ONITwitch.Content.CustomEffects
+  fullName: ONITwitch.Content.CustomEffects
+  nameWithType: CustomEffects
+- uid: ONITwitch.Content.CustomEffects.AthleticsDownEffect
+  name: AthleticsDownEffect
+  href: api/ONITwitch.Content.CustomEffects.html#ONITwitch_Content_CustomEffects_AthleticsDownEffect
+  commentId: F:ONITwitch.Content.CustomEffects.AthleticsDownEffect
+  fullName: ONITwitch.Content.CustomEffects.AthleticsDownEffect
+  nameWithType: CustomEffects.AthleticsDownEffect
+- uid: ONITwitch.Content.CustomEffects.AthleticsUpEffect
+  name: AthleticsUpEffect
+  href: api/ONITwitch.Content.CustomEffects.html#ONITwitch_Content_CustomEffects_AthleticsUpEffect
+  commentId: F:ONITwitch.Content.CustomEffects.AthleticsUpEffect
+  fullName: ONITwitch.Content.CustomEffects.AthleticsUpEffect
+  nameWithType: CustomEffects.AthleticsUpEffect
+- uid: ONITwitch.Content.CustomEffects.ConstructionDownEffect
+  name: ConstructionDownEffect
+  href: api/ONITwitch.Content.CustomEffects.html#ONITwitch_Content_CustomEffects_ConstructionDownEffect
+  commentId: F:ONITwitch.Content.CustomEffects.ConstructionDownEffect
+  fullName: ONITwitch.Content.CustomEffects.ConstructionDownEffect
+  nameWithType: CustomEffects.ConstructionDownEffect
+- uid: ONITwitch.Content.CustomEffects.ConstructionUpEffect
+  name: ConstructionUpEffect
+  href: api/ONITwitch.Content.CustomEffects.html#ONITwitch_Content_CustomEffects_ConstructionUpEffect
+  commentId: F:ONITwitch.Content.CustomEffects.ConstructionUpEffect
+  fullName: ONITwitch.Content.CustomEffects.ConstructionUpEffect
+  nameWithType: CustomEffects.ConstructionUpEffect
+- uid: ONITwitch.Content.CustomEffects.ExcavationDownEffect
+  name: ExcavationDownEffect
+  href: api/ONITwitch.Content.CustomEffects.html#ONITwitch_Content_CustomEffects_ExcavationDownEffect
+  commentId: F:ONITwitch.Content.CustomEffects.ExcavationDownEffect
+  fullName: ONITwitch.Content.CustomEffects.ExcavationDownEffect
+  nameWithType: CustomEffects.ExcavationDownEffect
+- uid: ONITwitch.Content.CustomEffects.ExcavationUpEffect
+  name: ExcavationUpEffect
+  href: api/ONITwitch.Content.CustomEffects.html#ONITwitch_Content_CustomEffects_ExcavationUpEffect
+  commentId: F:ONITwitch.Content.CustomEffects.ExcavationUpEffect
+  fullName: ONITwitch.Content.CustomEffects.ExcavationUpEffect
+  nameWithType: CustomEffects.ExcavationUpEffect
+- uid: ONITwitch.Content.CustomEffects.SleepyEffect
+  name: SleepyEffect
+  href: api/ONITwitch.Content.CustomEffects.html#ONITwitch_Content_CustomEffects_SleepyEffect
+  commentId: F:ONITwitch.Content.CustomEffects.SleepyEffect
+  fullName: ONITwitch.Content.CustomEffects.SleepyEffect
+  nameWithType: CustomEffects.SleepyEffect
+- uid: ONITwitch.Content.CustomEffects.StrengthDownEffect
+  name: StrengthDownEffect
+  href: api/ONITwitch.Content.CustomEffects.html#ONITwitch_Content_CustomEffects_StrengthDownEffect
+  commentId: F:ONITwitch.Content.CustomEffects.StrengthDownEffect
+  fullName: ONITwitch.Content.CustomEffects.StrengthDownEffect
+  nameWithType: CustomEffects.StrengthDownEffect
+- uid: ONITwitch.Content.CustomEffects.StrengthUpEffect
+  name: StrengthUpEffect
+  href: api/ONITwitch.Content.CustomEffects.html#ONITwitch_Content_CustomEffects_StrengthUpEffect
+  commentId: F:ONITwitch.Content.CustomEffects.StrengthUpEffect
+  fullName: ONITwitch.Content.CustomEffects.StrengthUpEffect
+  nameWithType: CustomEffects.StrengthUpEffect
+- uid: ONITwitch.Content.CustomPocketDimensionGeneration
+  name: CustomPocketDimensionGeneration
+  href: api/ONITwitch.Content.CustomPocketDimensionGeneration.html
+  commentId: T:ONITwitch.Content.CustomPocketDimensionGeneration
+  fullName: ONITwitch.Content.CustomPocketDimensionGeneration
+  nameWithType: CustomPocketDimensionGeneration
+- uid: ONITwitch.Content.CustomPocketDimensionGeneration.#ctor(System.Single,ProcGen.SubWorld.ZoneType,System.Action{WorldContainer},System.Action{WorldContainer},System.String,System.Collections.Generic.List{System.String})
+  name: CustomPocketDimensionGeneration(float, ZoneType, Action<WorldContainer>, Action<WorldContainer>, string, List<string>)
+  href: api/ONITwitch.Content.CustomPocketDimensionGeneration.html#ONITwitch_Content_CustomPocketDimensionGeneration__ctor_System_Single_ProcGen_SubWorld_ZoneType_System_Action_WorldContainer__System_Action_WorldContainer__System_String_System_Collections_Generic_List_System_String__
+  commentId: M:ONITwitch.Content.CustomPocketDimensionGeneration.#ctor(System.Single,ProcGen.SubWorld.ZoneType,System.Action{WorldContainer},System.Action{WorldContainer},System.String,System.Collections.Generic.List{System.String})
+  name.vb: New(Single, ZoneType, Action(Of WorldContainer), Action(Of WorldContainer), String, List(Of String))
+  fullName: ONITwitch.Content.CustomPocketDimensionGeneration.CustomPocketDimensionGeneration(float, ProcGen.SubWorld.ZoneType, System.Action<WorldContainer>, System.Action<WorldContainer>, string, System.Collections.Generic.List<string>)
+  fullName.vb: ONITwitch.Content.CustomPocketDimensionGeneration.New(Single, ProcGen.SubWorld.ZoneType, System.Action(Of WorldContainer), System.Action(Of WorldContainer), String, System.Collections.Generic.List(Of String))
+  nameWithType: CustomPocketDimensionGeneration.CustomPocketDimensionGeneration(float, SubWorld.ZoneType, Action<WorldContainer>, Action<WorldContainer>, string, List<string>)
+  nameWithType.vb: CustomPocketDimensionGeneration.New(Single, SubWorld.ZoneType, Action(Of WorldContainer), Action(Of WorldContainer), String, List(Of String))
+- uid: ONITwitch.Content.CustomPocketDimensionGeneration.#ctor*
+  name: CustomPocketDimensionGeneration
+  href: api/ONITwitch.Content.CustomPocketDimensionGeneration.html#ONITwitch_Content_CustomPocketDimensionGeneration__ctor_
+  commentId: Overload:ONITwitch.Content.CustomPocketDimensionGeneration.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ONITwitch.Content.CustomPocketDimensionGeneration.CustomPocketDimensionGeneration
+  fullName.vb: ONITwitch.Content.CustomPocketDimensionGeneration.New
+  nameWithType: CustomPocketDimensionGeneration.CustomPocketDimensionGeneration
+  nameWithType.vb: CustomPocketDimensionGeneration.New
+- uid: ONITwitch.Content.CustomPocketDimensionGeneration.GeneratePrefabs(WorldContainer)
+  name: GeneratePrefabs(WorldContainer)
+  href: api/ONITwitch.Content.CustomPocketDimensionGeneration.html#ONITwitch_Content_CustomPocketDimensionGeneration_GeneratePrefabs_WorldContainer_
+  commentId: M:ONITwitch.Content.CustomPocketDimensionGeneration.GeneratePrefabs(WorldContainer)
+  fullName: ONITwitch.Content.CustomPocketDimensionGeneration.GeneratePrefabs(WorldContainer)
+  nameWithType: CustomPocketDimensionGeneration.GeneratePrefabs(WorldContainer)
+- uid: ONITwitch.Content.CustomPocketDimensionGeneration.GeneratePrefabs*
+  name: GeneratePrefabs
+  href: api/ONITwitch.Content.CustomPocketDimensionGeneration.html#ONITwitch_Content_CustomPocketDimensionGeneration_GeneratePrefabs_
+  commentId: Overload:ONITwitch.Content.CustomPocketDimensionGeneration.GeneratePrefabs
+  isSpec: "True"
+  fullName: ONITwitch.Content.CustomPocketDimensionGeneration.GeneratePrefabs
+  nameWithType: CustomPocketDimensionGeneration.GeneratePrefabs
+- uid: ONITwitch.Content.CustomPocketDimensionGeneration.GenerateTiles(WorldContainer)
+  name: GenerateTiles(WorldContainer)
+  href: api/ONITwitch.Content.CustomPocketDimensionGeneration.html#ONITwitch_Content_CustomPocketDimensionGeneration_GenerateTiles_WorldContainer_
+  commentId: M:ONITwitch.Content.CustomPocketDimensionGeneration.GenerateTiles(WorldContainer)
+  fullName: ONITwitch.Content.CustomPocketDimensionGeneration.GenerateTiles(WorldContainer)
+  nameWithType: CustomPocketDimensionGeneration.GenerateTiles(WorldContainer)
+- uid: ONITwitch.Content.CustomPocketDimensionGeneration.GenerateTiles*
+  name: GenerateTiles
+  href: api/ONITwitch.Content.CustomPocketDimensionGeneration.html#ONITwitch_Content_CustomPocketDimensionGeneration_GenerateTiles_
+  commentId: Overload:ONITwitch.Content.CustomPocketDimensionGeneration.GenerateTiles
+  isSpec: "True"
+  fullName: ONITwitch.Content.CustomPocketDimensionGeneration.GenerateTiles
+  nameWithType: CustomPocketDimensionGeneration.GenerateTiles
+- uid: ONITwitch.Content.NoisePocketDimensionGeneration
+  name: NoisePocketDimensionGeneration
+  href: api/ONITwitch.Content.NoisePocketDimensionGeneration.html
+  commentId: T:ONITwitch.Content.NoisePocketDimensionGeneration
+  fullName: ONITwitch.Content.NoisePocketDimensionGeneration
+  nameWithType: NoisePocketDimensionGeneration
+- uid: ONITwitch.Content.NoisePocketDimensionGeneration.#ctor(System.Single,ProcGen.SubWorld.ZoneType,System.Collections.Generic.IReadOnlyList{SimHashes},System.Single,System.Single,System.String,System.Collections.Generic.List{System.String})
+  name: NoisePocketDimensionGeneration(float, ZoneType, IReadOnlyList<SimHashes>, float, float, string, List<string>)
+  href: api/ONITwitch.Content.NoisePocketDimensionGeneration.html#ONITwitch_Content_NoisePocketDimensionGeneration__ctor_System_Single_ProcGen_SubWorld_ZoneType_System_Collections_Generic_IReadOnlyList_SimHashes__System_Single_System_Single_System_String_System_Collections_Generic_List_System_String__
+  commentId: M:ONITwitch.Content.NoisePocketDimensionGeneration.#ctor(System.Single,ProcGen.SubWorld.ZoneType,System.Collections.Generic.IReadOnlyList{SimHashes},System.Single,System.Single,System.String,System.Collections.Generic.List{System.String})
+  name.vb: New(Single, ZoneType, IReadOnlyList(Of SimHashes), Single, Single, String, List(Of String))
+  fullName: ONITwitch.Content.NoisePocketDimensionGeneration.NoisePocketDimensionGeneration(float, ProcGen.SubWorld.ZoneType, System.Collections.Generic.IReadOnlyList<SimHashes>, float, float, string, System.Collections.Generic.List<string>)
+  fullName.vb: ONITwitch.Content.NoisePocketDimensionGeneration.New(Single, ProcGen.SubWorld.ZoneType, System.Collections.Generic.IReadOnlyList(Of SimHashes), Single, Single, String, System.Collections.Generic.List(Of String))
+  nameWithType: NoisePocketDimensionGeneration.NoisePocketDimensionGeneration(float, SubWorld.ZoneType, IReadOnlyList<SimHashes>, float, float, string, List<string>)
+  nameWithType.vb: NoisePocketDimensionGeneration.New(Single, SubWorld.ZoneType, IReadOnlyList(Of SimHashes), Single, Single, String, List(Of String))
+- uid: ONITwitch.Content.NoisePocketDimensionGeneration.#ctor*
+  name: NoisePocketDimensionGeneration
+  href: api/ONITwitch.Content.NoisePocketDimensionGeneration.html#ONITwitch_Content_NoisePocketDimensionGeneration__ctor_
+  commentId: Overload:ONITwitch.Content.NoisePocketDimensionGeneration.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ONITwitch.Content.NoisePocketDimensionGeneration.NoisePocketDimensionGeneration
+  fullName.vb: ONITwitch.Content.NoisePocketDimensionGeneration.New
+  nameWithType: NoisePocketDimensionGeneration.NoisePocketDimensionGeneration
+  nameWithType.vb: NoisePocketDimensionGeneration.New
+- uid: ONITwitch.Content.NoisePocketDimensionGeneration.GenerateTiles(WorldContainer)
+  name: GenerateTiles(WorldContainer)
+  href: api/ONITwitch.Content.NoisePocketDimensionGeneration.html#ONITwitch_Content_NoisePocketDimensionGeneration_GenerateTiles_WorldContainer_
+  commentId: M:ONITwitch.Content.NoisePocketDimensionGeneration.GenerateTiles(WorldContainer)
+  fullName: ONITwitch.Content.NoisePocketDimensionGeneration.GenerateTiles(WorldContainer)
+  nameWithType: NoisePocketDimensionGeneration.GenerateTiles(WorldContainer)
+- uid: ONITwitch.Content.NoisePocketDimensionGeneration.GenerateTiles*
+  name: GenerateTiles
+  href: api/ONITwitch.Content.NoisePocketDimensionGeneration.html#ONITwitch_Content_NoisePocketDimensionGeneration_GenerateTiles_
+  commentId: Overload:ONITwitch.Content.NoisePocketDimensionGeneration.GenerateTiles
+  isSpec: "True"
+  fullName: ONITwitch.Content.NoisePocketDimensionGeneration.GenerateTiles
+  nameWithType: NoisePocketDimensionGeneration.GenerateTiles
+- uid: ONITwitch.Content.TemplatePocketDimensionGeneration
+  name: TemplatePocketDimensionGeneration
+  href: api/ONITwitch.Content.TemplatePocketDimensionGeneration.html
+  commentId: T:ONITwitch.Content.TemplatePocketDimensionGeneration
+  fullName: ONITwitch.Content.TemplatePocketDimensionGeneration
+  nameWithType: TemplatePocketDimensionGeneration
+- uid: ONITwitch.Content.TemplatePocketDimensionGeneration.#ctor(System.Single,ProcGen.SubWorld.ZoneType,System.String,System.String,System.Collections.Generic.List{System.String})
+  name: TemplatePocketDimensionGeneration(float, ZoneType, string, string, List<string>)
+  href: api/ONITwitch.Content.TemplatePocketDimensionGeneration.html#ONITwitch_Content_TemplatePocketDimensionGeneration__ctor_System_Single_ProcGen_SubWorld_ZoneType_System_String_System_String_System_Collections_Generic_List_System_String__
+  commentId: M:ONITwitch.Content.TemplatePocketDimensionGeneration.#ctor(System.Single,ProcGen.SubWorld.ZoneType,System.String,System.String,System.Collections.Generic.List{System.String})
+  name.vb: New(Single, ZoneType, String, String, List(Of String))
+  fullName: ONITwitch.Content.TemplatePocketDimensionGeneration.TemplatePocketDimensionGeneration(float, ProcGen.SubWorld.ZoneType, string, string, System.Collections.Generic.List<string>)
+  fullName.vb: ONITwitch.Content.TemplatePocketDimensionGeneration.New(Single, ProcGen.SubWorld.ZoneType, String, String, System.Collections.Generic.List(Of String))
+  nameWithType: TemplatePocketDimensionGeneration.TemplatePocketDimensionGeneration(float, SubWorld.ZoneType, string, string, List<string>)
+  nameWithType.vb: TemplatePocketDimensionGeneration.New(Single, SubWorld.ZoneType, String, String, List(Of String))
+- uid: ONITwitch.Content.TemplatePocketDimensionGeneration.#ctor*
+  name: TemplatePocketDimensionGeneration
+  href: api/ONITwitch.Content.TemplatePocketDimensionGeneration.html#ONITwitch_Content_TemplatePocketDimensionGeneration__ctor_
+  commentId: Overload:ONITwitch.Content.TemplatePocketDimensionGeneration.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ONITwitch.Content.TemplatePocketDimensionGeneration.TemplatePocketDimensionGeneration
+  fullName.vb: ONITwitch.Content.TemplatePocketDimensionGeneration.New
+  nameWithType: TemplatePocketDimensionGeneration.TemplatePocketDimensionGeneration
+  nameWithType.vb: TemplatePocketDimensionGeneration.New
+- uid: ONITwitch.Content.TemplatePocketDimensionGeneration.GenerateTiles(WorldContainer)
+  name: GenerateTiles(WorldContainer)
+  href: api/ONITwitch.Content.TemplatePocketDimensionGeneration.html#ONITwitch_Content_TemplatePocketDimensionGeneration_GenerateTiles_WorldContainer_
+  commentId: M:ONITwitch.Content.TemplatePocketDimensionGeneration.GenerateTiles(WorldContainer)
+  fullName: ONITwitch.Content.TemplatePocketDimensionGeneration.GenerateTiles(WorldContainer)
+  nameWithType: TemplatePocketDimensionGeneration.GenerateTiles(WorldContainer)
+- uid: ONITwitch.Content.TemplatePocketDimensionGeneration.GenerateTiles*
+  name: GenerateTiles
+  href: api/ONITwitch.Content.TemplatePocketDimensionGeneration.html#ONITwitch_Content_TemplatePocketDimensionGeneration_GenerateTiles_
+  commentId: Overload:ONITwitch.Content.TemplatePocketDimensionGeneration.GenerateTiles
+  isSpec: "True"
+  fullName: ONITwitch.Content.TemplatePocketDimensionGeneration.GenerateTiles
+  nameWithType: TemplatePocketDimensionGeneration.GenerateTiles
+- uid: ONITwitch.EventLib
+  name: ONITwitch.EventLib
+  href: api/ONITwitch.EventLib.html
+  commentId: N:ONITwitch.EventLib
+  fullName: ONITwitch.EventLib
+  nameWithType: ONITwitch.EventLib
+- uid: ONITwitch.EventLib.DataManager
+  name: DataManager
+  href: api/ONITwitch.EventLib.DataManager.html
+  commentId: T:ONITwitch.EventLib.DataManager
+  fullName: ONITwitch.EventLib.DataManager
+  nameWithType: DataManager
+- uid: ONITwitch.EventLib.DataManager.GetDataForEvent(ONITwitch.EventLib.EventInfo)
+  name: GetDataForEvent(EventInfo)
+  href: api/ONITwitch.EventLib.DataManager.html#ONITwitch_EventLib_DataManager_GetDataForEvent_ONITwitch_EventLib_EventInfo_
+  commentId: M:ONITwitch.EventLib.DataManager.GetDataForEvent(ONITwitch.EventLib.EventInfo)
+  fullName: ONITwitch.EventLib.DataManager.GetDataForEvent(ONITwitch.EventLib.EventInfo)
+  nameWithType: DataManager.GetDataForEvent(EventInfo)
+- uid: ONITwitch.EventLib.DataManager.GetDataForEvent*
+  name: GetDataForEvent
+  href: api/ONITwitch.EventLib.DataManager.html#ONITwitch_EventLib_DataManager_GetDataForEvent_
+  commentId: Overload:ONITwitch.EventLib.DataManager.GetDataForEvent
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.DataManager.GetDataForEvent
+  nameWithType: DataManager.GetDataForEvent
+- uid: ONITwitch.EventLib.DataManager.Instance
+  name: Instance
+  href: api/ONITwitch.EventLib.DataManager.html#ONITwitch_EventLib_DataManager_Instance
+  commentId: P:ONITwitch.EventLib.DataManager.Instance
+  fullName: ONITwitch.EventLib.DataManager.Instance
+  nameWithType: DataManager.Instance
+- uid: ONITwitch.EventLib.DataManager.Instance*
+  name: Instance
+  href: api/ONITwitch.EventLib.DataManager.html#ONITwitch_EventLib_DataManager_Instance_
+  commentId: Overload:ONITwitch.EventLib.DataManager.Instance
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.DataManager.Instance
+  nameWithType: DataManager.Instance
+- uid: ONITwitch.EventLib.DataManager.SetDataForEvent(ONITwitch.EventLib.EventInfo,System.Object)
+  name: SetDataForEvent(EventInfo, object)
+  href: api/ONITwitch.EventLib.DataManager.html#ONITwitch_EventLib_DataManager_SetDataForEvent_ONITwitch_EventLib_EventInfo_System_Object_
+  commentId: M:ONITwitch.EventLib.DataManager.SetDataForEvent(ONITwitch.EventLib.EventInfo,System.Object)
+  name.vb: SetDataForEvent(EventInfo, Object)
+  fullName: ONITwitch.EventLib.DataManager.SetDataForEvent(ONITwitch.EventLib.EventInfo, object)
+  fullName.vb: ONITwitch.EventLib.DataManager.SetDataForEvent(ONITwitch.EventLib.EventInfo, Object)
+  nameWithType: DataManager.SetDataForEvent(EventInfo, object)
+  nameWithType.vb: DataManager.SetDataForEvent(EventInfo, Object)
+- uid: ONITwitch.EventLib.DataManager.SetDataForEvent*
+  name: SetDataForEvent
+  href: api/ONITwitch.EventLib.DataManager.html#ONITwitch_EventLib_DataManager_SetDataForEvent_
+  commentId: Overload:ONITwitch.EventLib.DataManager.SetDataForEvent
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.DataManager.SetDataForEvent
+  nameWithType: DataManager.SetDataForEvent
+- uid: ONITwitch.EventLib.EventGroup
+  name: EventGroup
+  href: api/ONITwitch.EventLib.EventGroup.html
+  commentId: T:ONITwitch.EventLib.EventGroup
+  fullName: ONITwitch.EventLib.EventGroup
+  nameWithType: EventGroup
+- uid: ONITwitch.EventLib.EventGroup.AddEvent(System.String,System.Int32,System.String)
+  name: AddEvent(string, int, string)
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_AddEvent_System_String_System_Int32_System_String_
+  commentId: M:ONITwitch.EventLib.EventGroup.AddEvent(System.String,System.Int32,System.String)
+  name.vb: AddEvent(String, Integer, String)
+  fullName: ONITwitch.EventLib.EventGroup.AddEvent(string, int, string)
+  fullName.vb: ONITwitch.EventLib.EventGroup.AddEvent(String, Integer, String)
+  nameWithType: EventGroup.AddEvent(string, int, string)
+  nameWithType.vb: EventGroup.AddEvent(String, Integer, String)
+- uid: ONITwitch.EventLib.EventGroup.AddEvent*
+  name: AddEvent
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_AddEvent_
+  commentId: Overload:ONITwitch.EventLib.EventGroup.AddEvent
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventGroup.AddEvent
+  nameWithType: EventGroup.AddEvent
+- uid: ONITwitch.EventLib.EventGroup.DefaultSingleEventGroup(System.String,System.Int32,System.String)
+  name: DefaultSingleEventGroup(string, int, string)
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_DefaultSingleEventGroup_System_String_System_Int32_System_String_
+  commentId: M:ONITwitch.EventLib.EventGroup.DefaultSingleEventGroup(System.String,System.Int32,System.String)
+  name.vb: DefaultSingleEventGroup(String, Integer, String)
+  fullName: ONITwitch.EventLib.EventGroup.DefaultSingleEventGroup(string, int, string)
+  fullName.vb: ONITwitch.EventLib.EventGroup.DefaultSingleEventGroup(String, Integer, String)
+  nameWithType: EventGroup.DefaultSingleEventGroup(string, int, string)
+  nameWithType.vb: EventGroup.DefaultSingleEventGroup(String, Integer, String)
+- uid: ONITwitch.EventLib.EventGroup.DefaultSingleEventGroup*
+  name: DefaultSingleEventGroup
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_DefaultSingleEventGroup_
+  commentId: Overload:ONITwitch.EventLib.EventGroup.DefaultSingleEventGroup
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventGroup.DefaultSingleEventGroup
+  nameWithType: EventGroup.DefaultSingleEventGroup
+- uid: ONITwitch.EventLib.EventGroup.GetOrCreateGroup(System.String)
+  name: GetOrCreateGroup(string)
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_GetOrCreateGroup_System_String_
+  commentId: M:ONITwitch.EventLib.EventGroup.GetOrCreateGroup(System.String)
+  name.vb: GetOrCreateGroup(String)
+  fullName: ONITwitch.EventLib.EventGroup.GetOrCreateGroup(string)
+  fullName.vb: ONITwitch.EventLib.EventGroup.GetOrCreateGroup(String)
+  nameWithType: EventGroup.GetOrCreateGroup(string)
+  nameWithType.vb: EventGroup.GetOrCreateGroup(String)
+- uid: ONITwitch.EventLib.EventGroup.GetOrCreateGroup*
+  name: GetOrCreateGroup
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_GetOrCreateGroup_
+  commentId: Overload:ONITwitch.EventLib.EventGroup.GetOrCreateGroup
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventGroup.GetOrCreateGroup
+  nameWithType: EventGroup.GetOrCreateGroup
+- uid: ONITwitch.EventLib.EventGroup.GetWeights
+  name: GetWeights()
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_GetWeights
+  commentId: M:ONITwitch.EventLib.EventGroup.GetWeights
+  fullName: ONITwitch.EventLib.EventGroup.GetWeights()
+  nameWithType: EventGroup.GetWeights()
+- uid: ONITwitch.EventLib.EventGroup.GetWeights*
+  name: GetWeights
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_GetWeights_
+  commentId: Overload:ONITwitch.EventLib.EventGroup.GetWeights
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventGroup.GetWeights
+  nameWithType: EventGroup.GetWeights
+- uid: ONITwitch.EventLib.EventGroup.Name
+  name: Name
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_Name
+  commentId: F:ONITwitch.EventLib.EventGroup.Name
+  fullName: ONITwitch.EventLib.EventGroup.Name
+  nameWithType: EventGroup.Name
+- uid: ONITwitch.EventLib.EventGroup.OnGroupChanged
+  name: OnGroupChanged
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_OnGroupChanged
+  commentId: E:ONITwitch.EventLib.EventGroup.OnGroupChanged
+  fullName: ONITwitch.EventLib.EventGroup.OnGroupChanged
+  nameWithType: EventGroup.OnGroupChanged
+- uid: ONITwitch.EventLib.EventGroup.RemoveEvent(ONITwitch.EventLib.EventInfo)
+  name: RemoveEvent(EventInfo)
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_RemoveEvent_ONITwitch_EventLib_EventInfo_
+  commentId: M:ONITwitch.EventLib.EventGroup.RemoveEvent(ONITwitch.EventLib.EventInfo)
+  fullName: ONITwitch.EventLib.EventGroup.RemoveEvent(ONITwitch.EventLib.EventInfo)
+  nameWithType: EventGroup.RemoveEvent(EventInfo)
+- uid: ONITwitch.EventLib.EventGroup.RemoveEvent*
+  name: RemoveEvent
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_RemoveEvent_
+  commentId: Overload:ONITwitch.EventLib.EventGroup.RemoveEvent
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventGroup.RemoveEvent
+  nameWithType: EventGroup.RemoveEvent
+- uid: ONITwitch.EventLib.EventGroup.SetWeight(ONITwitch.EventLib.EventInfo,System.Int32)
+  name: SetWeight(EventInfo, int)
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_SetWeight_ONITwitch_EventLib_EventInfo_System_Int32_
+  commentId: M:ONITwitch.EventLib.EventGroup.SetWeight(ONITwitch.EventLib.EventInfo,System.Int32)
+  name.vb: SetWeight(EventInfo, Integer)
+  fullName: ONITwitch.EventLib.EventGroup.SetWeight(ONITwitch.EventLib.EventInfo, int)
+  fullName.vb: ONITwitch.EventLib.EventGroup.SetWeight(ONITwitch.EventLib.EventInfo, Integer)
+  nameWithType: EventGroup.SetWeight(EventInfo, int)
+  nameWithType.vb: EventGroup.SetWeight(EventInfo, Integer)
+- uid: ONITwitch.EventLib.EventGroup.SetWeight*
+  name: SetWeight
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_SetWeight_
+  commentId: Overload:ONITwitch.EventLib.EventGroup.SetWeight
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventGroup.SetWeight
+  nameWithType: EventGroup.SetWeight
+- uid: ONITwitch.EventLib.EventGroup.ToString
+  name: ToString()
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_ToString
+  commentId: M:ONITwitch.EventLib.EventGroup.ToString
+  fullName: ONITwitch.EventLib.EventGroup.ToString()
+  nameWithType: EventGroup.ToString()
+- uid: ONITwitch.EventLib.EventGroup.ToString*
+  name: ToString
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_ToString_
+  commentId: Overload:ONITwitch.EventLib.EventGroup.ToString
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventGroup.ToString
+  nameWithType: EventGroup.ToString
+- uid: ONITwitch.EventLib.EventGroup.TotalWeight
+  name: TotalWeight
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_TotalWeight
+  commentId: P:ONITwitch.EventLib.EventGroup.TotalWeight
+  fullName: ONITwitch.EventLib.EventGroup.TotalWeight
+  nameWithType: EventGroup.TotalWeight
+- uid: ONITwitch.EventLib.EventGroup.TotalWeight*
+  name: TotalWeight
+  href: api/ONITwitch.EventLib.EventGroup.html#ONITwitch_EventLib_EventGroup_TotalWeight_
+  commentId: Overload:ONITwitch.EventLib.EventGroup.TotalWeight
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventGroup.TotalWeight
+  nameWithType: EventGroup.TotalWeight
+- uid: ONITwitch.EventLib.EventInfo
+  name: EventInfo
+  href: api/ONITwitch.EventLib.EventInfo.html
+  commentId: T:ONITwitch.EventLib.EventInfo
+  fullName: ONITwitch.EventLib.EventInfo
+  nameWithType: EventInfo
+- uid: ONITwitch.EventLib.EventInfo.AddCondition(System.Func{System.Object,System.Boolean})
+  name: AddCondition(Func<object, bool>)
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_AddCondition_System_Func_System_Object_System_Boolean__
+  commentId: M:ONITwitch.EventLib.EventInfo.AddCondition(System.Func{System.Object,System.Boolean})
+  name.vb: AddCondition(Func(Of Object, Boolean))
+  fullName: ONITwitch.EventLib.EventInfo.AddCondition(System.Func<object, bool>)
+  fullName.vb: ONITwitch.EventLib.EventInfo.AddCondition(System.Func(Of Object, Boolean))
+  nameWithType: EventInfo.AddCondition(Func<object, bool>)
+  nameWithType.vb: EventInfo.AddCondition(Func(Of Object, Boolean))
+- uid: ONITwitch.EventLib.EventInfo.AddCondition*
+  name: AddCondition
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_AddCondition_
+  commentId: Overload:ONITwitch.EventLib.EventInfo.AddCondition
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventInfo.AddCondition
+  nameWithType: EventInfo.AddCondition
+- uid: ONITwitch.EventLib.EventInfo.AddListener(System.Action{System.Object})
+  name: AddListener(Action<object>)
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_AddListener_System_Action_System_Object__
+  commentId: M:ONITwitch.EventLib.EventInfo.AddListener(System.Action{System.Object})
+  name.vb: AddListener(Action(Of Object))
+  fullName: ONITwitch.EventLib.EventInfo.AddListener(System.Action<object>)
+  fullName.vb: ONITwitch.EventLib.EventInfo.AddListener(System.Action(Of Object))
+  nameWithType: EventInfo.AddListener(Action<object>)
+  nameWithType.vb: EventInfo.AddListener(Action(Of Object))
+- uid: ONITwitch.EventLib.EventInfo.AddListener*
+  name: AddListener
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_AddListener_
+  commentId: Overload:ONITwitch.EventLib.EventInfo.AddListener
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventInfo.AddListener
+  nameWithType: EventInfo.AddListener
+- uid: ONITwitch.EventLib.EventInfo.CheckCondition(System.Object)
+  name: CheckCondition(object)
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_CheckCondition_System_Object_
+  commentId: M:ONITwitch.EventLib.EventInfo.CheckCondition(System.Object)
+  name.vb: CheckCondition(Object)
+  fullName: ONITwitch.EventLib.EventInfo.CheckCondition(object)
+  fullName.vb: ONITwitch.EventLib.EventInfo.CheckCondition(Object)
+  nameWithType: EventInfo.CheckCondition(object)
+  nameWithType.vb: EventInfo.CheckCondition(Object)
+- uid: ONITwitch.EventLib.EventInfo.CheckCondition*
+  name: CheckCondition
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_CheckCondition_
+  commentId: Overload:ONITwitch.EventLib.EventInfo.CheckCondition
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventInfo.CheckCondition
+  nameWithType: EventInfo.CheckCondition
+- uid: ONITwitch.EventLib.EventInfo.Danger
+  name: Danger
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_Danger
+  commentId: F:ONITwitch.EventLib.EventInfo.Danger
+  fullName: ONITwitch.EventLib.EventInfo.Danger
+  nameWithType: EventInfo.Danger
+- uid: ONITwitch.EventLib.EventInfo.Equals(System.Object)
+  name: Equals(object)
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_Equals_System_Object_
+  commentId: M:ONITwitch.EventLib.EventInfo.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: ONITwitch.EventLib.EventInfo.Equals(object)
+  fullName.vb: ONITwitch.EventLib.EventInfo.Equals(Object)
+  nameWithType: EventInfo.Equals(object)
+  nameWithType.vb: EventInfo.Equals(Object)
+- uid: ONITwitch.EventLib.EventInfo.Equals*
+  name: Equals
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_Equals_
+  commentId: Overload:ONITwitch.EventLib.EventInfo.Equals
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventInfo.Equals
+  nameWithType: EventInfo.Equals
+- uid: ONITwitch.EventLib.EventInfo.EventId
+  name: EventId
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_EventId
+  commentId: P:ONITwitch.EventLib.EventInfo.EventId
+  fullName: ONITwitch.EventLib.EventInfo.EventId
+  nameWithType: EventInfo.EventId
+- uid: ONITwitch.EventLib.EventInfo.EventId*
+  name: EventId
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_EventId_
+  commentId: Overload:ONITwitch.EventLib.EventInfo.EventId
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventInfo.EventId
+  nameWithType: EventInfo.EventId
+- uid: ONITwitch.EventLib.EventInfo.EventNamespace
+  name: EventNamespace
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_EventNamespace
+  commentId: P:ONITwitch.EventLib.EventInfo.EventNamespace
+  fullName: ONITwitch.EventLib.EventInfo.EventNamespace
+  nameWithType: EventInfo.EventNamespace
+- uid: ONITwitch.EventLib.EventInfo.EventNamespace*
+  name: EventNamespace
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_EventNamespace_
+  commentId: Overload:ONITwitch.EventLib.EventInfo.EventNamespace
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventInfo.EventNamespace
+  nameWithType: EventInfo.EventNamespace
+- uid: ONITwitch.EventLib.EventInfo.FriendlyName
+  name: FriendlyName
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_FriendlyName
+  commentId: F:ONITwitch.EventLib.EventInfo.FriendlyName
+  fullName: ONITwitch.EventLib.EventInfo.FriendlyName
+  nameWithType: EventInfo.FriendlyName
+- uid: ONITwitch.EventLib.EventInfo.GetHashCode
+  name: GetHashCode()
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_GetHashCode
+  commentId: M:ONITwitch.EventLib.EventInfo.GetHashCode
+  fullName: ONITwitch.EventLib.EventInfo.GetHashCode()
+  nameWithType: EventInfo.GetHashCode()
+- uid: ONITwitch.EventLib.EventInfo.GetHashCode*
+  name: GetHashCode
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_GetHashCode_
+  commentId: Overload:ONITwitch.EventLib.EventInfo.GetHashCode
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventInfo.GetHashCode
+  nameWithType: EventInfo.GetHashCode
+- uid: ONITwitch.EventLib.EventInfo.Group
+  name: Group
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_Group
+  commentId: P:ONITwitch.EventLib.EventInfo.Group
+  fullName: ONITwitch.EventLib.EventInfo.Group
+  nameWithType: EventInfo.Group
+- uid: ONITwitch.EventLib.EventInfo.Group*
+  name: Group
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_Group_
+  commentId: Overload:ONITwitch.EventLib.EventInfo.Group
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventInfo.Group
+  nameWithType: EventInfo.Group
+- uid: ONITwitch.EventLib.EventInfo.Id
+  name: Id
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_Id
+  commentId: P:ONITwitch.EventLib.EventInfo.Id
+  fullName: ONITwitch.EventLib.EventInfo.Id
+  nameWithType: EventInfo.Id
+- uid: ONITwitch.EventLib.EventInfo.Id*
+  name: Id
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_Id_
+  commentId: Overload:ONITwitch.EventLib.EventInfo.Id
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventInfo.Id
+  nameWithType: EventInfo.Id
+- uid: ONITwitch.EventLib.EventInfo.RemoveListener(System.Action{System.Object})
+  name: RemoveListener(Action<object>)
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_RemoveListener_System_Action_System_Object__
+  commentId: M:ONITwitch.EventLib.EventInfo.RemoveListener(System.Action{System.Object})
+  name.vb: RemoveListener(Action(Of Object))
+  fullName: ONITwitch.EventLib.EventInfo.RemoveListener(System.Action<object>)
+  fullName.vb: ONITwitch.EventLib.EventInfo.RemoveListener(System.Action(Of Object))
+  nameWithType: EventInfo.RemoveListener(Action<object>)
+  nameWithType.vb: EventInfo.RemoveListener(Action(Of Object))
+- uid: ONITwitch.EventLib.EventInfo.RemoveListener*
+  name: RemoveListener
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_RemoveListener_
+  commentId: Overload:ONITwitch.EventLib.EventInfo.RemoveListener
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventInfo.RemoveListener
+  nameWithType: EventInfo.RemoveListener
+- uid: ONITwitch.EventLib.EventInfo.ToString
+  name: ToString()
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_ToString
+  commentId: M:ONITwitch.EventLib.EventInfo.ToString
+  fullName: ONITwitch.EventLib.EventInfo.ToString()
+  nameWithType: EventInfo.ToString()
+- uid: ONITwitch.EventLib.EventInfo.ToString*
+  name: ToString
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_ToString_
+  commentId: Overload:ONITwitch.EventLib.EventInfo.ToString
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventInfo.ToString
+  nameWithType: EventInfo.ToString
+- uid: ONITwitch.EventLib.EventInfo.Trigger(System.Object)
+  name: Trigger(object)
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_Trigger_System_Object_
+  commentId: M:ONITwitch.EventLib.EventInfo.Trigger(System.Object)
+  name.vb: Trigger(Object)
+  fullName: ONITwitch.EventLib.EventInfo.Trigger(object)
+  fullName.vb: ONITwitch.EventLib.EventInfo.Trigger(Object)
+  nameWithType: EventInfo.Trigger(object)
+  nameWithType.vb: EventInfo.Trigger(Object)
+- uid: ONITwitch.EventLib.EventInfo.Trigger*
+  name: Trigger
+  href: api/ONITwitch.EventLib.EventInfo.html#ONITwitch_EventLib_EventInfo_Trigger_
+  commentId: Overload:ONITwitch.EventLib.EventInfo.Trigger
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventInfo.Trigger
+  nameWithType: EventInfo.Trigger
+- uid: ONITwitch.EventLib.EventManager
+  name: EventManager
+  href: api/ONITwitch.EventLib.EventManager.html
+  commentId: T:ONITwitch.EventLib.EventManager
+  fullName: ONITwitch.EventLib.EventManager
+  nameWithType: EventManager
+- uid: ONITwitch.EventLib.EventManager.GetEventByID(System.String,System.String)
+  name: GetEventByID(string, string)
+  href: api/ONITwitch.EventLib.EventManager.html#ONITwitch_EventLib_EventManager_GetEventByID_System_String_System_String_
+  commentId: M:ONITwitch.EventLib.EventManager.GetEventByID(System.String,System.String)
+  name.vb: GetEventByID(String, String)
+  fullName: ONITwitch.EventLib.EventManager.GetEventByID(string, string)
+  fullName.vb: ONITwitch.EventLib.EventManager.GetEventByID(String, String)
+  nameWithType: EventManager.GetEventByID(string, string)
+  nameWithType.vb: EventManager.GetEventByID(String, String)
+- uid: ONITwitch.EventLib.EventManager.GetEventByID*
+  name: GetEventByID
+  href: api/ONITwitch.EventLib.EventManager.html#ONITwitch_EventLib_EventManager_GetEventByID_
+  commentId: Overload:ONITwitch.EventLib.EventManager.GetEventByID
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventManager.GetEventByID
+  nameWithType: EventManager.GetEventByID
+- uid: ONITwitch.EventLib.EventManager.Instance
+  name: Instance
+  href: api/ONITwitch.EventLib.EventManager.html#ONITwitch_EventLib_EventManager_Instance
+  commentId: P:ONITwitch.EventLib.EventManager.Instance
+  fullName: ONITwitch.EventLib.EventManager.Instance
+  nameWithType: EventManager.Instance
+- uid: ONITwitch.EventLib.EventManager.Instance*
+  name: Instance
+  href: api/ONITwitch.EventLib.EventManager.html#ONITwitch_EventLib_EventManager_Instance_
+  commentId: Overload:ONITwitch.EventLib.EventManager.Instance
+  isSpec: "True"
+  fullName: ONITwitch.EventLib.EventManager.Instance
+  nameWithType: EventManager.Instance
+- uid: ONITwitch.Patches
+  name: ONITwitch.Patches
+  href: api/ONITwitch.Patches.html
+  commentId: N:ONITwitch.Patches
+  fullName: ONITwitch.Patches
+  nameWithType: ONITwitch.Patches
+- uid: ONITwitch.Patches.EntityTemplatesPatches
+  name: EntityTemplatesPatches
+  href: api/ONITwitch.Patches.EntityTemplatesPatches.html
+  commentId: T:ONITwitch.Patches.EntityTemplatesPatches
+  fullName: ONITwitch.Patches.EntityTemplatesPatches
+  nameWithType: EntityTemplatesPatches
+- uid: ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch
+  name: EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch
+  href: api/ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch.html
+  commentId: T:ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch
+  fullName: ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch
+  nameWithType: EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch
+- uid: ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch.Prefix(UnityEngine.GameObject,Tag)
+  name: Prefix(GameObject, Tag)
+  href: api/ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch.html#ONITwitch_Patches_EntityTemplatesPatches_ExtendEntityToBeingABaby_Patch_Prefix_UnityEngine_GameObject_Tag_
+  commentId: M:ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch.Prefix(UnityEngine.GameObject,Tag)
+  fullName: ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch.Prefix(UnityEngine.GameObject, Tag)
+  nameWithType: EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch.Prefix(GameObject, Tag)
+- uid: ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch.Prefix*
+  name: Prefix
+  href: api/ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch.html#ONITwitch_Patches_EntityTemplatesPatches_ExtendEntityToBeingABaby_Patch_Prefix_
+  commentId: Overload:ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch.Prefix
+  isSpec: "True"
+  fullName: ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch.Prefix
+  nameWithType: EntityTemplatesPatches.ExtendEntityToBeingABaby_Patch.Prefix
+- uid: ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch
+  name: EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch
+  href: api/ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch.html
+  commentId: T:ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch
+  fullName: ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch
+  nameWithType: EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch
+- uid: ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch.Prefix(System.String,System.String)
+  name: Prefix(string, string)
+  href: api/ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch.html#ONITwitch_Patches_EntityTemplatesPatches_ExtendEntityToFertileCreature_Patch_Prefix_System_String_System_String_
+  commentId: M:ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch.Prefix(System.String,System.String)
+  name.vb: Prefix(String, String)
+  fullName: ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch.Prefix(string, string)
+  fullName.vb: ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch.Prefix(String, String)
+  nameWithType: EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch.Prefix(string, string)
+  nameWithType.vb: EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch.Prefix(String, String)
+- uid: ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch.Prefix*
+  name: Prefix
+  href: api/ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch.html#ONITwitch_Patches_EntityTemplatesPatches_ExtendEntityToFertileCreature_Patch_Prefix_
+  commentId: Overload:ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch.Prefix
+  isSpec: "True"
+  fullName: ONITwitch.Patches.EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch.Prefix
+  nameWithType: EntityTemplatesPatches.ExtendEntityToFertileCreature_Patch.Prefix
+- uid: ONITwitch.Patches.EntityTemplatesPatches.TryGetAdultFromEgg(Tag,Tag@)
+  name: TryGetAdultFromEgg(Tag, out Tag)
+  href: api/ONITwitch.Patches.EntityTemplatesPatches.html#ONITwitch_Patches_EntityTemplatesPatches_TryGetAdultFromEgg_Tag_Tag__
+  commentId: M:ONITwitch.Patches.EntityTemplatesPatches.TryGetAdultFromEgg(Tag,Tag@)
+  name.vb: TryGetAdultFromEgg(Tag, Tag)
+  fullName: ONITwitch.Patches.EntityTemplatesPatches.TryGetAdultFromEgg(Tag, out Tag)
+  fullName.vb: ONITwitch.Patches.EntityTemplatesPatches.TryGetAdultFromEgg(Tag, Tag)
+  nameWithType: EntityTemplatesPatches.TryGetAdultFromEgg(Tag, out Tag)
+  nameWithType.vb: EntityTemplatesPatches.TryGetAdultFromEgg(Tag, Tag)
+- uid: ONITwitch.Patches.EntityTemplatesPatches.TryGetAdultFromEgg*
+  name: TryGetAdultFromEgg
+  href: api/ONITwitch.Patches.EntityTemplatesPatches.html#ONITwitch_Patches_EntityTemplatesPatches_TryGetAdultFromEgg_
+  commentId: Overload:ONITwitch.Patches.EntityTemplatesPatches.TryGetAdultFromEgg
+  isSpec: "True"
+  fullName: ONITwitch.Patches.EntityTemplatesPatches.TryGetAdultFromEgg
+  nameWithType: EntityTemplatesPatches.TryGetAdultFromEgg
+- uid: ONITwitch.Toasts
+  name: ONITwitch.Toasts
+  href: api/ONITwitch.Toasts.html
+  commentId: N:ONITwitch.Toasts
+  fullName: ONITwitch.Toasts
+  nameWithType: ONITwitch.Toasts
+- uid: ONITwitch.Toasts.ToastManager
+  name: ToastManager
+  href: api/ONITwitch.Toasts.ToastManager.html
+  commentId: T:ONITwitch.Toasts.ToastManager
+  fullName: ONITwitch.Toasts.ToastManager
+  nameWithType: ToastManager
+- uid: ONITwitch.Toasts.ToastManager.InstantiateToast(System.String,System.String)
+  name: InstantiateToast(string, string)
+  href: api/ONITwitch.Toasts.ToastManager.html#ONITwitch_Toasts_ToastManager_InstantiateToast_System_String_System_String_
+  commentId: M:ONITwitch.Toasts.ToastManager.InstantiateToast(System.String,System.String)
+  name.vb: InstantiateToast(String, String)
+  fullName: ONITwitch.Toasts.ToastManager.InstantiateToast(string, string)
+  fullName.vb: ONITwitch.Toasts.ToastManager.InstantiateToast(String, String)
+  nameWithType: ToastManager.InstantiateToast(string, string)
+  nameWithType.vb: ToastManager.InstantiateToast(String, String)
+- uid: ONITwitch.Toasts.ToastManager.InstantiateToast*
+  name: InstantiateToast
+  href: api/ONITwitch.Toasts.ToastManager.html#ONITwitch_Toasts_ToastManager_InstantiateToast_
+  commentId: Overload:ONITwitch.Toasts.ToastManager.InstantiateToast
+  isSpec: "True"
+  fullName: ONITwitch.Toasts.ToastManager.InstantiateToast
+  nameWithType: ToastManager.InstantiateToast
+- uid: ONITwitch.Toasts.ToastManager.InstantiateToastWithGoTarget(System.String,System.String,UnityEngine.GameObject)
+  name: InstantiateToastWithGoTarget(string, string, GameObject)
+  href: api/ONITwitch.Toasts.ToastManager.html#ONITwitch_Toasts_ToastManager_InstantiateToastWithGoTarget_System_String_System_String_UnityEngine_GameObject_
+  commentId: M:ONITwitch.Toasts.ToastManager.InstantiateToastWithGoTarget(System.String,System.String,UnityEngine.GameObject)
+  name.vb: InstantiateToastWithGoTarget(String, String, GameObject)
+  fullName: ONITwitch.Toasts.ToastManager.InstantiateToastWithGoTarget(string, string, UnityEngine.GameObject)
+  fullName.vb: ONITwitch.Toasts.ToastManager.InstantiateToastWithGoTarget(String, String, UnityEngine.GameObject)
+  nameWithType: ToastManager.InstantiateToastWithGoTarget(string, string, GameObject)
+  nameWithType.vb: ToastManager.InstantiateToastWithGoTarget(String, String, GameObject)
+- uid: ONITwitch.Toasts.ToastManager.InstantiateToastWithGoTarget*
+  name: InstantiateToastWithGoTarget
+  href: api/ONITwitch.Toasts.ToastManager.html#ONITwitch_Toasts_ToastManager_InstantiateToastWithGoTarget_
+  commentId: Overload:ONITwitch.Toasts.ToastManager.InstantiateToastWithGoTarget
+  isSpec: "True"
+  fullName: ONITwitch.Toasts.ToastManager.InstantiateToastWithGoTarget
+  nameWithType: ToastManager.InstantiateToastWithGoTarget
+- uid: ONITwitch.Toasts.ToastManager.InstantiateToastWithGoTargetAndZoom(System.String,System.String,UnityEngine.GameObject,System.Single)
+  name: InstantiateToastWithGoTargetAndZoom(string, string, GameObject, float)
+  href: api/ONITwitch.Toasts.ToastManager.html#ONITwitch_Toasts_ToastManager_InstantiateToastWithGoTargetAndZoom_System_String_System_String_UnityEngine_GameObject_System_Single_
+  commentId: M:ONITwitch.Toasts.ToastManager.InstantiateToastWithGoTargetAndZoom(System.String,System.String,UnityEngine.GameObject,System.Single)
+  name.vb: InstantiateToastWithGoTargetAndZoom(String, String, GameObject, Single)
+  fullName: ONITwitch.Toasts.ToastManager.InstantiateToastWithGoTargetAndZoom(string, string, UnityEngine.GameObject, float)
+  fullName.vb: ONITwitch.Toasts.ToastManager.InstantiateToastWithGoTargetAndZoom(String, String, UnityEngine.GameObject, Single)
+  nameWithType: ToastManager.InstantiateToastWithGoTargetAndZoom(string, string, GameObject, float)
+  nameWithType.vb: ToastManager.InstantiateToastWithGoTargetAndZoom(String, String, GameObject, Single)
+- uid: ONITwitch.Toasts.ToastManager.InstantiateToastWithGoTargetAndZoom*
+  name: InstantiateToastWithGoTargetAndZoom
+  href: api/ONITwitch.Toasts.ToastManager.html#ONITwitch_Toasts_ToastManager_InstantiateToastWithGoTargetAndZoom_
+  commentId: Overload:ONITwitch.Toasts.ToastManager.InstantiateToastWithGoTargetAndZoom
+  isSpec: "True"
+  fullName: ONITwitch.Toasts.ToastManager.InstantiateToastWithGoTargetAndZoom
+  nameWithType: ToastManager.InstantiateToastWithGoTargetAndZoom
+- uid: ONITwitch.Toasts.ToastManager.InstantiateToastWithPosTarget(System.String,System.String,UnityEngine.Vector3)
+  name: InstantiateToastWithPosTarget(string, string, Vector3)
+  href: api/ONITwitch.Toasts.ToastManager.html#ONITwitch_Toasts_ToastManager_InstantiateToastWithPosTarget_System_String_System_String_UnityEngine_Vector3_
+  commentId: M:ONITwitch.Toasts.ToastManager.InstantiateToastWithPosTarget(System.String,System.String,UnityEngine.Vector3)
+  name.vb: InstantiateToastWithPosTarget(String, String, Vector3)
+  fullName: ONITwitch.Toasts.ToastManager.InstantiateToastWithPosTarget(string, string, UnityEngine.Vector3)
+  fullName.vb: ONITwitch.Toasts.ToastManager.InstantiateToastWithPosTarget(String, String, UnityEngine.Vector3)
+  nameWithType: ToastManager.InstantiateToastWithPosTarget(string, string, Vector3)
+  nameWithType.vb: ToastManager.InstantiateToastWithPosTarget(String, String, Vector3)
+- uid: ONITwitch.Toasts.ToastManager.InstantiateToastWithPosTarget*
+  name: InstantiateToastWithPosTarget
+  href: api/ONITwitch.Toasts.ToastManager.html#ONITwitch_Toasts_ToastManager_InstantiateToastWithPosTarget_
+  commentId: Overload:ONITwitch.Toasts.ToastManager.InstantiateToastWithPosTarget
+  isSpec: "True"
+  fullName: ONITwitch.Toasts.ToastManager.InstantiateToastWithPosTarget
+  nameWithType: ToastManager.InstantiateToastWithPosTarget
+- uid: ONITwitch.Toasts.ToastManager.InstantiateToastWithPosTargetAndZoom(System.String,System.String,UnityEngine.Vector3,System.Single)
+  name: InstantiateToastWithPosTargetAndZoom(string, string, Vector3, float)
+  href: api/ONITwitch.Toasts.ToastManager.html#ONITwitch_Toasts_ToastManager_InstantiateToastWithPosTargetAndZoom_System_String_System_String_UnityEngine_Vector3_System_Single_
+  commentId: M:ONITwitch.Toasts.ToastManager.InstantiateToastWithPosTargetAndZoom(System.String,System.String,UnityEngine.Vector3,System.Single)
+  name.vb: InstantiateToastWithPosTargetAndZoom(String, String, Vector3, Single)
+  fullName: ONITwitch.Toasts.ToastManager.InstantiateToastWithPosTargetAndZoom(string, string, UnityEngine.Vector3, float)
+  fullName.vb: ONITwitch.Toasts.ToastManager.InstantiateToastWithPosTargetAndZoom(String, String, UnityEngine.Vector3, Single)
+  nameWithType: ToastManager.InstantiateToastWithPosTargetAndZoom(string, string, Vector3, float)
+  nameWithType.vb: ToastManager.InstantiateToastWithPosTargetAndZoom(String, String, Vector3, Single)
+- uid: ONITwitch.Toasts.ToastManager.InstantiateToastWithPosTargetAndZoom*
+  name: InstantiateToastWithPosTargetAndZoom
+  href: api/ONITwitch.Toasts.ToastManager.html#ONITwitch_Toasts_ToastManager_InstantiateToastWithPosTargetAndZoom_
+  commentId: Overload:ONITwitch.Toasts.ToastManager.InstantiateToastWithPosTargetAndZoom
+  isSpec: "True"
+  fullName: ONITwitch.Toasts.ToastManager.InstantiateToastWithPosTargetAndZoom
+  nameWithType: ToastManager.InstantiateToastWithPosTargetAndZoom
+- uid: ONITwitch.TwitchDeckManager
+  name: TwitchDeckManager
+  href: api/ONITwitch.TwitchDeckManager.html
+  commentId: T:ONITwitch.TwitchDeckManager
+  fullName: ONITwitch.TwitchDeckManager
+  nameWithType: TwitchDeckManager
+- uid: ONITwitch.TwitchDeckManager.AddGroup(ONITwitch.EventLib.EventGroup)
+  name: AddGroup(EventGroup)
+  href: api/ONITwitch.TwitchDeckManager.html#ONITwitch_TwitchDeckManager_AddGroup_ONITwitch_EventLib_EventGroup_
+  commentId: M:ONITwitch.TwitchDeckManager.AddGroup(ONITwitch.EventLib.EventGroup)
+  fullName: ONITwitch.TwitchDeckManager.AddGroup(ONITwitch.EventLib.EventGroup)
+  nameWithType: TwitchDeckManager.AddGroup(EventGroup)
+- uid: ONITwitch.TwitchDeckManager.AddGroup*
+  name: AddGroup
+  href: api/ONITwitch.TwitchDeckManager.html#ONITwitch_TwitchDeckManager_AddGroup_
+  commentId: Overload:ONITwitch.TwitchDeckManager.AddGroup
+  isSpec: "True"
+  fullName: ONITwitch.TwitchDeckManager.AddGroup
+  nameWithType: TwitchDeckManager.AddGroup
+- uid: ONITwitch.TwitchDeckManager.Draw
+  name: Draw()
+  href: api/ONITwitch.TwitchDeckManager.html#ONITwitch_TwitchDeckManager_Draw
+  commentId: M:ONITwitch.TwitchDeckManager.Draw
+  fullName: ONITwitch.TwitchDeckManager.Draw()
+  nameWithType: TwitchDeckManager.Draw()
+- uid: ONITwitch.TwitchDeckManager.Draw*
+  name: Draw
+  href: api/ONITwitch.TwitchDeckManager.html#ONITwitch_TwitchDeckManager_Draw_
+  commentId: Overload:ONITwitch.TwitchDeckManager.Draw
+  isSpec: "True"
+  fullName: ONITwitch.TwitchDeckManager.Draw
+  nameWithType: TwitchDeckManager.Draw
+- uid: ONITwitch.TwitchDeckManager.GetGroup(System.String)
+  name: GetGroup(string)
+  href: api/ONITwitch.TwitchDeckManager.html#ONITwitch_TwitchDeckManager_GetGroup_System_String_
+  commentId: M:ONITwitch.TwitchDeckManager.GetGroup(System.String)
+  name.vb: GetGroup(String)
+  fullName: ONITwitch.TwitchDeckManager.GetGroup(string)
+  fullName.vb: ONITwitch.TwitchDeckManager.GetGroup(String)
+  nameWithType: TwitchDeckManager.GetGroup(string)
+  nameWithType.vb: TwitchDeckManager.GetGroup(String)
+- uid: ONITwitch.TwitchDeckManager.GetGroup*
+  name: GetGroup
+  href: api/ONITwitch.TwitchDeckManager.html#ONITwitch_TwitchDeckManager_GetGroup_
+  commentId: Overload:ONITwitch.TwitchDeckManager.GetGroup
+  isSpec: "True"
+  fullName: ONITwitch.TwitchDeckManager.GetGroup
+  nameWithType: TwitchDeckManager.GetGroup
+- uid: ONITwitch.TwitchDeckManager.GetGroups
+  name: GetGroups()
+  href: api/ONITwitch.TwitchDeckManager.html#ONITwitch_TwitchDeckManager_GetGroups
+  commentId: M:ONITwitch.TwitchDeckManager.GetGroups
+  fullName: ONITwitch.TwitchDeckManager.GetGroups()
+  nameWithType: TwitchDeckManager.GetGroups()
+- uid: ONITwitch.TwitchDeckManager.GetGroups*
+  name: GetGroups
+  href: api/ONITwitch.TwitchDeckManager.html#ONITwitch_TwitchDeckManager_GetGroups_
+  commentId: Overload:ONITwitch.TwitchDeckManager.GetGroups
+  isSpec: "True"
+  fullName: ONITwitch.TwitchDeckManager.GetGroups
+  nameWithType: TwitchDeckManager.GetGroups
+- uid: ONITwitch.TwitchDeckManager.Instance
+  name: Instance
+  href: api/ONITwitch.TwitchDeckManager.html#ONITwitch_TwitchDeckManager_Instance
+  commentId: P:ONITwitch.TwitchDeckManager.Instance
+  fullName: ONITwitch.TwitchDeckManager.Instance
+  nameWithType: TwitchDeckManager.Instance
+- uid: ONITwitch.TwitchDeckManager.Instance*
+  name: Instance
+  href: api/ONITwitch.TwitchDeckManager.html#ONITwitch_TwitchDeckManager_Instance_
+  commentId: Overload:ONITwitch.TwitchDeckManager.Instance
+  isSpec: "True"
+  fullName: ONITwitch.TwitchDeckManager.Instance
+  nameWithType: TwitchDeckManager.Instance
 - uid: ONITwitchLib
   name: ONITwitchLib
   href: api/ONITwitchLib.html
@@ -879,15 +1852,6 @@ references:
   commentId: M:ONITwitchLib.ThreadRandom.Next
   fullName: ONITwitchLib.ThreadRandom.Next()
   nameWithType: ThreadRandom.Next()
-- uid: ONITwitchLib.ThreadRandom.Next(System.Int32,System.Int32)
-  name: Next(int, int)
-  href: api/ONITwitchLib.ThreadRandom.html#ONITwitchLib_ThreadRandom_Next_System_Int32_System_Int32_
-  commentId: M:ONITwitchLib.ThreadRandom.Next(System.Int32,System.Int32)
-  name.vb: Next(Integer, Integer)
-  fullName: ONITwitchLib.ThreadRandom.Next(int, int)
-  fullName.vb: ONITwitchLib.ThreadRandom.Next(Integer, Integer)
-  nameWithType: ThreadRandom.Next(int, int)
-  nameWithType.vb: ThreadRandom.Next(Integer, Integer)
 - uid: ONITwitchLib.ThreadRandom.Next(System.Int32)
   name: Next(int)
   href: api/ONITwitchLib.ThreadRandom.html#ONITwitchLib_ThreadRandom_Next_System_Int32_
@@ -897,6 +1861,15 @@ references:
   fullName.vb: ONITwitchLib.ThreadRandom.Next(Integer)
   nameWithType: ThreadRandom.Next(int)
   nameWithType.vb: ThreadRandom.Next(Integer)
+- uid: ONITwitchLib.ThreadRandom.Next(System.Int32,System.Int32)
+  name: Next(int, int)
+  href: api/ONITwitchLib.ThreadRandom.html#ONITwitchLib_ThreadRandom_Next_System_Int32_System_Int32_
+  commentId: M:ONITwitchLib.ThreadRandom.Next(System.Int32,System.Int32)
+  name.vb: Next(Integer, Integer)
+  fullName: ONITwitchLib.ThreadRandom.Next(int, int)
+  fullName.vb: ONITwitchLib.ThreadRandom.Next(Integer, Integer)
+  nameWithType: ThreadRandom.Next(int, int)
+  nameWithType.vb: ThreadRandom.Next(Integer, Integer)
 - uid: ONITwitchLib.ThreadRandom.Next*
   name: Next
   href: api/ONITwitchLib.ThreadRandom.html#ONITwitchLib_ThreadRandom_Next_
@@ -955,15 +1928,6 @@ references:
   isSpec: "True"
   fullName: ONITwitchLib.ToastManager.InstantiateToast
   nameWithType: ToastManager.InstantiateToast
-- uid: ONITwitchLib.ToastManager.InstantiateToastWithGoTarget(System.String,System.String,UnityEngine.GameObject,System.Single)
-  name: InstantiateToastWithGoTarget(string, string, GameObject, float)
-  href: api/ONITwitchLib.ToastManager.html#ONITwitchLib_ToastManager_InstantiateToastWithGoTarget_System_String_System_String_UnityEngine_GameObject_System_Single_
-  commentId: M:ONITwitchLib.ToastManager.InstantiateToastWithGoTarget(System.String,System.String,UnityEngine.GameObject,System.Single)
-  name.vb: InstantiateToastWithGoTarget(String, String, GameObject, Single)
-  fullName: ONITwitchLib.ToastManager.InstantiateToastWithGoTarget(string, string, UnityEngine.GameObject, float)
-  fullName.vb: ONITwitchLib.ToastManager.InstantiateToastWithGoTarget(String, String, UnityEngine.GameObject, Single)
-  nameWithType: ToastManager.InstantiateToastWithGoTarget(string, string, GameObject, float)
-  nameWithType.vb: ToastManager.InstantiateToastWithGoTarget(String, String, GameObject, Single)
 - uid: ONITwitchLib.ToastManager.InstantiateToastWithGoTarget(System.String,System.String,UnityEngine.GameObject)
   name: InstantiateToastWithGoTarget(string, string, GameObject)
   href: api/ONITwitchLib.ToastManager.html#ONITwitchLib_ToastManager_InstantiateToastWithGoTarget_System_String_System_String_UnityEngine_GameObject_
@@ -973,6 +1937,15 @@ references:
   fullName.vb: ONITwitchLib.ToastManager.InstantiateToastWithGoTarget(String, String, UnityEngine.GameObject)
   nameWithType: ToastManager.InstantiateToastWithGoTarget(string, string, GameObject)
   nameWithType.vb: ToastManager.InstantiateToastWithGoTarget(String, String, GameObject)
+- uid: ONITwitchLib.ToastManager.InstantiateToastWithGoTarget(System.String,System.String,UnityEngine.GameObject,System.Single)
+  name: InstantiateToastWithGoTarget(string, string, GameObject, float)
+  href: api/ONITwitchLib.ToastManager.html#ONITwitchLib_ToastManager_InstantiateToastWithGoTarget_System_String_System_String_UnityEngine_GameObject_System_Single_
+  commentId: M:ONITwitchLib.ToastManager.InstantiateToastWithGoTarget(System.String,System.String,UnityEngine.GameObject,System.Single)
+  name.vb: InstantiateToastWithGoTarget(String, String, GameObject, Single)
+  fullName: ONITwitchLib.ToastManager.InstantiateToastWithGoTarget(string, string, UnityEngine.GameObject, float)
+  fullName.vb: ONITwitchLib.ToastManager.InstantiateToastWithGoTarget(String, String, UnityEngine.GameObject, Single)
+  nameWithType: ToastManager.InstantiateToastWithGoTarget(string, string, GameObject, float)
+  nameWithType.vb: ToastManager.InstantiateToastWithGoTarget(String, String, GameObject, Single)
 - uid: ONITwitchLib.ToastManager.InstantiateToastWithGoTarget*
   name: InstantiateToastWithGoTarget
   href: api/ONITwitchLib.ToastManager.html#ONITwitchLib_ToastManager_InstantiateToastWithGoTarget_
@@ -980,15 +1953,6 @@ references:
   isSpec: "True"
   fullName: ONITwitchLib.ToastManager.InstantiateToastWithGoTarget
   nameWithType: ToastManager.InstantiateToastWithGoTarget
-- uid: ONITwitchLib.ToastManager.InstantiateToastWithPosTarget(System.String,System.String,UnityEngine.Vector3,System.Single)
-  name: InstantiateToastWithPosTarget(string, string, Vector3, float)
-  href: api/ONITwitchLib.ToastManager.html#ONITwitchLib_ToastManager_InstantiateToastWithPosTarget_System_String_System_String_UnityEngine_Vector3_System_Single_
-  commentId: M:ONITwitchLib.ToastManager.InstantiateToastWithPosTarget(System.String,System.String,UnityEngine.Vector3,System.Single)
-  name.vb: InstantiateToastWithPosTarget(String, String, Vector3, Single)
-  fullName: ONITwitchLib.ToastManager.InstantiateToastWithPosTarget(string, string, UnityEngine.Vector3, float)
-  fullName.vb: ONITwitchLib.ToastManager.InstantiateToastWithPosTarget(String, String, UnityEngine.Vector3, Single)
-  nameWithType: ToastManager.InstantiateToastWithPosTarget(string, string, Vector3, float)
-  nameWithType.vb: ToastManager.InstantiateToastWithPosTarget(String, String, Vector3, Single)
 - uid: ONITwitchLib.ToastManager.InstantiateToastWithPosTarget(System.String,System.String,UnityEngine.Vector3)
   name: InstantiateToastWithPosTarget(string, string, Vector3)
   href: api/ONITwitchLib.ToastManager.html#ONITwitchLib_ToastManager_InstantiateToastWithPosTarget_System_String_System_String_UnityEngine_Vector3_
@@ -998,6 +1962,15 @@ references:
   fullName.vb: ONITwitchLib.ToastManager.InstantiateToastWithPosTarget(String, String, UnityEngine.Vector3)
   nameWithType: ToastManager.InstantiateToastWithPosTarget(string, string, Vector3)
   nameWithType.vb: ToastManager.InstantiateToastWithPosTarget(String, String, Vector3)
+- uid: ONITwitchLib.ToastManager.InstantiateToastWithPosTarget(System.String,System.String,UnityEngine.Vector3,System.Single)
+  name: InstantiateToastWithPosTarget(string, string, Vector3, float)
+  href: api/ONITwitchLib.ToastManager.html#ONITwitchLib_ToastManager_InstantiateToastWithPosTarget_System_String_System_String_UnityEngine_Vector3_System_Single_
+  commentId: M:ONITwitchLib.ToastManager.InstantiateToastWithPosTarget(System.String,System.String,UnityEngine.Vector3,System.Single)
+  name.vb: InstantiateToastWithPosTarget(String, String, Vector3, Single)
+  fullName: ONITwitchLib.ToastManager.InstantiateToastWithPosTarget(string, string, UnityEngine.Vector3, float)
+  fullName.vb: ONITwitchLib.ToastManager.InstantiateToastWithPosTarget(String, String, UnityEngine.Vector3, Single)
+  nameWithType: ToastManager.InstantiateToastWithPosTarget(string, string, Vector3, float)
+  nameWithType.vb: ToastManager.InstantiateToastWithPosTarget(String, String, Vector3, Single)
 - uid: ONITwitchLib.ToastManager.InstantiateToastWithPosTarget*
   name: InstantiateToastWithPosTarget
   href: api/ONITwitchLib.ToastManager.html#ONITwitchLib_ToastManager_InstantiateToastWithPosTarget_
@@ -1178,33 +2151,6 @@ references:
   fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateDelegate(Of T)(System.Reflection.MethodInfo, Object)
   nameWithType: DelegateUtil.CreateDelegate<T>(MethodInfo, object)
   nameWithType.vb: DelegateUtil.CreateDelegate(Of T)(MethodInfo, Object)
-- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type,System.Type)
-  name: CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type, Type, Type)
-  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeActionDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_System_Type_System_Type_
-  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type,System.Type)
-  name.vb: CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type, Type, Type)
-  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type, System.Type, System.Type)
-  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type, System.Type, System.Type)
-  nameWithType: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type, Type, Type)
-  nameWithType.vb: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type, Type, Type)
-- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type)
-  name: CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type, Type)
-  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeActionDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_System_Type_
-  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type)
-  name.vb: CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type, Type)
-  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type, System.Type)
-  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type, System.Type)
-  nameWithType: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type, Type)
-  nameWithType.vb: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type, Type)
-- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type)
-  name: CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type)
-  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeActionDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_
-  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type)
-  name.vb: CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type)
-  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type)
-  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type)
-  nameWithType: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type)
-  nameWithType.vb: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type)
 - uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type)
   name: CreateRuntimeTypeActionDelegate(MethodInfo, object, Type)
   href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeActionDelegate_System_Reflection_MethodInfo_System_Object_System_Type_
@@ -1214,6 +2160,33 @@ references:
   fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, Object, System.Type)
   nameWithType: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, object, Type)
   nameWithType.vb: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type)
+  name: CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeActionDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type)
+  name.vb: CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type)
+  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type)
+  nameWithType: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type)
+  nameWithType.vb: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type)
+  name: CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type, Type)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeActionDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_System_Type_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type)
+  name.vb: CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type, Type)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type, System.Type)
+  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type, System.Type)
+  nameWithType: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type, Type)
+  nameWithType.vb: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type, Type)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type,System.Type)
+  name: CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type, Type, Type)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeActionDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_System_Type_System_Type_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type,System.Type)
+  name.vb: CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type, Type, Type)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type, System.Type, System.Type)
+  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type, System.Type, System.Type)
+  nameWithType: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, object, Type, Type, Type, Type)
+  nameWithType.vb: DelegateUtil.CreateRuntimeTypeActionDelegate(MethodInfo, Object, Type, Type, Type, Type)
 - uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeActionDelegate*
   name: CreateRuntimeTypeActionDelegate
   href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeActionDelegate_
@@ -1234,33 +2207,6 @@ references:
   isSpec: "True"
   fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeConstructorDelegate
   nameWithType: DelegateUtil.CreateRuntimeTypeConstructorDelegate
-- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type,System.Type)
-  name: CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type, Type, Type)
-  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeFuncDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_System_Type_System_Type_
-  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type,System.Type)
-  name.vb: CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type, Type, Type)
-  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type, System.Type, System.Type)
-  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type, System.Type, System.Type)
-  nameWithType: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type, Type, Type)
-  nameWithType.vb: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type, Type, Type)
-- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type)
-  name: CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type, Type)
-  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeFuncDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_System_Type_
-  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type)
-  name.vb: CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type, Type)
-  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type, System.Type)
-  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type, System.Type)
-  nameWithType: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type, Type)
-  nameWithType.vb: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type, Type)
-- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type)
-  name: CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type)
-  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeFuncDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_
-  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type)
-  name.vb: CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type)
-  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type)
-  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type)
-  nameWithType: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type)
-  nameWithType.vb: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type)
 - uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type)
   name: CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type)
   href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeFuncDelegate_System_Reflection_MethodInfo_System_Object_System_Type_
@@ -1270,6 +2216,33 @@ references:
   fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, Object, System.Type)
   nameWithType: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type)
   nameWithType.vb: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type)
+  name: CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeFuncDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type)
+  name.vb: CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type)
+  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type)
+  nameWithType: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type)
+  nameWithType.vb: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type)
+  name: CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type, Type)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeFuncDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_System_Type_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type)
+  name.vb: CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type, Type)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type, System.Type)
+  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type, System.Type)
+  nameWithType: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type, Type)
+  nameWithType.vb: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type, Type)
+- uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type,System.Type)
+  name: CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type, Type, Type)
+  href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeFuncDelegate_System_Reflection_MethodInfo_System_Object_System_Type_System_Type_System_Type_System_Type_
+  commentId: M:ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo,System.Object,System.Type,System.Type,System.Type,System.Type)
+  name.vb: CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type, Type, Type)
+  fullName: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, object, System.Type, System.Type, System.Type, System.Type)
+  fullName.vb: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate(System.Reflection.MethodInfo, Object, System.Type, System.Type, System.Type, System.Type)
+  nameWithType: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, object, Type, Type, Type, Type)
+  nameWithType.vb: DelegateUtil.CreateRuntimeTypeFuncDelegate(MethodInfo, Object, Type, Type, Type, Type)
 - uid: ONITwitchLib.Utils.DelegateUtil.CreateRuntimeTypeFuncDelegate*
   name: CreateRuntimeTypeFuncDelegate
   href: api/ONITwitchLib.Utils.DelegateUtil.html#ONITwitchLib_Utils_DelegateUtil_CreateRuntimeTypeFuncDelegate_
@@ -1283,15 +2256,6 @@ references:
   commentId: T:ONITwitchLib.Utils.DialogUtil
   fullName: ONITwitchLib.Utils.DialogUtil
   nameWithType: DialogUtil
-- uid: ONITwitchLib.Utils.DialogUtil.MakeDialog(System.String,System.String,System.String,System.Action,System.String,System.Action,System.String,System.Action)
-  name: MakeDialog(string, string, string, Action, string, Action, string, Action)
-  href: api/ONITwitchLib.Utils.DialogUtil.html#ONITwitchLib_Utils_DialogUtil_MakeDialog_System_String_System_String_System_String_System_Action_System_String_System_Action_System_String_System_Action_
-  commentId: M:ONITwitchLib.Utils.DialogUtil.MakeDialog(System.String,System.String,System.String,System.Action,System.String,System.Action,System.String,System.Action)
-  name.vb: MakeDialog(String, String, String, Action, String, Action, String, Action)
-  fullName: ONITwitchLib.Utils.DialogUtil.MakeDialog(string, string, string, System.Action, string, System.Action, string, System.Action)
-  fullName.vb: ONITwitchLib.Utils.DialogUtil.MakeDialog(String, String, String, System.Action, String, System.Action, String, System.Action)
-  nameWithType: DialogUtil.MakeDialog(string, string, string, Action, string, Action, string, Action)
-  nameWithType.vb: DialogUtil.MakeDialog(String, String, String, Action, String, Action, String, Action)
 - uid: ONITwitchLib.Utils.DialogUtil.MakeDialog(System.String,System.String,System.String,System.Action)
   name: MakeDialog(string, string, string, Action)
   href: api/ONITwitchLib.Utils.DialogUtil.html#ONITwitchLib_Utils_DialogUtil_MakeDialog_System_String_System_String_System_String_System_Action_
@@ -1301,6 +2265,15 @@ references:
   fullName.vb: ONITwitchLib.Utils.DialogUtil.MakeDialog(String, String, String, System.Action)
   nameWithType: DialogUtil.MakeDialog(string, string, string, Action)
   nameWithType.vb: DialogUtil.MakeDialog(String, String, String, Action)
+- uid: ONITwitchLib.Utils.DialogUtil.MakeDialog(System.String,System.String,System.String,System.Action,System.String,System.Action,System.String,System.Action)
+  name: MakeDialog(string, string, string, Action, string, Action, string, Action)
+  href: api/ONITwitchLib.Utils.DialogUtil.html#ONITwitchLib_Utils_DialogUtil_MakeDialog_System_String_System_String_System_String_System_Action_System_String_System_Action_System_String_System_Action_
+  commentId: M:ONITwitchLib.Utils.DialogUtil.MakeDialog(System.String,System.String,System.String,System.Action,System.String,System.Action,System.String,System.Action)
+  name.vb: MakeDialog(String, String, String, Action, String, Action, String, Action)
+  fullName: ONITwitchLib.Utils.DialogUtil.MakeDialog(string, string, string, System.Action, string, System.Action, string, System.Action)
+  fullName.vb: ONITwitchLib.Utils.DialogUtil.MakeDialog(String, String, String, System.Action, String, System.Action, String, System.Action)
+  nameWithType: DialogUtil.MakeDialog(string, string, string, Action, string, Action, string, Action)
+  nameWithType.vb: DialogUtil.MakeDialog(String, String, String, Action, String, Action, String, Action)
 - uid: ONITwitchLib.Utils.DialogUtil.MakeDialog*
   name: MakeDialog
   href: api/ONITwitchLib.Utils.DialogUtil.html#ONITwitchLib_Utils_DialogUtil_MakeDialog_
@@ -2000,3 +2973,37 @@ references:
   isSpec: "True"
   fullName: ONITwitchLib.WaitTimeOrSignal.keepWaiting
   nameWithType: WaitTimeOrSignal.keepWaiting
+- uid: TwitchTestExtension
+  name: TwitchTestExtension
+  href: api/TwitchTestExtension.html
+  commentId: N:TwitchTestExtension
+  fullName: TwitchTestExtension
+  nameWithType: TwitchTestExtension
+- uid: TwitchTestExtension.Db_Initialize_Patch
+  name: Db_Initialize_Patch
+  href: api/TwitchTestExtension.Db_Initialize_Patch.html
+  commentId: T:TwitchTestExtension.Db_Initialize_Patch
+  fullName: TwitchTestExtension.Db_Initialize_Patch
+  nameWithType: Db_Initialize_Patch
+- uid: TwitchTestExtension.Db_Initialize_Patch.Postfix
+  name: Postfix()
+  href: api/TwitchTestExtension.Db_Initialize_Patch.html#TwitchTestExtension_Db_Initialize_Patch_Postfix
+  commentId: M:TwitchTestExtension.Db_Initialize_Patch.Postfix
+  fullName: TwitchTestExtension.Db_Initialize_Patch.Postfix()
+  nameWithType: Db_Initialize_Patch.Postfix()
+- uid: TwitchTestExtension.Db_Initialize_Patch.Postfix*
+  name: Postfix
+  href: api/TwitchTestExtension.Db_Initialize_Patch.html#TwitchTestExtension_Db_Initialize_Patch_Postfix_
+  commentId: Overload:TwitchTestExtension.Db_Initialize_Patch.Postfix
+  isSpec: "True"
+  fullName: TwitchTestExtension.Db_Initialize_Patch.Postfix
+  nameWithType: Db_Initialize_Patch.Postfix
+- uid: TwitchTestExtension.TestTwitchExtension
+  name: TestTwitchExtension
+  href: api/TwitchTestExtension.TestTwitchExtension.html
+  commentId: T:TwitchTestExtension.TestTwitchExtension
+  fullName: TwitchTestExtension.TestTwitchExtension
+  nameWithType: TestTwitchExtension
+- uid: api_index
+  name: api_index
+  href: api/index.html

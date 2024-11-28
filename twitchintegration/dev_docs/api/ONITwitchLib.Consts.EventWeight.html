@@ -1,32 +1,42 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Consts.EventWeight
- </title>
+      <title>Class Consts.EventWeight </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Consts.EventWeight
- ">
+      <meta name="title" content="Class Consts.EventWeight ">
       
+      <meta name="description" content="Constants to use for event weights.  Using these constants is not mandatory, but is heavily suggested so that events have a consistent relative frequency.  Suggested usage is: using static ONITwitchLib.Consts; // ... var myWeight = EventWeight.Common;">
       <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.min.css">
-      <link rel="stylesheet" href="../styles/main.css">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       
+      
+      
       <meta name="docfx:docurl" content="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Consts_EventWeight.md&amp;value=---%0Auid%3A%20ONITwitchLib.Consts.EventWeight%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
 
       <script>
-        MathJax = {
-          options: {
-            processHtmlClass: ['tex2jax_process', 'math']
-          }
-        };
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
       </script>
 
-      <script type="text/javascript" src="../styles/docfx.min.js"></script>
-      <script type="text/javascript" src="../styles/main.js"></script>
   </head>
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
@@ -63,7 +73,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -75,8 +85,7 @@
 
 
   <h1 id="ONITwitchLib_Consts_EventWeight" data-uid="ONITwitchLib.Consts.EventWeight" class="text-break">
-    Class Consts.EventWeight
-  <a class="header-action link-secondary" title="View source" href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Consts.cs/#L22"><i class="bi bi-code-slash"></i></a>
+Class Consts.EventWeight  <a class="header-action link-secondary" title="View source" href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Consts.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -112,7 +121,7 @@ public static class Consts.EventWeight</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -157,10 +166,7 @@ public static class Consts.EventWeight</code></pre>
 colony once in hundreds or thousands of cycles.
 <br>
 Examples of this weight in the base Twitch Integration mod are:</p>
-<ul>
-    <li>Kill Duplicant</li>
-    <li>Lava Flood</li>
-</ul>
+<ul><li>Kill Duplicant</li><li>Lava Flood</li></ul>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -196,12 +202,7 @@ public const int AlmostNever = 1</code></pre>
 colony.
 <br>
 Examples of this weight in the base Twitch Integration mod are:</p>
-<ul>
-    <li>Surprise Box</li>
-    <li>Glitter Puft</li>
-    <li>Sleepy Dupes</li>
-    <li>Fart</li>
-</ul>
+<ul><li>Surprise Box</li><li>Glitter Puft</li><li>Sleepy Dupes</li><li>Fart</li></ul>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -237,10 +238,7 @@ public const int Common = 20</code></pre>
 help nor causing much harm to a colony.
 <br>
 Examples of this weight in the base Twitch Integration mod are:</p>
-<ul>
-    <li>Spawn Solid/Liquid</li>
-    <li>Spawn Dupe</li>
-</ul>
+<ul><li>Spawn Solid/Liquid</li><li>Spawn Dupe</li></ul>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -308,10 +306,7 @@ public const int Never = 0</code></pre>
   <div class="markdown level1 summary"><p>Events that should occur rarely.  Events in this category should not be colony ending if they are dangerous.
 <br>
 Examples of this weight in the base Twitch Integration mod are:</p>
-<ul>
-    <li>Uninsulate Tiles</li>
-    <li>Morph Critters</li>
-</ul>
+<ul><li>Uninsulate Tiles</li><li>Morph Critters</li></ul>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -347,11 +342,7 @@ public const int Rare = 5</code></pre>
 provide something useful.
 <br>
 Examples of this weight in the base Twitch Integration mod are:</p>
-<ul>
-    <li>Tune Geyser</li>
-    <li>Spawn Deadly Element (note that they are encased in a perfect insulator)</li>
-    <li>Oil and Ethanol Flood</li>
-</ul>
+<ul><li>Tune Geyser</li><li>Spawn Deadly Element (note that they are encased in a perfect insulator)</li><li>Oil and Ethanol Flood</li></ul>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -386,9 +377,7 @@ public const int Uncommon = 10</code></pre>
   <div class="markdown level1 summary"><p>Events that are very rare, for example because they create a unique item or cause significant damage.
 <br>
 Examples of this weight in the base Twitch Integration mod are:</p>
-<ul>
-    <li>Lava Flood</li>
-</ul>
+<ul><li>Lava Flood</li></ul>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -418,10 +407,10 @@ public const int VeryRare = 2</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/asquared31415/ONITwitch/new/main/apiSpec/new?filename=ONITwitchLib_Consts_EventWeight.md&amp;value=---%0Auid%3A%20ONITwitchLib.Consts.EventWeight%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/asquared31415/ONITwitch/blob/main/ONITwitchLib/Consts.cs/#L22" class="edit-link">Edit this page</a>
         </div>
 
-        
+
       </div>
 
       <div class="affix">
@@ -430,7 +419,7 @@ public const int VeryRare = 2</code></pre>
     </main>
 
 
-    <footer class="border-top">
+    <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
           <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
